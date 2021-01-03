@@ -69,8 +69,8 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.9)
-  jekyll-feed
-  jekyll-fontawesome-svg
+  jekyll-feed (~> 0.15.1)
+  jekyll-fontawesome-svg (~> 0.3.4)
   kramdown-parser-gfm (~> 1.1.0)
   minima (~> 2.5.1)
   tzinfo-data
