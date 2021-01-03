@@ -6,8 +6,8 @@ gem "kramdown-parser-gfm", "~> 1.1.0"
 gem "minima", "~> 2.5.1"
 
 group :jekyll_plugins do
-  gem 'jekyll-feed'
-  gem 'jekyll-fontawesome-svg'
+  gem "jekyll-feed", "~> 0.15.1"
+  gem "jekyll-fontawesome-svg", "~> 0.3.4"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
