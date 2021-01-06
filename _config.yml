@@ -63,7 +63,7 @@ google_analytics: # out your google-analytics code
 blog_name: Emad's blog  # your blog must have a name for it to show up in the nav bar
 blog_description: >
   I (plan to) blog about fluid dynamics, the Julia language, scientific computing, and vortex dynamics. 
-permalink: /blog/:year/:title/
+permalink: /blog/:year/:month/:day/:title/
 
 # Pagination
 pagination:
