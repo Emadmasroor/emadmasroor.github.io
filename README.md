@@ -1,6 +1,6 @@
 # Emad Masroor's website
 
-This is the academic website of Emad Masroor, hosted at [https://emadmasroor.github.io](htps://emadmasroor.github.io).
+This is the repository for the [academic website](https://emadmasroor.github.io) of Emad Masroor.
 
 ## Acknowledgements
 
