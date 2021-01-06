@@ -1,17 +1,13 @@
-source "https://rubygems.org"
-
-gem "jekyll", "~> 3.9"
-gem "kramdown-parser-gfm", "~> 1.1.0"
-
-gem "minima", "~> 2.5.1"
-
+source 'https://rubygems.org'
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15.1"
-  gem "jekyll-fontawesome-svg", "~> 0.3.4"
+    gem 'github-pages'
+    gem 'jekyll'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-github-metadata'
+    gem 'jekyll-paginate-v2'
+    gem 'jekyll-scholar'
+    gem 'jekyll-twitter-plugin'
+    gem 'jemoji'
+    gem 'unicode_utils'
+    gem 'jekyll-feed'
 end
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
