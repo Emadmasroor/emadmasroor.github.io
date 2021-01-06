@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
 # Run this script to deploy the app to Github Pages
-
+# Emad added:
+# -----------
+# First, do "gitup" i.e. "git add. & git commit -m "some changes" & git push"
+# This will push all changes to the "master" branch so the source code is updated.
+# Then, run this script to bring the changes into the "gh-pages" branch via Jekyll
+# Remember, the build process is local!!
+# -----------
 # Parse cmd arguments
 
 SRC_BRANCH="master"
