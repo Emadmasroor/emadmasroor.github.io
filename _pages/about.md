@@ -9,8 +9,8 @@ profile:
   image: emad4.webp
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 310 Norris Hall</p>
-    <p>123 495 Old Turner St.</p>
+    <p>310 Norris Hall</p>
+    <p>495 Old Turner St.</p>
     <p>Blacksburg, VA 24060</p>
 
 news: true  # includes a list of news items
@@ -19,7 +19,7 @@ blog: true
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm an incoming Visiting Assistant Professor Engineering at Swarthmore College starting in the fall of 2023. I recently defended my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech, where I have been since spring 2018, working with Dr. Mark Stremler.
+I'm an incoming Visiting Assistant Professor of Engineering at Swarthmore College starting in the fall of 2023. I recently defended my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech.
 
 Engineering Mechanics lies at the intersection of the _applied_ world of civil and mechanical engineering on the one hand, and the _theoretical_ world of physics and mathematics on the other. In particular, I study *fluid mechanics*: the science of fluids in motion. You can find out more about my current projects on the [research](/projects) page. 
 
