@@ -9,8 +9,6 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-# Test heading one
-
 ## Flow-induced vibrations
 
 Whenever a solid object interacts with moving fluids such as water and air at sufficiently high speeds, it experiences _flow-induced vibrations_ (FIV). These vibrations can often be harmful for engineered structures -- such as when strong winds buffet a tall, thin skyscraper -- but they are also sometimes useful. At low speeds, FIVs can be harnessed to extract ambient energy from the surroundings by converting the mechanical energy from the vibrations into electrical energy for the use of small devices.
@@ -37,4 +35,4 @@ Practically all lliving organisms on earth live in a fluid-filled environment, a
 
 ## Vortex Dynamics
 
-
+A _vortex_ is a region of strongly rotating fluid. From smoke rings to the gust of air that you feel when a large truck rushes past you, and from the strongest hurricanes on earth to Jupiter's 'Great Red Spot', nature produces vortices in all sorts of places. Vortices are also _mathematical_ objects: elegant differential equations describe their motion, giving us a powerful set of tools to model the 'real world' of fluid mechanics using applied mathematics.
