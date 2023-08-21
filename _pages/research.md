@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Research
+title: research
 permalink: /research/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 2
 display_categories: [work, fun]
@@ -11,10 +11,30 @@ horizontal: false
 
 # Test heading one
 
-## Test heading two
-
-### Test heading three
-
-#### Is there a heading 4?
+## Flow-induced vibrations
 
 Whenever a solid object interacts with moving fluids such as water and air at sufficiently high speeds, it experiences _flow-induced vibrations_ (FIV). These vibrations can often be harmful for engineered structures -- such as when strong winds buffet a tall, thin skyscraper -- but they are also sometimes useful. At low speeds, FIVs can be harnessed to extract ambient energy from the surroundings by converting the mechanical energy from the vibrations into electrical energy for the use of small devices.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded
+ z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded
+ z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded
+ z-depth-1" %}
+    </div>
+</div>
+
+## Biological Fluid Dynamics
+
+Practically all lliving organisms on earth live in a fluid-filled environment, and life in moving fluids presents us with a spectacular array of scientific phenomena that are waiting to be discovered and better understood. For instance, how do fish use their tailfins to generate thrust and propel themselves in the ocean? Can we learn from these techniques to implement bio-insipred robots?
+
+
+## Vortex Dynamics
+
+
