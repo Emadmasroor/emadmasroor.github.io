@@ -1,10 +1,10 @@
 ---
 layout: page
 title: resources
-permalink: /projects/
+permalink: /resources/
 description: 
-nav: false
-nav_order: 2
+nav: true
+nav_order: 6
 display_categories: [work, fun]
 horizontal: false
 ---
