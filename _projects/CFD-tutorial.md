@@ -1,8 +1,8 @@
 ---
 layout: page
-title: CFD tutorial in Julia
-description: a project with a background image
-img: assets/img/12.jpg
+title: Computational Fluid Dynamics with Julia
+description: a step-by-step guide to writing CFD code at the advanced undergraduate level
+img: assets/img/lid-driven-cavity.jpg
 importance: 1
 category: work
 ---
