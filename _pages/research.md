@@ -39,13 +39,23 @@ Practically all lliving organisms on earth live in a fluid-filled environment, a
     </div>
 </div>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" title="tail-fin-video" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
-    </div>
-</div>
-
 
 ## Vortex Dynamics
 
 A _vortex_ is a region of strongly rotating fluid. From smoke rings to the gust of air that you feel when a large truck rushes past you, and from the strongest hurricanes on earth to Jupiter's 'Great Red Spot', nature produces vortices in all sorts of places. Vortices are also _mathematical_ objects: elegant differential equations describe their motion, giving us a powerful set of tools to model the 'real world' of fluid mechanics using applied mathematics.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/two-vortex-particle.mp4" title="N = 2" class="img-fluid rounded
+ z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/video/three-vortex-particle.mp4" title="N = 3" class="img-fluid rounded
+ z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded
+ z-depth-1" %}
+    </div>
+</div>
