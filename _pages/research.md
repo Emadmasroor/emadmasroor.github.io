@@ -47,12 +47,10 @@ A _vortex_ is a region of strongly rotating fluid. From smoke rings to the gust 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/two-vortex-particle.mp4" title="N = 2" class="img-fluid rounded
- z-depth-1" %}
+        {% include video.html path="assets/video/two-vortex-particle.mp4" title="N = 2" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/three-vortex-particle.mp4" title="N = 3" class="img-fluid rounded
- z-depth-1" %}
+        {% include video.html path="assets/video/three-vortex-particle.mp4" title="N = 3" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded
