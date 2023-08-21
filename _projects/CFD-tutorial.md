@@ -2,7 +2,7 @@
 layout: page
 title: Computational Fluid Dynamics with Julia
 description: a step-by-step guide to writing CFD code at the advanced undergraduate level
-img: assets/img/lid-driven-cavity.jpg
+img: assets/img/lid-driven-cavity.png
 importance: 1
 category: work
 ---
