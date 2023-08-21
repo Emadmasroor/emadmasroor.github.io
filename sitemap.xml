@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://emadmasroor.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/</loc>
-<lastmod>2022-04-23T23:20:09+00:00</lastmod>
-</url>
-<url>
 <loc>https://emadmasroor.github.io/resources/CFD-tutorial/</loc>
-<lastmod>2023-08-21T20:02:16+00:00</lastmod>
+<lastmod>2023-08-21T20:07:03+00:00</lastmod>
 </url>
 <url>
 <loc>https://emadmasroor.github.io/</loc>
@@ -15,10 +11,13 @@
 <loc>https://emadmasroor.github.io/cv/</loc>
 </url>
 <url>
-<loc>https://emadmasroor.github.io/_pages/dropdown/</loc>
+<loc>https://emadmasroor.github.io/_pages/dropdown.html</loc>
 </url>
 <url>
 <loc>https://emadmasroor.github.io/genealogy/</loc>
+</url>
+<url>
+<loc>https://emadmasroor.github.io/blog/</loc>
 </url>
 <url>
 <loc>https://emadmasroor.github.io/news/</loc>
@@ -37,8 +36,5 @@
 </url>
 <url>
 <loc>https://emadmasroor.github.io/teaching/</loc>
-</url>
-<url>
-<loc>https://emadmasroor.github.io/blog/2022/</loc>
 </url>
 </urlset>
