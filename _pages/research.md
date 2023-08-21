@@ -35,7 +35,7 @@ Practically all lliving organisms on earth live in a fluid-filled environment, a
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/tailfin.avi" title="tail-fin-video" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/tailfin.mp4" title="tail-fin-video" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
