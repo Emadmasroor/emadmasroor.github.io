@@ -30,7 +30,7 @@ Before conducting measurements in the wind tunnel, prepare the following plots u
 2. Plot the approximate height of the boundary layer, $$\delta_{99},$$ as a function of $$x,$$ the downstream distance from the leading edge, for three different values of the free stream speed $$U = 10, 20, 40$$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.
 
 #### Trial experiment
-For $$x = 100 \mathrm{mm}$$, measure the velocity profile $$u(y)$$ using a stepping size $$\Delta y$$ of your choice. Use this informaiton to plot 
+For $$x = 100 \mathrm{mm},$$ measure the velocity profile $$u(y)$$ using a stepping size $$\Delta y$$ of your choice. Use this informaiton to plot 
 - the velocity profile $$u(y)$$ against $$y$$ in dimensional form (i.e., with units)
 - the non-dimensional quantities $$u(y)/U$$ against $$\eta = \frac{y}{x}\sqrt{\frac{U x}{2 \nu}} = \frac{y}{x} \sqrt{Re_x/2}$$
 
@@ -41,7 +41,7 @@ Numerical solutions of the Blasius equations suggest that $$u/U$$ as a function 
 
 ### Main Experiment
 ##### Parameters
-For three different free-stream speeds $$U$$ and three different downstream locations $$x$$, make measurments of $$u(y)$$. Choose an appropriate number of steps in $$y$$ and range of $$y$$ values that will allow you to scan the entirety of the boundary layer (and some part of the free stream) for each of the nine sets of data you will collect.
+For three different free-stream speeds $$U$$ and three different downstream locations $$x,$$ make measurments of $$u(y)$$. Choose an appropriate number of steps in $$y$$ and range of $$y$$ values that will allow you to scan the entirety of the boundary layer (and some part of the free stream) for each of the nine sets of data you will collect.
 - **Speeds**: $$ U = 10, 20, 40 \mathrm{m}/\mathrm{s}$$
 - **Locations**: $$ x = 50, 150, 250 \mathrm{mm}$$
 
