@@ -12,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>teaching | Emad  Masroor</title>
     <meta name="author" content="Emad  Masroor">
-    <meta name="description" content="Materials for courses you taught. Replace this text with your description.">
+    <meta name="description" content="Course Materials">
     <meta name="keywords" content="fluid dynamics, dynamical systems">
 
 
@@ -123,13 +123,33 @@
 
           <header class="post-header">
             <h1 class="post-title">teaching</h1>
-            <p class="post-description">Materials for courses you taught. Replace this text with your description.</p>
+            <p class="post-description">Course Materials</p>
           </header>
 
           <article>
-            <p>For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to <code class="language-plaintext highlighter-rouge">_projects/</code> so that you can have a dedicated page for each course.</p>
+            <h2 id="e83-lab-5-boundary-layers">E83 Lab 5: Boundary Layers</h2>
+<p>In this lab, you will measure the streamwise flow velocities in the boundary layer of a flat plate placed in a wind tunnel. Your goal is to see the extent to which an experimentally observed boundary layer agrees with the Blasius solution for laminar flow. If possible, you will also observe a turbulent boundary layer and see how it differs from a laminary boundary layer.</p>
 
-<p>Organize your courses by years, topics, or universities, however you like!</p>
+<h3 id="matlab-code-for-conducting-experiment">MATLAB code for conducting experiment</h3>
+<p>You are provided with a series of MATLAB routines, listed below.</p>
+
+<ol>
+  <li>
+<code class="language-plaintext highlighter-rouge">connectController.m</code>: connect the linear actuator that moves the flat plate to MATLAB.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">disconnectController.m</code>: disconnect the linear actuator that moves the flat plate from MATLAB.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">getPlatePosition.m</code>: Returns, in mm, the current position of the flat plate.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">resetPlatePosition.m</code>: Moves the flat plate downstream until limit switch is activated, then sets this position as zero.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">movePlate.m</code>: Moves the flat plate upstream (positive argument) or downstream (negative argument) a specified number of millimeters. Returns as output the position at the end of the move.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">moveHotWireYZ.m</code>: Moves the hot wire in the vertical direction (positive up) by a specified number of millimeters. Y motion has been disabled for this lab.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">readHotwire.m</code>: Reads the current horizontal speed in the wind tunnel using the hot wire, in meters per second.</li>
+</ol>
+
 
           </article>
 
@@ -141,7 +161,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Emad  Masroor. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2024 Emad  Masroor. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>
     </footer>
