@@ -148,49 +148,32 @@
 <code class="language-plaintext highlighter-rouge">moveHotWireYZ.m</code>: Moves the hot wire in the vertical direction (positive up) by a specified number of millimeters. Y motion has been disabled for this lab.</li>
   <li>
 <code class="language-plaintext highlighter-rouge">readHotwire.m</code>: Reads the current horizontal speed in the wind tunnel using the hot wire, in meters per second.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">RPM.m</code>: increases the speed of the fan inside the wind tunnel to the specified value.</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">waittilRPM.m</code>: incorporates a delay until the specified fan speed has been reached.</li>
 </ol>
 
 <h3 id="preliminary-steps">Preliminary Steps</h3>
+<h4 id="theory">Theory</h4>
 <p>Before conducting measurements in the wind tunnel, prepare the following plots using your knowledge of the laminary boundary layer in air. Recall that air has a kinematic viscosity of \(1.5 \times 10^{-5}\).</p>
 <ol>
-  <li>Plot the Reynolds number \(Re_x = U x / \nu\) as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed $U = 10, 20, 40$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.</li>
-  <li>Plot the approximate height of the boundary layer, $\delta_{99}$, as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed $U = 10, 20, 40$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.</li>
+  <li>Plot the Reynolds number \(Re_x = U x / \nu\) as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed \(U = 10, 20, 40\) meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.</li>
+  <li>Plot the approximate height of the boundary layer, \(\delta_{99}\), as a function of \(x\), the downstream distance from the leading edge, for three different values of the free stream speed \(U = 10, 20, 40\) meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.</li>
 </ol>
 
-<h3 id="measurements">Measurements</h3>
-<p>For three different free-stream speeds $U$ and three different downstream locations $x$, make measurments of $u(y)$. Choose an appropriate number of steps in $y$ and range of $y$ values that will allow you to scan the entirety of the boundary layer for each of the nine sets of data that you will collect.</p>
+<h4 id="trial-experiment">Trial experiment</h4>
+<p>For \(x = 100 \mathrm{mm}\), measure the velocity profile \(u(y)\) using a stepping size \(\Delta y\) of your choice. Use this informaiton to plot</p>
+<ul>
+  <li>the velocity profile \(u(y)\) against \(y\) in dimensional form (i.e., with units)</li>
+  <li>the non-dimensional quantities \(u(y)/U\) against \(\eta = \frac{y}{x}\sqrt{\frac{U x}{\nu}} = \frac{y}{x} Re_x\)</li>
+</ul>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Speed</th>
-      <th style="text-align: center">In Stock</th>
-      <th style="text-align: right">Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Python Hat</td>
-      <td style="text-align: center">True</td>
-      <td style="text-align: right">23.99</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">SQL Hat</td>
-      <td style="text-align: center">True</td>
-      <td style="text-align: right">23.99</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Codecademy Tee</td>
-      <td style="text-align: center">False</td>
-      <td style="text-align: right">19.99</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Codecademy Hoodie</td>
-      <td style="text-align: center">False</td>
-      <td style="text-align: right">42.99</td>
-    </tr>
-  </tbody>
-</table>
+<h3 id="main-experiment">Main Experiment</h3>
+<p>For three different free-stream speeds $U$ and three different downstream locations \(x\), make measurments of \(u(y)\). Choose an appropriate number of steps in \(y\) and range of \(y\) values that will allow you to scan the entirety of the boundary layer (and some part of the free stream) for each of the nine sets of data you will collect.
+<strong>Speeds</strong>: \(U = 10, 20, 40 \mathrm{m}/\mathrm{s}\)
+<strong>Locations</strong>: \(x = 50, 150, 250 \mathrm{mm}\)</p>
+
 
           </article>
 
