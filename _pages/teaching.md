@@ -32,7 +32,7 @@ Before conducting measurements in the wind tunnel, prepare the following plots u
 #### Trial experiment
 For $$x = 100 \mathrm{mm}$$, measure the velocity profile $$u(y)$$ using a stepping size $$\Delta y$$ of your choice. Use this informaiton to plot 
 - the velocity profile $$u(y)$$ against $$y$$ in dimensional form (i.e., with units)
-- the non-dimensional quantities $$u(y)/U$$ against $$\eta = \frac{y}{x}\sqrt{\frac{U x}{\nu}} = \frac{y}{x} Re_x$$
+- the non-dimensional quantities $$u(y)/U$$ against $$\eta = \frac{y}{x}\sqrt{\frac{U x}{2 \nu}} = \frac{y}{x} \sqrt{Re_x/2}$$
 
 ### Main Experiment
 For three different free-stream speeds $U$ and three different downstream locations $$x$$, make measurments of $$u(y)$$. Choose an appropriate number of steps in $$y$$ and range of $$y$$ values that will allow you to scan the entirety of the boundary layer (and some part of the free stream) for each of the nine sets of data you will collect.
