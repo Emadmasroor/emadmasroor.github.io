@@ -25,9 +25,9 @@ You are provided with a series of MATLAB routines, listed below.
 
 ### Preliminary Steps
 #### Theory
-Before conducting measurements in the wind tunnel, prepare the following plots using your knowledge of the laminary boundary layer in air. Recall that air has a kinematic viscosity of $$1.5 \times 10^{-5}$$.
+Before conducting measurements in the wind tunnel, prepare the following plots using your knowledge of the laminary boundary layer in air. Recall that air has a kinematic viscosity of $$1.5 \times 10^{-5}.$$
 1. Plot the Reynolds number $$Re_x = U x / \nu$$ as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed $$U = 10, 20, 40$$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.
-2. Plot the approximate height of the boundary layer, $$\delta_{99}$$, as a function of $$x$$, the downstream distance from the leading edge, for three different values of the free stream speed $$U = 10, 20, 40$$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.
+2. Plot the approximate height of the boundary layer, $$\delta_{99},$$ as a function of $$x,$$ the downstream distance from the leading edge, for three different values of the free stream speed $$U = 10, 20, 40$$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.
 
 #### Trial experiment
 For $$x = 100 \mathrm{mm}$$, measure the velocity profile $$u(y)$$ using a stepping size $$\Delta y$$ of your choice. Use this informaiton to plot 
