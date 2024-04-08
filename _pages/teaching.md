@@ -22,7 +22,16 @@ You are provided with a series of MATLAB routines, listed below.
 7. `readHotwire.m`: Reads the current horizontal speed in the wind tunnel using the hot wire, in meters per second.
 
 ### Preliminary Steps
-Before conducting measurements in the wind tunnel, prepare the following plots using your knowledge of the laminary boundary layer in air. Recall that air has a kinematic viscosity of $1.5 \times 10^{-5}$.
-1. Plot the Reynolds number $Re_x = U x / \nu$ as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed $U = 10, 20, 40$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.
+Before conducting measurements in the wind tunnel, prepare the following plots using your knowledge of the laminary boundary layer in air. Recall that air has a kinematic viscosity of $$1.5 \times 10^{-5}$$.
+1. Plot the Reynolds number $$Re_x = U x / \nu$$ as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed $U = 10, 20, 40$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.
 2. Plot the approximate height of the boundary layer, $\delta_{99}$, as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed $U = 10, 20, 40$ meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.
 
+### Measurements
+For three different free-stream speeds $U$ and three different downstream locations $x$, make measurments of $u(y)$. Choose an appropriate number of steps in $y$ and range of $y$ values that will allow you to scan the entirety of the boundary layer for each of the nine sets of data that you will collect.
+
+| Speed             | In Stock | Price |
+| :---------------- | :------: | ----: |
+| Python Hat        |   True   | 23.99 |
+| SQL Hat           |   True   | 23.99 |
+| Codecademy Tee    |  False   | 19.99 |
+| Codecademy Hoodie |  False   | 42.99 |
