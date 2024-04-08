@@ -34,11 +34,19 @@ For $$x = 100 \mathrm{mm}$$, measure the velocity profile $$u(y)$$ using a stepp
 - the velocity profile $$u(y)$$ against $$y$$ in dimensional form (i.e., with units)
 - the non-dimensional quantities $$u(y)/U$$ against $$\eta = \frac{y}{x}\sqrt{\frac{U x}{2 \nu}} = \frac{y}{x} \sqrt{Re_x/2}$$
 
+#### Comparison with Blasius' Theory
+Numerical solutions of the Blasius equations suggest that $$u/U$$ as a function of $$\eta = \frac{y}{x} \sqrt{Re_x/2}$$ takes on the following graphical form. A `csv` file containing this information is included [here](assets/csv/uU_Blasius.csv).
+
+
 ### Main Experiment
+##### Parameters
 For three different free-stream speeds $$U$$ and three different downstream locations $$x$$, make measurments of $$u(y)$$. Choose an appropriate number of steps in $$y$$ and range of $$y$$ values that will allow you to scan the entirety of the boundary layer (and some part of the free stream) for each of the nine sets of data you will collect.
 - **Speeds**: $$ U = 10, 20, 40 \mathrm{m}/\mathrm{s}$$
 - **Locations**: $$ x = 50, 150, 250 \mathrm{mm}$$
 
+#### Programmatically conducting experiment
+Write a MATLAB script that will collect the entire set of data for this experiment. Use your plots of $$\delta_{99}(x)$$ to determine the values of $$y$$ at which measurmenets will be taken.
 
+#### 
 
 
