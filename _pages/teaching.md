@@ -48,6 +48,9 @@ For three different free-stream speeds $$U$$ and three different downstream loca
 #### Programmatically conducting experiment
 Write a MATLAB script that will collect the entire set of data for this experiment. Use your plots of $$\delta_{99}(x)$$ to determine the values of $$y$$ at which measurmenets will be taken.
 
-#### 
+### Compiling Results
+Generate:
+1. A 3x3 grid of plots showing the velocity profile in each of the nine experiments that you conducted.
+2. A single plot that combines this information into non-dimensional form. Do not connect your data plots with lines. Overlay on this plot the Blasius profile.
 
 
