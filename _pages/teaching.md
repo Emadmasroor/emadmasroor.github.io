@@ -35,7 +35,7 @@ For $$x = 100 \mathrm{mm}$$, measure the velocity profile $$u(y)$$ using a stepp
 - the non-dimensional quantities $$u(y)/U$$ against $$\eta = \frac{y}{x}\sqrt{\frac{U x}{2 \nu}} = \frac{y}{x} \sqrt{Re_x/2}$$
 
 #### Comparison with Blasius' Theory
-Numerical solutions of the Blasius equations suggest that $$u/U$$ as a function of $$\eta = \frac{y}{x} \sqrt{Re_x/2}$$ takes on the following graphical form. A `csv` file containing this information is included [here](assets/csv/uU_Blasius.csv).
+Numerical solutions of the Blasius equations suggest that $$u/U$$ as a function of $$\eta = \frac{y}{x} \sqrt{Re_x/2}$$ takes on the following graphical form. A `csv` file containing this information is included [here](../assets/csv/uU_Blasius.csv).
 
 {% include figure.html path="assets/img/Blasius_profile.png" title="Blasius profile" class="img-fluid rounded z-depth-1" %} 
 
