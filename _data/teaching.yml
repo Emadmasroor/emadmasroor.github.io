@@ -6,6 +6,7 @@
   institution: Swarthmore College
   cross: null
   code: E083
+  syllabus: E83S24_syllabus.pdf
   catalog_entry: > 
         Fluid mechanics is treated as a special case of continuum mechanics in the analysis of fluid flow systems. 
         Conservation of mass, momentum, and energy are covered along with applications to the study of 
@@ -19,6 +20,7 @@
   institution: Swarthmore College
   cross: null
   code: E041
+  syllabus: E41SF23_syllabus.pdf
   catalog_entry: > 
         This course introduces macroscopic thermodynamics: first and second laws, properties of pure substances, 
         and applications using system and control volume formulation. Also introduced is fluid mechanics: 
@@ -32,6 +34,7 @@
   institution: Swarthmore College
   cross: Math 024
   code: E019
+  syllabus: E19SF23_syllabus.pdf
   catalog_entry: > 
         This course is geared towards students who want to know how to transform a set of equations on a page into 
         a working computer program. Potential topics include root finding, discrete and continuous optimization, 
@@ -48,6 +51,7 @@
   institution: Virginia Tech
   cross: null
   code: ME 3404
+  syllabus: ME3404S22_syllabus.pdf
   catalog_entry: > 
         Comprehensive first course in basic and applied fluid mechanics. Fluid properties, statics, kinematics, 
         and dynamics. Eulers and Bernoullis equations. Hydrodynamics. Dimensional analysis and similitude. 
