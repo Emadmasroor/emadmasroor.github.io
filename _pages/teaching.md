@@ -21,6 +21,4 @@ nav_order: 2
   {% if entry.syllabus %}
     Hello, world
   (% endif %}
-  
 {% endfor %}
-
