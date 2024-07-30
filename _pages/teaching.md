@@ -18,5 +18,6 @@ nav_order: 2
   
   _Catalog description_: {{entry.catalog_entry}}
 
+  [Syllabus](/assets/pdf/E19F23_syllabus.pdf)
 
 {% endfor %}
