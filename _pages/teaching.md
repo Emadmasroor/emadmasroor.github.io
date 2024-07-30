@@ -19,7 +19,7 @@ nav_order: 2
   _Catalog description_: {{entry.catalog_entry}}
 
   {% if entry.syllabus %}
-    [Syllabus](https://www.google.com)
+    Hello, world
   (% endif %}
   
 {% endfor %}
