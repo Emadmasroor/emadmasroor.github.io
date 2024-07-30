@@ -8,9 +8,9 @@ nav_order: 2
 ---
 
 {% for entry in site.data.teaching %}
-
-  <p><strong>{{entry.code}} {{entry.title}}</strong></p>
-  <p>{{entry.institution}}, {{entry.semester}} {{entry.year}}</p>
+  <hr>
+  <p><strong>{{entry.code}} {{entry.title}}</strong> &emsp {{entry.semester}} {{entry.year}} </p>
+  <p>{{entry.institution}}. {{entry.level}} level.</p>
   <p> Catalog description: {{entry.catalog_entry}}</p>
   
   
