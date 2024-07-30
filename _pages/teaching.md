@@ -19,7 +19,7 @@ nav_order: 2
   _Catalog description_: {{entry.catalog_entry}}
   
   {% if entry.syllabus %}
-  [Syllabus](/assets/pdf/{{entry.syllabus}})
+  <a href="{{site.url}}/assets/pdf/{{entry.syllabus}}"> Syllabus </a>
   (% endif %}
   
 {% endfor %}
