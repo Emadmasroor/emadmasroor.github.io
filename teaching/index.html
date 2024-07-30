@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>teaching | Emad  Masroor</title>
+    <title>List of Classes | Emad  Masroor</title>
     <meta name="author" content="Emad  Masroor">
     <meta name="description" content="Course Materials">
     <meta name="keywords" content="fluid dynamics, dynamical systems">
@@ -82,7 +82,7 @@
                 <a class="nav-link" href="/research/">research</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="/teaching/">teaching<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/teaching/">List of Classes<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">publications</a>
@@ -122,91 +122,12 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">teaching</h1>
+            <h1 class="post-title">List of Classes</h1>
             <p class="post-description">Course Materials</p>
           </header>
 
           <article>
-            <h2 id="e83-lab-5-boundary-layers">E83 Lab 5: Boundary Layers</h2>
-<p>In this lab, you will measure the streamwise flow velocities in the boundary layer of a flat plate placed in a wind tunnel. Your goal is to see the extent to which an experimentally observed boundary layer agrees with the Blasius solution for laminar flow. If possible, you will also observe a turbulent boundary layer and see how it differs from a laminary boundary layer.</p>
-
-<h3 id="matlab-code-for-conducting-experiment">MATLAB code for conducting experiment</h3>
-<p>You are provided with a series of MATLAB routines, listed below.</p>
-
-<ol>
-  <li>
-<code class="language-plaintext highlighter-rouge">connectController.m</code>: connect the linear actuator that moves the flat plate to MATLAB.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">disconnectController.m</code>: disconnect the linear actuator that moves the flat plate from MATLAB.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">getPlatePosition.m</code>: Returns, in mm, the current position of the flat plate.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">resetPlatePosition.m</code>: Moves the flat plate downstream until limit switch is activated, then sets this position as zero.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">movePlate.m</code>: Moves the flat plate upstream (positive argument) or downstream (negative argument) a specified number of millimeters. Returns as output the position at the end of the move.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">moveHotWireYZ.m</code>: Moves the hot wire in the vertical direction (positive up) by a specified number of millimeters. Y motion has been disabled for this lab.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">readHotwire.m</code>: Reads the current horizontal speed in the wind tunnel using the hot wire, in meters per second.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">RPM.m</code>: increases the speed of the fan inside the wind tunnel to the specified value.</li>
-  <li>
-<code class="language-plaintext highlighter-rouge">waittilRPM.m</code>: incorporates a delay until the specified fan speed has been reached.</li>
-</ol>
-
-<h3 id="preliminary-steps">Preliminary Steps</h3>
-<h4 id="theory">Theory</h4>
-<p>Before conducting measurements in the wind tunnel, prepare the following plots using your knowledge of the laminary boundary layer in air. Recall that air has a kinematic viscosity of \(1.5 \times 10^{-5}.\)</p>
-<ol>
-  <li>Plot the Reynolds number \(Re_x = U x / \nu\) as a function of $x$, the downstream distance from the leading edge, for three different values of the free stream speed \(U = 10, 20, 40\) meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.</li>
-  <li>Plot the approximate height of the boundary layer, \(\delta_{99},\) as a function of \(x,\) the downstream distance from the leading edge, for three different values of the free stream speed \(U = 10, 20, 40\) meters per second. Choose an appropriate range on the horizontal and vertical axes, and use a log scale for the vertical axis.</li>
-</ol>
-
-<h4 id="trial-experiment">Trial experiment</h4>
-<p>For \(x = 100 \mathrm{mm},\) measure the velocity profile \(u(y)\) using a stepping size \(\Delta y\) of your choice. Use this informaiton to plot</p>
-<ul>
-  <li>the velocity profile \(u(y)\) against \(y\) in dimensional form (i.e., with units)</li>
-  <li>the non-dimensional quantities \(u(y)/U\) against \(\eta = \frac{y}{x}\sqrt{\frac{U x}{2 \nu}} = \frac{y}{x} \sqrt{Re_x/2}\)</li>
-</ul>
-
-<h4 id="comparison-with-blasius-theory">Comparison with Blasius’ Theory</h4>
-<p>Numerical solutions of the Blasius equations suggest that \(u/U\) as a function of \(\eta = \frac{y}{x} \sqrt{Re_x/2}\) takes on the following graphical form. A <code class="language-plaintext highlighter-rouge">csv</code> file containing this information is included <a href="../assets/csv/uU_Blasius.csv">here</a>.</p>
-
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/Blasius_profile-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/Blasius_profile-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/Blasius_profile-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/Blasius_profile.jpg" class="img-fluid rounded z-depth-1" width="240px" height="auto" title="Blasius profile" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-<h3 id="main-experiment">Main Experiment</h3>
-<h5 id="parameters">Parameters</h5>
-<p>For three different free-stream speeds \(U\) and three different downstream locations \(x,\) make measurments of \(u(y).\) Choose an appropriate number of steps in \(y\) and range of \(y\) values that will allow you to scan the entirety of the boundary layer (and some part of the free stream) for each of the nine sets of data you will collect.</p>
-<ul>
-  <li>
-<strong>Speeds</strong>: \(U = 10, 20, 40 \mathrm{m}/\mathrm{s}\)</li>
-  <li>
-<strong>Locations</strong>: \(x = 50, 150, 250 \mathrm{mm}\)</li>
-</ul>
-
-<h4 id="programmatically-conducting-experiment">Programmatically conducting experiment</h4>
-<p>Write a MATLAB script that will collect the entire set of data for this experiment. Use your plots of \(\delta_{99}(x)\) to determine the values of \(y\) at which measurmenets will be taken.</p>
-
-<h3 id="compiling-results">Compiling Results</h3>
-<p>Generate:</p>
-<ol>
-  <li>A 3x3 grid of plots showing the velocity profile in each of the nine experiments that you conducted.</li>
-  <li>A single plot that combines this information into non-dimensional form. Do not connect your data plots with lines. Overlay on this plot the Blasius profile.</li>
-</ol>
+            <p>Hello, world</p>
 
 
           </article>
