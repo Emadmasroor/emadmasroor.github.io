@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: List of courses taught
 nav: true
 nav_order: 2
@@ -18,7 +18,5 @@ nav_order: 2
   
   _Catalog description_: {{entry.catalog_entry}}
 
-  {% if entry.syllabus %}
-    Hello, world
-  (% endif %}
+
 {% endfor %}
