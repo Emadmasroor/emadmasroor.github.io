@@ -15,6 +15,7 @@ nav_order: 2
   {% if entry.cross %}
       <p> Cross-listed as {{ entry.cross }}. </p>
   {% endif %}
+  
   _Catalog description_: {{entry.catalog_entry}}
   
   
