@@ -18,7 +18,10 @@ nav_order: 2
   
   _Catalog description_: 
   <blockquote> <p><span style="font-size:10px;"> {{entry.catalog_entry}} </span></p> </blockquote>
-  
+
+  {% if entry.syllabus %}
+  [Syllabus](/assets/pdf/{{entry.syllabus}})
+  (% endif %}
   
 {% endfor %}
 
