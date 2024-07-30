@@ -7,5 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-Hello, world
+{% for class in site.data.teaching %}
+  {% class.semester %}
+{% endfor %}
 
