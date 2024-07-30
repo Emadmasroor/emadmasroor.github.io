@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: List of Classes
-description: Course Materials
+title: Classes Taught
+description:
 nav: true
 nav_order: 2
 ---
