@@ -8,13 +8,14 @@ nav_order: 2
 ---
 
 {% for entry in site.data.teaching %}
-  <hr>
+
+  ----
   <p><strong>{{entry.code}} {{entry.title}}</strong> &emsp {{entry.semester}} {{entry.year}} </p>
   <p>{{entry.institution}}. {{entry.level}} level.</p>
   {% if entry.cross %}
-      <p> Cross-listed as {{ entry.cross }}. </p>p>
+      <p> Cross-listed as {{ entry.cross }}. </p>
   {% endif %}
-  <p> Catalog description: {{entry.catalog_entry}}</p>
+  _Catalog description_: {{entry.catalog_entry}}
   
   
 {% endfor %}
