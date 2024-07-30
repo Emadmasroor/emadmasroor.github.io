@@ -17,6 +17,8 @@ nav_order: 2
   {% endif %}
   
   _Catalog description_: {{entry.catalog_entry}}
+
+  _test_: > hello, world. this is a blockquote.
   
   
 {% endfor %}
