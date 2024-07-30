@@ -13,7 +13,7 @@ nav_order: 2
   <p><strong>{{entry.code}} {{entry.title}}</strong> {{entry.semester}} {{entry.year}} </p>
   <p>{{entry.institution}}. {{entry.level}} level.</p>
   {% if entry.cross %}
-    <p> Cross-listed as {{ entry.cross }}. </p>
+    Cross-listed as {{ entry.cross }}.
   {% endif %}
   
   _Catalog description_: 
