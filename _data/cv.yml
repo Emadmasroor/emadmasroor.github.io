@@ -31,11 +31,15 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Vortex Dynamics.
+    - title: Vortex Dynamics
       items: 
         - Point vortex dynamics
         - Vortex rings
-    - title: Fluid Structure Interaction.
+    - title: Fluid Structure Interaction
       items:
         - Vortex-Induced Vibration
         - Energy Harvesting
+    - title: Biological fluid dynamics
+      items:
+        - Vortex-based numerical methods
+        - Bioinspired marine locomotion
