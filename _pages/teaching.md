@@ -8,6 +8,6 @@ nav_order: 2
 ---
 
 {% for class in site.data.teaching %}
-  {% class.semester %}
+  Semester: {{class.semester}} {{class.year}}
 {% endfor %}
 
