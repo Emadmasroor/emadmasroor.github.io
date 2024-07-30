@@ -17,7 +17,7 @@ nav_order: 2
   {% endif %}
   
   _Catalog description_: 
-  <blockquote> {{entry.catalog_entry}} </blockquote>
+  <blockquote> <p><span style="font-size:10px;"> {{entry.catalog_entry}} </span></p> </blockquote>
 
   _test_: 
   > hello, world. this is a blockquote.
