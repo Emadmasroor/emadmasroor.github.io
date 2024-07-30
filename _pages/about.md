@@ -18,8 +18,8 @@ blog: false
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/) starting in the fall of 2023, where I teach fluid mechanics, numerical methods and programming. I recently defended my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech.
+I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/). My research is in fluid mechanics, and I conduct theoretical, numerical and experimental research in Singer Hall. I teach in the areas of thermodynamics, fluid mechanics, numerical methods and programming.
 
-This site is currently under construction.
+I received my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech.
 
 See my 'scientific family tree' [here](/genealogy), courtesy the [Math Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/){:target="\_blank"} at North Dakota State University.
