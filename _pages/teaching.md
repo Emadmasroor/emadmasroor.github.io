@@ -17,7 +17,10 @@ nav_order: 2
   {% endif %}
   
   _Catalog description_: {{entry.catalog_entry}}
-  
+
+  {% if entry.syllabus %}
+    <a href="{{site.baseurl}}"> Syllabus </a>
+  (% endif %}
   
 {% endfor %}
 
