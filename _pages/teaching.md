@@ -8,10 +8,10 @@ nav_order: 2
 ---
 
 {% for entry in site.data.teaching %}
-  
-  ** {{entry.code}}: {{entry.title}} at {{entry.institution}}**
-  Term: {{entry.semester}} {{entry.year}}
-  Level: {{entry.level}}
+
+  <p><strong>{{entry.code}} {{entry.title}}</strong></p>
+  <p>{{entry.institution}}, {{entry.semester}} {{entry.year}}</p>
+  <p> Catalog description: {{entry.catalog_entry}}</p>
   
   
 {% endfor %}
