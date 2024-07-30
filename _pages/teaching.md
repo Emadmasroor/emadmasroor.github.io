@@ -16,9 +16,8 @@ nav_order: 2
     Cross-listed as {{ entry.cross }}.
   {% endif %}
   
-  _Catalog description_: 
-  <blockquote> <p><span style="font-size:10px;"> {{entry.catalog_entry}} </span></p> </blockquote>
-
+  _Catalog description_: {{entry.catalog_entry}}
+  
   {% if entry.syllabus %}
   [Syllabus](/assets/pdf/{{entry.syllabus}})
   (% endif %}
