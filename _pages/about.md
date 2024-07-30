@@ -18,7 +18,7 @@ blog: false
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/) starting in the fall of 2023, where I will teach fluid mechanics and numerical methods. I recently defended my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech.
+I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/) starting in the fall of 2023, where I teach fluid mechanics, numerical methods and programming. I recently defended my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech.
 
 This site is currently under construction.
 
