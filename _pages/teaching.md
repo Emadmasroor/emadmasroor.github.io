@@ -13,12 +13,13 @@ nav_order: 2
   <p><strong>{{entry.code}} {{entry.title}}</strong> {{entry.semester}} {{entry.year}} </p>
   <p>{{entry.institution}}. {{entry.level}} level.</p>
   {% if entry.cross %}
-      <p> Cross-listed as {{ entry.cross }}. </p>
+    <p> Cross-listed as {{ entry.cross }}. </p>
   {% endif %}
   
   _Catalog description_: {{entry.catalog_entry}}
 
-  _test_: > hello, world. this is a blockquote.
+  _test_: 
+  > hello, world. this is a blockquote.
   
   
 {% endfor %}
