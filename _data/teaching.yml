@@ -44,14 +44,14 @@
 
 
 - ME_S22:
-  title: Fluid Mechanics
+  title: Fluid Dynamics
   year: 2022
   semester: Spring
   level: junior
   institution: Virginia Tech
   cross: null
-  code: ME 3404
-  syllabus: ME3404S22_syllabus.pdf
+  code: ME 3414
+  syllabus: ME3414S22_syllabus.pdf
   catalog_entry: > 
         Comprehensive first course in basic and applied fluid mechanics. Fluid properties, statics, kinematics, 
         and dynamics. Eulers and Bernoullis equations. Hydrodynamics. Dimensional analysis and similitude. 
