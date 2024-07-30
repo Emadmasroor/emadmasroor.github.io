@@ -1,4 +1,4 @@
-E83_S24:
+- E83_S24:
   title: Fluid Mechanics
   year: 2024
   semester: Spring
@@ -10,7 +10,7 @@ E83_S24:
         Conservation of mass, momentum, and energy are covered along with applications to the study of 
         inviscid and viscous, incompressible, and compressible fluids.
 
-E41_F23:
+- E41_F23:
   title: Thermofluid Mechanics
   year: 2023
   semester: Fall
@@ -22,7 +22,7 @@ E41_F23:
         and applications using system and control volume formulation. Also introduced is fluid mechanics: 
         development of conservation theorems, hydrostatics, and the dynamics of one-dimensional fluid motion with and without friction. 
 
-E19_F23:
+- E19_F23:
   title: Numerical Methods for Engineering Applications
   year: 2023
   semester: Fall
@@ -37,7 +37,7 @@ E19_F23:
         Techniques will be applied in a series of projects focused on engineering applications.
 
 
-ME_S22:
+- ME_S22:
   title: Fluid Mechanics
   year: 2022
   semester: Spring
