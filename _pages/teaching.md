@@ -22,4 +22,8 @@ nav_order: 2
     [Syllabus](/assets/pdf/{{entry.syllabus}})
   {% endif %}
 
+  {% if entry.website %}
+    [Website]({{entry.website}})
+  {% endif %}
+
 {% endfor %}
