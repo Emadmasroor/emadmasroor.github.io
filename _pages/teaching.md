@@ -18,6 +18,8 @@ nav_order: 2
   
   _Catalog description_: {{entry.catalog_entry}}
 
-  [Syllabus](/assets/pdf/{{entry.syllabus}})
+  {% if entry.syllabus %}
+    [Syllabus](/assets/pdf/{{entry.syllabus}})
+  {% endif %}
 
 {% endfor %}
