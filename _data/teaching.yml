@@ -1,3 +1,34 @@
+- E41_F24:
+  title: Thermo-Fluid Mechanics
+  year: 2024
+  semester: Fall
+  level: junior
+  institution: Swarthmore College
+  cross: null
+  code: E041
+  syllabus: E83-Fall2024-Syllabus.pdf
+  catalog_entry: > 
+        This course introduces macroscopic thermodynamics: first and second laws, properties of pure substances, 
+        and applications using system and control volume formulation. Also introduced is fluid mechanics: 
+        development of conservation theorems, hydrostatics, and the dynamics of one-dimensional fluid motion with and without friction. 
+
+- E21_F24:
+  title: Computer Engineering Fundamentals
+  year: 2024
+  semester: Fall
+  level: sophomore
+  institution: Swarthmore College
+  cross: null
+  code: E021
+  syllabus: null
+  catalog_entry: > 
+        This course will introduce students to foundational topics in computer engineering. Key topics include 
+        digital representation of data, gates and truth table, and basics of computer organization. Students 
+        will gain proficiency coding in Python in both the embedded and traditional computing contexts. 
+        Students will also gain exposure to key methods for computational modeling of engineered systems and 
+        numerical solution of problems in engineering. Regular labs and projects will give students the 
+        opportunity to apply the skills they learn in a group setting.
+
 - E83_S24:
   title: Fluid Mechanics
   year: 2024
