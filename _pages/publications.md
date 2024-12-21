@@ -1,15 +1,19 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: Publications & Presentations
 description: 
-years: [2024,2023,2023,2022,2021,2020,2019,2017]
+years_talk: [2024,2023,2022,2021,2019,2018]
+years_papers: [2024,2022,2021,2020]
 nav: true
 nav_order: 4
 ---
 <!-- _pages/publications.md -->
 
-
+<p>
+<ul>
+ <li><a href="#journal"><b>Journal Articles</b></a></li>
+ <li><a href="#talk"><b>Academic Talks</b></a></li>
 
 
 <div class="large-badges" style="margin-top: 1.2rem;">
@@ -36,6 +40,12 @@ nav_order: 4
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f papers %}
 
+<a id="talk"><h3 style="margin-top: 5rem; margin-bottom: -1.0rem;"><b>Talks</b></h3></a>
+
+{%- for y in page.years_talk %}
+    <h2 class="year">{{ y }}</h2>
+        {% bibliography -f talks -q @*[year={{y}}]* %}
+{% endfor %}
 
 </div>
 
