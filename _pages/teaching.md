@@ -3,6 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: 
+years_instructor: [2023-24,2024-25]]
 years_lecturer: [2024/25,2023/24,2022/23,2020/21,2019/20]
 years_tutor: [2017/18,2016/17,2015/16,2014/15,2012/13]
 nav: true
@@ -35,6 +36,11 @@ All the courses I taught as
 {% endfor %}
 
 
+<a id="instructor"><h3 style="margin-top: 3.3rem; margin-bottom: -1.0rem;"><b>Instructor</b></h3></a>
+{%- for y in page.years_instructor %}    
+    <h2 class="year">{{ y }}</h2>
+        {% bibliography -f teaching_instructor -q @*[yearacademic={{y}}]* %}
+{% endfor %}
 
 
 
