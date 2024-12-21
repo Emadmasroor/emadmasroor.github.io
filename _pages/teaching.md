@@ -29,7 +29,7 @@ All the courses I taught as
 <a id="instructor"><h3 style="margin-top: 3.3rem; margin-bottom: -1.0rem;"><b>Visiting Assistant Professor at Swarthmore</b></h3></a>
 {%- for y in page.years_instructor %}    
     <h2 class="year">{{ y }}</h2>
-        {% bibliography -f teaching_instructor -q @*[yearacademic={{y}}]* %}
+        {% bibliography -f teaching_vap -q @*[yearacademic={{y}}]* %}
 {% endfor %}
 
 
