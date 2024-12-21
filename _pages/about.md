@@ -11,11 +11,11 @@ profile:
   
     
 
-# next: false  # includes a list of upcoming events  
-# news: false  # includes a list of news items  
+next: false  # includes a list of upcoming events  
+news: false  # includes a list of news items  
 
-# current_teaching: false # includes current_teaching in homepage 
-# current_courses: false # false: current teaching displays there is no teaching. True: current teaching displays publications in teaching_lecturer.bib with "current=true"
+current_teaching: false # includes current_teaching in homepage 
+current_courses: false # false: current teaching displays there is no teaching. True: current teaching displays publications in teaching_lecturer.bib with "current=true"
 
 
 selected_papers: true # includes a list of papers in publications_journal.bib marked as "selected={true}"
