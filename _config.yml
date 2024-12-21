@@ -79,11 +79,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 orcid_id: # i0000-0003-1974-1434 # your ORCID ID
 github_username: emadmasroor # your GitHub user name
-linkedin_username: fanzon # your LinkedIn user name
-arxiv_username: fanzon_s_1 # your profile on arXiv.org
-research_gate_profile: Silvio-Fanzon # your profile on ResearchGateX
-scholar_userid: 9yJyLsoAAAAJ # your Google Scholar ID
-scopus_id: 57193380703 # your Scopus ID
+linkedin_username: /emad-masroor-52005364/ # your LinkedIn user name
+arxiv_username: Emadmasroor # your profile on arXiv.org
+research_gate_profile: # your profile on ResearchGateX
+scholar_userid: # your Google Scholar ID
+scopus_id: # your Scopus ID
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -120,7 +120,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: G-BVV5S4PR5W # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: IZkMFWMkKT0HpOi2jJxL9W_cx-26-KKUfuByjMvucoA  # your google-site-verification ID (Google Search Console)
@@ -382,7 +382,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true  # enables google analytics
+enable_google_analytics:    false  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
