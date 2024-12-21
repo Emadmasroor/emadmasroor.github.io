@@ -159,6 +159,9 @@
   {%- if entry.canvas %}
   <a href="{{ entry.canvas }}" class="btn btn-sm z-depth-0" role="button">Canvas</a>
   {%- endif %}
+  {%- if entry.mooodle %}
+  <a href="{{ entry.moodle }}" class="btn btn-sm z-depth-0" role="button">Moodle</a>
+  {%- endif %}
   {%- if entry.taster %}
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.taster }}" class="btn btn-sm z-depth-0" role="button">Taster</a>
