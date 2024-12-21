@@ -6,16 +6,16 @@ subtitle: <a href='https://www.hull.ac.uk/staff-directory/silvio-fanzon'>Lecture
 
 profile:
   align: right
-  image: # prof_pic.jpg
+  image: emad.webp
   image_circular: false # crops the image to make it circular
   
     
 
-next: true  # includes a list of upcoming events  
-news: true  # includes a list of news items  
+next: false  # includes a list of upcoming events  
+news: false  # includes a list of news items  
 
-current_teaching: true # includes current_teaching in homepage 
-current_courses: true # false: current teaching displays there is no teaching. True: current teaching displays publications in teaching_lecturer.bib with "current=true"
+current_teaching: false # includes current_teaching in homepage 
+current_courses: false # false: current teaching displays there is no teaching. True: current teaching displays publications in teaching_lecturer.bib with "current=true"
 
 
 selected_papers: true # includes a list of papers in publications_journal.bib marked as "selected={true}"
@@ -28,7 +28,11 @@ social: false  # includes social icons at the bottom of the page
 <h3 style="margin-bottom: 1.3rem"><b>About me</b></h3>
 
 <div markdown="1">
-I am a Lecturer in Applied Mathematics in the [Department of Mathematics](https://www.hull.ac.uk/faculties/departments/department-of-physics-and-mathematics) at the [University of Hull](https://www.hull.ac.uk) in the United Kingdom
+This website is under construction.
+
+I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/). My research is in fluid mechanics, and I conduct theoretical, numerical and experimental research in Singer Hall. I teach in the areas of thermodynamics, fluid mechanics, numerical methods and programming.
+
+I received my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech.
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
@@ -39,11 +43,13 @@ My research is at the interface of <b>Inverse Problems</b>, <b>Optimization</b>,
 My contact information is **[here](https://www.silviofanzon.com/contact/)**. If you are interested in collaboration or supervision opportunities, please contact me at
 </div>
 
+<!--
 <div markdown="1" style="text-align: center; margin-top: 0.8rem;">
 **[S.Fanzon@hull.ac.uk](mailto: S.Fanzon@hull.ac.uk)**
 </div>
+--!>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-For Hull students: My office hours are <b>Friday 11:00-12:00</b> in Office 104a, Larkin Building
+Office Hours
 </div>
 
