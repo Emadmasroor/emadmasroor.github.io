@@ -77,8 +77,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 
-orcid_id: 0000-0003-1974-1434 # your ORCID ID
-github_username: sfanzon # your GitHub user name
+orcid_id: # i0000-0003-1974-1434 # your ORCID ID
+github_username: emadmasroor # your GitHub user name
 linkedin_username: fanzon # your LinkedIn user name
 arxiv_username: fanzon_s_1 # your profile on arXiv.org
 research_gate_profile: Silvio-Fanzon # your profile on ResearchGateX
