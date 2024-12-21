@@ -2,26 +2,26 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Silvio Fanzon # the website title (if blank, full name will be used instead)
-first_name: Silvio
+title: Emad Masroor # the website title (if blank, full name will be used instead)
+first_name: Emad
 middle_name: 
-last_name: Fanzon
-email: S.Fanzon@hull.ac.uk
+last_name: Masroor
+email: emasroo1@swarthmore.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Silvio Fanzon
+  Personal website of Emad Masroor
 footer_text: >
-  Email: S.Fanzon@hull.ac.uk 
-keywords: Silvio Fanzon # add your own keywords or leave empty
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+keywords: fluid dynamics, dynamical systems  # add your own keywords or leave empty
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🌀  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 # The lines below were in the footer
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 # Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-
-url: https://www.silviofanzon.com # the base hostname & protocol for your site
+url: https://emadmasroor.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 
 # -----------------------------------------------------------------------------
@@ -298,8 +298,8 @@ display_tags: ['code', 'maths', 'teaching'] # this tags will be dispalyed on the
 
 scholar:
 
-  last_name: [Fanzon]
-  first_name: [Silvio, S.]
+  last_name: [Masroor]
+  first_name: [Emad]
 
   style: apa
   locale: en
