@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: About
 permalink: /
 subtitle: Visiting Assistant Professor of Engineering  &#64;  <a href='https://www.swarthmore.edu/'>Swarthmore College</a>
 
