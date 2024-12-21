@@ -3,7 +3,7 @@ layout: page
 permalink: /presentations/
 title: Presentations
 description: 
-years_talk: [2023,2022,2021,2019,2018,2017,2016]
+years_talk: [2024,2023,2022,2021,2020,2019,2018]
 years_poster: [2021,2016]
 years_institutional: [2024]
 nav: true
@@ -36,7 +36,7 @@ All my dissemination activity divided in
 
 {%- for y in page.years_talk %}    
     <h2 class="year">{{ y }}</h2>
-        {% bibliography -f seminars_talks -q @*[year={{y}}]* %}
+        {% bibliography -f talks -q @*[year={{y}}]* %}
 {% endfor %}
 
 
