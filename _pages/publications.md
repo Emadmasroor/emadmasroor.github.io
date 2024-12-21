@@ -21,7 +21,6 @@ All my research outputs divided in
 <ul>
     <li><a href="#journal"><b>Journal Publications</b></a></li>
     <li><a href="#theses"><b>Theses</b></a></li>
-    <li><a href="#miscellaneous"><b>Miscellaneous</b></a></li>
 </ul>
 </p>
 
@@ -57,17 +56,13 @@ Authors are in alphabetical order
 
 <a id="journal"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Journal Publications</b></h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f publications_journal %}
+{% bibliography -f papers %}
 
 
 <a id="theses"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Theses</b></h3></a>
 <hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
 {% bibliography -f publications_theses %}
 
-
-<a id="miscellaneous"><h3 style="margin-top: 3rem; margin-bottom: 0.3rem;"><b>Miscellaneous</b></h3></a>
-<hr style="color: var(--global-text-color); height: 1px; margin-bottom: 2rem;">
-{% bibliography -f publications_miscellaneous %}
 
 </div>
 
