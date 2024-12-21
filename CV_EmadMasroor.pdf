@@ -1348,7 +1348,8 @@
       <br>
       <div class="social">
         <div class="contact-icons" style="font-size: 2.7em;">
-            &nbsp;  &nbsp;  &nbsp;  &nbsp;<a href="https://arxiv.org/a/Emadmasroor" title="arXiv"><i class="ai ai-arxiv-square"></i></a>
+          <a href="https://scholar.google.com/citations?user=taOOCB8AAAAJ&hl" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
+              &nbsp;  &nbsp;  &nbsp;  &nbsp;<a href="https://arxiv.org/a/Emadmasroor" title="arXiv"><i class="ai ai-arxiv-square"></i></a>
             
 
 
@@ -1380,7 +1381,7 @@
 
       <!--
       <i class="ai ai-google-scholar" style="font-size: 1.2em;"></i> &thinsp; 
-      <a href="https://scholar.google.com/citations?user=">Scholar</a> 
+      <a href="https://scholar.google.com/citations?user=taOOCB8AAAAJ&hl">Scholar</a> 
       <br>
       <i class="ai ai-researchgate" style="font-size: 1.2em;"></i> &thinsp;
       <a href="https://www.researchgate.net/profile//">ResearchGate</a>
