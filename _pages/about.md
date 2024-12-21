@@ -36,18 +36,8 @@ I received my PhD from the [Engineering Mechanics program](https://beam.vt.edu/g
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My research is at the interface of <b>Inverse Problems</b>, <b>Optimization</b>, <b>Statistics</b>, <b>PDEs</b> and <b>Variational Methods</b>. I am interested in applications to <b>Mathematical Imaging</b>, <b>Materials Science</b>, <b>Statistical Models for Sports</b> and <b>Machine Learning</b>
+My resaerch interests are in fluid mechanics; I study problems in classical vortex dynamics and its applications to biological locmotion, flow-induced vibrations, and energy harvesting.
 </div>
-
-<div markdown="1" style="margin-top: 1.2rem;">
-My contact information is **[here](https://www.silviofanzon.com/contact/)**. If you are interested in collaboration or supervision opportunities, please contact me at
-</div>
-
-<!--
-<div markdown="1" style="text-align: center; margin-top: 0.8rem;">
-**[S.Fanzon@hull.ac.uk](mailto: S.Fanzon@hull.ac.uk)**
-</div>
---!>
 
 <div markdown="1" style="margin-top: 1.2rem;">
 See my 'scientific family tree' [here](/genealogy), courtesy the [Math Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/){:target="\_blank"} at North Dakota State University.

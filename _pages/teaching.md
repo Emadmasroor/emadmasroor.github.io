@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: 
-years_instructor: [2023-24,2024-25]]
+years_instructor: [2023-24,2024-25]
 years_lecturer: [2024/25,2023/24,2022/23,2020/21,2019/20]
 years_tutor: [2017/18,2016/17,2015/16,2014/15,2012/13]
 nav: true
