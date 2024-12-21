@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.silviofanzon.com/sitemap.xml
+Sitemap: https://emadmasroor.github.io/sitemap.xml
