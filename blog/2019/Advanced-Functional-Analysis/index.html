@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!-- _layouts/distill.html --><html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Advanced Functional Analysis | Silvio Fanzon</title>
+    <meta name="author" content="Silvio  Fanzon">
+    <meta name="description" content="Webpage of the Course MAT.405UB WS 2019/20">
+    <meta name="keywords" content="Silvio Fanzon">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.silviofanzon.com/blog/2019/Advanced-Functional-Analysis/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+  </head>
+
+  <body>
+<d-front-matter>
+    <script async type="text/json">{
+      "title": "Advanced Functional Analysis",
+      "description": "Webpage of the Course MAT.405UB WS 2019/20",
+      "published": "September 22, 2019",
+      "authors": [
+        {
+          "author": "Silvio Fanzon",
+          "authorURL": "https://www.silviofanzon.com/",
+          "affiliations": [
+            {
+              "name": "University of Graz, Austria",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold" style="color: var(--global-navbar-text-color);">Silvio Fanzon</span></a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/news/">News</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/presentations/">Presentations</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">Teaching</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/supervision/">Supervision</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/Silvio_Fanzon_CV.pdf">CV</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/contact/">Contact</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="post distill">
+
+      <d-title>
+        <h1>Advanced Functional Analysis</h1>
+        <p>Webpage of the Course MAT.405UB WS 2019/20</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            <div><a href="#general-information">General Information</a></div>
+            <div><a href="#lectures-calendar">Lectures Calendar</a></div>
+            <div><a href="#topics">Topics</a></div>
+            <div><a href="#references">References</a></div>
+            <div><a href="#exercise-sheets">Exercise Sheets</a></div>
+            <div><a href="#final-exam">Final Exam</a></div>
+            <div><a href="#assessment">Assessment</a></div>
+            
+          </nav>
+        </d-contents>
+
+        <h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Practical Course of Advanced Functional Analysis <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/584594?$ctx=design=ca;lang=de&amp;$scrollTo=toc_overview&amp;ctx=design=ca;lang=en&amp;scrollTo=toc_overview" rel="external nofollow noopener" target="_blank">MAT.405UB</a> for the Master Degree in Mathematics at the University of Graz. This is the companion module to the theoretical course Advanced Functional Analysis <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/584593?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview" rel="external nofollow noopener" target="_blank">MAT.404UB</a>. Exercise sheets will be released every two weeks which will cover practicals aspect of the topics covered in MAT.404UB.</p>
+<ul>
+  <li>
+<strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li>
+<strong>Email</strong>: <a href="mailto:Silvio.Fanzon@uni-graz.at">Silvio.Fanzon@uni-graz.at</a>
+</li>
+  <li>
+<strong>Office</strong>: Room 501, Department of Mathematics &amp; Scientific Computing</li>
+</ul>
+
+<p>Please do not hesitate to email me with any questions you have regarding the module or the exercises.</p>
+
+<h2 id="lectures-calendar">Lectures Calendar</h2>
+
+<p>We have one lecture every two weeks. The lectures are two hours long, and are roughly every second Mondday from 10:00 to 12:00. In addition there will be a written exam at the end of the course. These are the dates:</p>
+<ul>
+  <li>
+<strong>Lecture 1</strong>: 14 October 2019</li>
+  <li>
+<strong>Lecture 2</strong>: 28 October 2019</li>
+  <li>
+<strong>Lecture 3</strong>: 11 November 2019</li>
+  <li>
+<strong>Lecture 4</strong>: 25 November 2019</li>
+  <li>
+<strong>Lecture 5</strong>: 9 December 2019</li>
+  <li>
+<strong>Lecture 6</strong>: 20 January 2020</li>
+  <li>
+<strong>Exam</strong>: 27 January 2020</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+<ul>
+  <li>
+<strong>Linear operators</strong>: compact operators, spectral theory, unbounded operators and their adjoints, spectral theorem for self adjoint operators.</li>
+  <li>
+<strong>Topology of vector spaces</strong>: locally convex spaces, weak topologies, compactness, reflexivity.</li>
+  <li>
+<strong>Function spaces</strong>: \(L^p\) spaces, distributions, Sobolev spaces and embedding theorems.</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+<strong>Functional Analysis</strong>: I will mainly follow Conway <d-cite key="conway"></d-cite>. Additional references will be taken from Rudin <d-cite key="rudin-functional"></d-cite> and Bressan <d-cite key="bressan"></d-cite>
+</li>
+  <li>
+<strong>Calculus in Normed Spaces</strong>: Mainly following Kesavan <d-cite key="kesavan"></d-cite>
+</li>
+  <li>
+<strong>\(L^p\) spaces</strong>: I will follow the construction of Rudin <d-cite key="rudin"></d-cite>
+</li>
+  <li>
+<strong>Sobolev spaces</strong>: The main references are Leoni <d-cite key="leoni"></d-cite> and Brezis <d-cite key="brezis"></d-cite>
+</li>
+  <li>
+<strong>Distributions</strong>: The excellent book by Mitrea <d-cite key="mitrea"></d-cite>
+</li>
+</ul>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<h2 id="exercise-sheets">Exercise Sheets</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Exercise Sheet</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>14 October</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_01.pdf">Sheet 1</a></td>
+      <td style="text-align: left">\(L^p\) spaces. Lax-Milgram</td>
+    </tr>
+    <tr>
+      <td>28 October</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_02.pdf">Sheet 2</a></td>
+      <td style="text-align: left">Convolutions. Mollifiers. Sobolev spaces</td>
+    </tr>
+    <tr>
+      <td>11 November</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_03.pdf">Sheet 3</a></td>
+      <td style="text-align: left">Sobolev spaces. Elliptic PDEs. Partitions of unity</td>
+    </tr>
+    <tr>
+      <td>25 November</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_04.pdf">Sheet 4</a></td>
+      <td style="text-align: left">Sobolev embeddings. TVS. Minkowski functionals</td>
+    </tr>
+    <tr>
+      <td>9 December</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_05.pdf">Sheet 5</a></td>
+      <td style="text-align: left">Locally convex spaces. Weak topologies</td>
+    </tr>
+    <tr>
+      <td>20 January</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_06.pdf">Sheet 6</a></td>
+      <td style="text-align: left">Distributions. Compact operators. Spectral theory</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="final-exam">Final Exam</h2>
+
+<p>The exam will contain 6 problems. You should choose 4 problems to solve, each graded from 0 to 25 points. You should state which problems you are going to solve. If more than 4 problems are solved, your final grade will be computed by summing the worst 4 scores. For grading, problems and sub-questions within the problems are considered independent. For example, if you only solve point (c) in Problem 1 and you have not solved (a) and (b), you will be awarded 5 points for Problem 1. The hints are there to help you, but of course you may solve the exercises in whichever way you prefer.
+You may use your solutions to the problems in the Exercise Course, as well as the notes from the course <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/584593?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview" rel="external nofollow noopener" target="_blank">MAT.404UB</a>. You will have 2 hours and 30 minutes to solve the exam.</p>
+
+<ul>
+  <li><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/Exam.pdf">Exam Paper</a></li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Two weeks before Lecure x I will upload an exercise sheet on this page. This has to be solved by the day Lecture x happens. You are required to upload your solutions in Moodle as a single pdf file (scans of handwritten solutions or latex) before Lecture x starts.</p>
+
+<ul>
+  <li>At the beginning of each class, a form will be handed out in which every student has to declare which problems they solved. Based on this, some students will be called at the blackboard to solve one of the exercises they declared. If the exercise is correctly solved, the student will get all the points corresponding to the declared exercises. The points awarded for each exercise will be specified in the exercise sheet.</li>
+  <li>If any of the students is not able to present at the blackboard (for a valid reason), I will manually correct one exercise chosen at random among the declared ones; if it is properly solved, the student will get all the points from the declared exercises.</li>
+  <li>If a student cannot come to the exercise lecture, I will correct some of the submitted exercises to grade him. Please, when doing so, write down in the submission box which exercises were solved.</li>
+  <li>If a student declares an exercise that was not solved, there will be 0 points for that exercise sheet.</li>
+</ul>
+
+<p>There will be an exam at the end of the semester. The final percentage will be the average between exam points and exercise points (in percentage), and it will be translated into a grade according to the table below. A pass will be granted for a grade of 4 or better.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Percentage</strong></th>
+      <th style="text-align: center">0-49%</th>
+      <th style="text-align: center">50-59%</th>
+      <th style="text-align: center">60-74%</th>
+      <th style="text-align: center">75-89%</th>
+      <th style="text-align: center">90-100%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Grade</strong></td>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Note</strong>: Every student needs to present at least 3 times during the semester.</p>
+
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+      <d-bibliography src="/assets/bibliography/teaching.bib"></d-bibliography>
+</div>
+
+    <!-- Footer -->
+<footer class="fixed-bottom text-center">
+    <div class="container mt-0" style="font-size: 0.82rem;">
+      © 2024 Silvio  Fanzon   
+        𐤟   <a href="https://www.silviofanzon.com/contact/">Contact</a>   𐤟  
+        Updated: 12/2024
+  </div>
+</footer>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BVV5S4PR5W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-BVV5S4PR5W');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  
+</body>
+</html>

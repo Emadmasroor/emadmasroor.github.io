@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<!-- _layouts/distill.html --><html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculus of Variations | Silvio Fanzon</title>
+    <meta name="author" content="Silvio  Fanzon">
+    <meta name="description" content="Webpage of the Course MAT.494UB SS 2020/21">
+    <meta name="keywords" content="Silvio Fanzon">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="/assets/img/favicon.png">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://www.silviofanzon.com/blog/2021/Calculus-of-Variations/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+  </head>
+
+  <body>
+<d-front-matter>
+    <script async type="text/json">{
+      "title": "Calculus of Variations",
+      "description": "Webpage of the Course MAT.494UB SS 2020/21",
+      "published": "February 1, 2021",
+      "authors": [
+        {
+          "author": "Silvio Fanzon",
+          "authorURL": "https://www.silviofanzon.com/",
+          "affiliations": [
+            {
+              "name": "University of Graz, Austria",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold" style="color: var(--global-navbar-text-color);">Silvio Fanzon</span></a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/news/">News</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/presentations/">Presentations</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">Teaching</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/supervision/">Supervision</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/Silvio_Fanzon_CV.pdf">CV</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/contact/">Contact</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="post distill">
+
+      <d-title>
+        <h1>Calculus of Variations</h1>
+        <p>Webpage of the Course MAT.494UB SS 2020/21</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            <div><a href="#general-information">General Information</a></div>
+            <div><a href="#lectures-calendar">Lectures Calendar</a></div>
+            <div><a href="#topics">Topics</a></div>
+            <div><a href="#references">References</a></div>
+            <div><a href="#assessment">Assessment</a></div>
+            <div><a href="#lecture-notes-and-videos">Lecture Notes and Videos</a></div>
+            <div><a href="#exercise-sheets">Exercise Sheets</a></div>
+            
+          </nav>
+        </d-contents>
+
+        <h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Course of Calculus of Variations <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/645502?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview&amp;ctx=design=ca;lang=en&amp;scrollTo=toc_overview" rel="external nofollow noopener" target="_blank">MAT.494UB</a> for the Master Degree in Mathematics at the University of Graz</p>
+
+<ul>
+  <li>
+<strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li>
+<strong>Email</strong>: <a href="mailto:Silvio.Fanzon@uni-graz.at">Silvio.Fanzon@uni-graz.at</a>
+</li>
+  <li>
+<strong>Office</strong>: Room 501, Department of Mathematics &amp; Scientific Computing</li>
+  <li>
+<strong>Office hours</strong>: Flexibly arranged online, due to COVID-19</li>
+</ul>
+
+<p>Please do not hesitate to email me with any questions you have regarding the module or the exercises. I will answer your questions at the beginning
+of each class, or schedule online office hours</p>
+
+<h2 id="lectures-calendar">Lectures Calendar</h2>
+
+<p>Lectures will be weekly and last approximately 90 minutes. There will be 15 classes in total, with dates</p>
+
+<ul>
+  <li>3, 10, 17, 24 March 2021</li>
+  <li>14, 21, 28 April 2021</li>
+  <li>5, 12, 19, 26 May 2021</li>
+  <li>2, 9, 16, 23 June 2021</li>
+</ul>
+
+<p>Lectures will be <strong>online</strong>, due to the current COVID-19 Orange Light at the University of Graz. Recordings will be available on this webpage as well as on the Moodle page of the course.
+Lecture notes and syllabus are released weekly on this page</p>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>
+    <p><strong>Essential Topics</strong>: Minimization of integral functionals for maps of one variable. First variation and indirect method. 
+Metric spaces. Gateaux and Frechet derivatives in normed spaces. Fundamental Lemma of 
+Calculus of Variations. Du Boys-Reymond Lemma. Euler-Lagrange equations for unconstrained problems. 
+Boundary conditions. Direct method and Hilbert spaces. Strong and weak convergence. Weak compactness 
+of unit ball. One dimensional Sobolev spaces. Direct method in Sobolev spaces and applications. Relaxation 
+in metric spaces. Convex envelopes. Gamma convergence with model applications.</p>
+  </li>
+  <li>
+    <p><strong>Optional Topics</strong>: calibrations, Weierstrass fields, functions of bounded variation in one variable, $\Gamma$-convergence</p>
+  </li>
+  <li>
+    <p><strong>Previous knowledge</strong>: Basic knowledge of real analysis, \(L^p\) spaces, general topology and functional analysis.</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+<strong>Calculus of Variations</strong>: I will follow <d-cite key="buttazzo"></d-cite>,  <d-cite key="dacorogna"></d-cite>, and the wonderful course by Gobbino <d-cite key="gobbino"></d-cite>
+</li>
+  <li>
+<strong>Practical Calculus of Variations</strong>: A good reference with lots of examples and guided exercises is Kielhoefer <d-cite key="kielhoefer"></d-cite>
+</li>
+  <li>
+<strong>Functional Analysis</strong>: All the topics discussed throughout the course can be found in <d-cite key="conway"></d-cite>
+</li>
+  <li>
+<strong>Calculus in Normed Spaces</strong>: Mainly following <d-cite key="kesavan"></d-cite>. I had to take a couple of lemmas from <d-cite key="cartan"></d-cite> (in French), but those are quite quick</li>
+  <li>
+<strong>Convex Analysis</strong>: I refer to <d-cite key="rockafellar"></d-cite> and <d-cite key="dacorogna-intro"></d-cite>
+</li>
+  <li>
+<strong>\(L^p\) spaces</strong>: I will follow the construction of <d-cite key="rudin"></d-cite>
+</li>
+  <li>
+<strong>Sobolev spaces</strong>: The main reference is <d-cite key="leoni"></d-cite>. I will also take something from <d-cite key="brezis"></d-cite>
+</li>
+  <li>
+<strong>\(\Gamma\)-convergence</strong>: The book by Braides <d-cite key="braides"></d-cite>
+</li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>There will be an <code class="language-plaintext highlighter-rouge">oral examination</code> of about 1 hour on the topics of the course. This will happen online, on a mutually agreed day in June or July.</p>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<h2 id="lecture-notes-and-videos">Lecture Notes and Videos</h2>
+
+<p>For a detailed account of the topics of each lesson, please refer to the syllabus</p>
+
+<ul>
+  <li>
+<strong>Syllabus</strong>: Download in <a href="/assets/pdf/teaching/2021-Calculus-of-Variations/syllabus.pdf">PDF</a>
+</li>
+</ul>
+
+<p>Lecture Notes and Video Recordings of lectures are available at the links below</p>
+
+<p>Youtube playlist with all the video recordings available <a href="https://www.youtube.com/playlist?list=PLsKUpYVBKUxrcOyI1VNHu1cXgiFvvlbor" rel="external nofollow noopener" target="_blank">here</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Lecture Notes</strong></th>
+      <th style="text-align: left"><strong>Video Recordings</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_01.pdf">Lesson 1</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/2dMU_fnmbg4" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/rjRNcZigdP0" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Introduction. Basic examples. Functional analysis revision</td>
+    </tr>
+    <tr>
+      <td>10 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_02.pdf">Lesson 2</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/HXN3PbE0kD4" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/1BHR3gfcPYI" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Functional Analysis Revision. Calculus in Normed Spaces</td>
+    </tr>
+    <tr>
+      <td>17 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_03.pdf">Lesson 3</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/P8G2VTzdWw4" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/zeAfi3VjCGo" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Calculus in Normed Spaces. Indirect Method</td>
+    </tr>
+    <tr>
+      <td>24 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_04.pdf">Lesson 4</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/eN3oi6vmaIg" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/KoT5sYjz0KE" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Fundamental Lemmas. Boundary conditions</td>
+    </tr>
+    <tr>
+      <td>14 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_05.pdf">Lesson 5</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/-rN5lVqSNSo" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/m-fkISH4TJc" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Euler-Lagrange Equation</td>
+    </tr>
+    <tr>
+      <td>Extra</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_05_revision.pdf">Revision</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/a9EB7gH__vI" rel="external nofollow noopener" target="_blank">Video overview</a></td>
+      <td style="text-align: left">Revision of \(L^p\) spaces</td>
+    </tr>
+    <tr>
+      <td>21 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_06.pdf">Lesson 6</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/T9TrFIYlIW8" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/pown6pf4nGY" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Sufficient Conditions: convexity, trivial lemma. Convolutions</td>
+    </tr>
+    <tr>
+      <td>28 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_07.pdf">Lesson 7</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/4weE16r31cc" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/rOpTF0zuFP4" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">FLCV and DBR Lemma. Sobolev spaces</td>
+    </tr>
+    <tr>
+      <td>5 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_08.pdf">Lesson 8</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/38JAAgRrfOQ" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/kssYL7cLQKU" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Sobolev Spaces: regularity and density results</td>
+    </tr>
+    <tr>
+      <td>12 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_09.pdf">Lesson 9</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/PmWYyxGachg" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/VyKQy9q_KyY" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Sobolev embedding. Ascoli-Arzelà Theorem</td>
+    </tr>
+    <tr>
+      <td>19 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_10.pdf">Lesson 10</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/U-SaPTtzPnM" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/VWHRA5LnXBk" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Higher order Sobolev Spaces. Traces. Euler-Lagrange Equation</td>
+    </tr>
+    <tr>
+      <td>26 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_11.pdf">Lesson 11</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/9CbugyVLTi4" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/_rpqnywxW_s" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Boundary conditions. Sufficient conditions. Direct Method</td>
+    </tr>
+    <tr>
+      <td>2 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_12.pdf">Lesson 12</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/5O1soP3zWoc" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/LR54HjmfQwU" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Direct method: example. General existence theorem</td>
+    </tr>
+    <tr>
+      <td>9 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_13.pdf">Lesson 13</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/GuR85sNuW80" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/9AL-_DxrDhE" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">LSC Envelope. Relaxation and its computation</td>
+    </tr>
+    <tr>
+      <td>16 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_14.pdf">Lesson 14</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/oDsr4BvuhZQ" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/gtMRTrvhs2c" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Relaxation of integral functionals. \(\Gamma\)-convergence</td>
+    </tr>
+    <tr>
+      <td>23 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_15.pdf">Lesson 15</a></td>
+      <td style="text-align: left">
+<a href="https://youtu.be/wCVbBohylis" rel="external nofollow noopener" target="_blank">Part 1</a>     <a href="https://youtu.be/E770pJDvd-E" rel="external nofollow noopener" target="_blank">Part 2</a>
+</td>
+      <td style="text-align: left">Examples of \(\Gamma\)-convergence. Homogenization problems</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="exercise-sheets">Exercise Sheets</h2>
+
+<p>This course has a companion practical course <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/645503?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview" rel="external nofollow noopener" target="_blank">MAT.495UB</a> taught by <a href="https://scholar.google.com/citations?user=F-FkuUcAAAAJ" rel="external nofollow noopener" target="_blank">Dr Cinzia Soresina</a>. The exercises assigned will complement the theory seen in the main course, and are released every two weeks. Although I have authored most of the exercises, these will <code class="language-plaintext highlighter-rouge">not be assessed</code> in my course. These are the <a href="/assets/pdf/teaching/2021-Calculus-of-Variations/instructions.pdf">instructions</a> by Dr Soresina.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Exercise Sheet</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_01.pdf">Sheet 1</a></td>
+      <td style="text-align: left">Metric spaces</td>
+    </tr>
+    <tr>
+      <td>26 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_02.pdf">Sheet 2</a></td>
+      <td style="text-align: left">Normed spaces. Compactness. Weak topologies</td>
+    </tr>
+    <tr>
+      <td>23 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_03.pdf">Sheet 3</a></td>
+      <td style="text-align: left">Frechet derivative. Gateaux derivative</td>
+    </tr>
+    <tr>
+      <td>7 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_04.pdf">Sheet 4</a></td>
+      <td style="text-align: left">Convolutions. Cut-off. Smooth approximations. Minimization</td>
+    </tr>
+    <tr>
+      <td>28 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_05.pdf">Sheet 5</a></td>
+      <td style="text-align: left">Sobolev spaces. Poincaré Inequality</td>
+    </tr>
+    <tr>
+      <td>11 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_06.pdf">Sheet 6</a></td>
+      <td style="text-align: left">Assumptions of Theorem 9.9. Brachistochrone</td>
+    </tr>
+    <tr>
+      <td>25 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_07.pdf">Sheet 7</a></td>
+      <td style="text-align: left">Relaxation. \(\Gamma\)-convergence</td>
+    </tr>
+  </tbody>
+</table>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+      <d-bibliography src="/assets/bibliography/teaching.bib"></d-bibliography>
+</div>
+
+    <!-- Footer -->
+<footer class="fixed-bottom text-center">
+    <div class="container mt-0" style="font-size: 0.82rem;">
+      © 2024 Silvio  Fanzon   
+        𐤟   <a href="https://www.silviofanzon.com/contact/">Contact</a>   𐤟  
+        Updated: 12/2024
+  </div>
+</footer>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BVV5S4PR5W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-BVV5S4PR5W');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  
+</body>
+</html>

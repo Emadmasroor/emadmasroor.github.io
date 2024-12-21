@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://www.silviofanzon.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.silviofanzon.com/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-12-21T01:48:13+00:00</updated><id>https://www.silviofanzon.com/feed.xml</id><title type="html">Silvio Fanzon</title><subtitle>Personal website of Silvio Fanzon
+</subtitle><entry><title type="html">Differential Geometry</title><link href="https://www.silviofanzon.com/blog/2024/Differential-Geometry/" rel="alternate" type="text/html" title="Differential Geometry" /><published>2024-09-15T00:00:00+00:00</published><updated>2024-09-15T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2024/Differential-Geometry</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2024/Differential-Geometry/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the module <strong>Differential Geometry 661955</strong> for the BSc in Mathematics at the University of Hull, academic year 2024/25. 
+In this module we  study curves, surfaces and general topology.</p>
+
+<ul>
+  <li><strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a></li>
+  <li><strong>Office</strong>: Room 104a, Larkin Building</li>
+  <li><strong>Office hours</strong>: Friday 11:00-12:00</li>
+  <li><strong>Canvas Page</strong>: Click <a href="https://canvas.hull.ac.uk/courses/73612/">here</a></li>
+</ul>
+
+<h2 id="questions">Questions</h2>
+
+<p>If you have any questions please feel free to either</p>
+
+<ul>
+  <li>Email me</li>
+  <li>Ask in class</li>
+  <li>Attend office hours</li>
+</ul>
+
+<h2 id="key-links">Key Links</h2>
+
+<p>All the module information will be posted on this page, as well as on <a href="https://canvas.hull.ac.uk/courses/73612/">Canvas</a>. The links to the reference material are:</p>
+
+<ul>
+  <li><strong><a href="https://www.silviofanzon.com/2024-Differential-Geometry-Notes/">Lecture Notes</a></strong></li>
+  <li><strong><a href="#lectures-diary">Lectures Diary</a></strong></li>
+  <li><strong><a href="#homework">Homework</a></strong></li>
+</ul>
+
+<h2 id="lectures">Lectures</h2>
+
+<p>Each week we have:</p>
+
+<ul>
+  <li>2 Lectures of 2h each</li>
+  <li>1 Tutorial of 1h</li>
+  <li>for a total of 5h of contact</li>
+</ul>
+
+<p>Times and venues are as follows:</p>
+
+<ul>
+  <li>
+    <p><strong>Lecture 1</strong>: Thursday 16:00-18:00 in Wilberforce Building - Lecture Room 5</p>
+  </li>
+  <li>
+    <p><strong>Lecture 2</strong>: Friday 16:00-18:00 in Wilberforce Building - Lecture Room 16</p>
+  </li>
+  <li>
+    <p><strong>Tutorial</strong>: Time and venues as follows</p>
+    <ul>
+      <li>Week 1: Friday 9:00-10:00 in Larkin Building - Seminar Room 121</li>
+      <li>Week 2: Friday 9:00-10:00 in Wilberforce Building - Lecture Room 22</li>
+      <li>Week 3: Thursday 15:00-16:00 in Wilberforce Building - Lecture Room 21</li>
+      <li>Week 4: Friday 09:00-10:00 in Wilberforce Building - Lecture Room 22</li>
+      <li>Week 5: Thursday 15:00-16:00 in Wilberforce Building - Lecture Room 21</li>
+      <li>Week 6-12: Friday 9:00-10:00 in Wilberforce Building - Lecture Room 22</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Please check on MyTimetable every week to see if there are any changes to the following session times and rooms.</p>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>This module will be assessed as follows:</p>
+
+<ul>
+  <li><strong>Final exam</strong>: 70% of final grade (date TBA in January 2025)</li>
+  <li><strong>Homework</strong>: 30% of final grade (details <a href="#homework">here</a>)</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>
+    <p><strong>Curves in 2D and 3D</strong>: regular curves, curvature, Frenet frame.</p>
+  </li>
+  <li>
+    <p><strong>Surfaces in 3D</strong>: regular surfaces, quadrics.</p>
+  </li>
+  <li>
+    <p><strong>First Fundamental Form</strong>: maps preserving lengths, angles and areas.</p>
+  </li>
+  <li>
+    <p><strong>Second Fundamental Form</strong>: Gaussian curvature, Gauss’s Theorem Egregium.</p>
+  </li>
+  <li>
+    <p><strong>Topology</strong>: General topology, metric spaces, compactness, connectedness.</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><strong>Lecture Notes</strong>: Available <strong><a href="https://www.silviofanzon.com/2024-Differential-Geometry-Notes/">here</a></strong></p>
+  </li>
+  <li>
+    <p><strong>Differential Geometry Book</strong>: Pressley <d-cite key="pressley"></d-cite>. This is available from the 
+<a href="https://hull.summon.serialssolutions.com/#!/search/document?ho=t&amp;include.ft.matches=f&amp;l=en-UK&amp;q=pressley%20differential&amp;id=FETCHMERGED-hull_catalog_b2542712x2">University Library</a></p>
+  </li>
+  <li>
+    <p><strong>Topology Book</strong>: Manetti <d-cite key="manetti"></d-cite>.</p>
+  </li>
+  <li>
+    <p><strong>Background</strong>: For analysis please refer to Zorich <d-cite key="zorich-1"></d-cite> and <d-cite key="zorich-2"></d-cite></p>
+  </li>
+</ul>
+
+<h2 id="lectures-diary">Lectures Diary</h2>
+
+<p>The module Lecture Notes are available <strong><a href="https://www.silviofanzon.com/2024-Differential-Geometry-Notes/">here</a></strong>. Topics covered in each lecture are as follows:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Class #</strong></th>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Time</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>26/09/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Canvas, Assessment etc. Level, parametrized, smooth curves. Tangent vector. Rectifiabile curves.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>27/09/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Formula: Length of smooth curves. Length of circle and portion of Helix.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>27/09/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Arc-Length. Scalar product. Geometric and algebraic definitions. Bilinearity, Symmetry, Differentiation of SP. Speed. Reparametrizations. Regular and singular points.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>03/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Regularity and unit-speed reparametrization. Arc-length as unit speed reparametrization. Closed curves. Existsence of period. Examples.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>04/10/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Curvature: motivation. Curvature for unit speed curves. Example: Circle. Curvature for regular curves. Hyperbolic functions. Example: curvature of Catenary.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>04/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Vector Product in $\mathbb{R}^3$: Algebraic definition and geometric properties. Formula: curvature of regular curves (no proof). Examples. Hints for Homework 1.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10/10/24</td>
+      <td style="text-align: left">15:00 - 16:00</td>
+      <td style="text-align: left">Notation: Arc-length reparametrization, curvature, catenary example. Example: Plane curves. Frenet-Frame. Frenet-Frame and reparametrizations. Helix example.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Torsion for unit speed curves. Torsion, general formula. Example of calculation of curvature and torsion. Exercises of Homework 1.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>11/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Example: Rotated circle. Summary: Calculations on curves. Frenet-Serret equations. FTSC (no proof). Torsion of planar curves.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>17/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Curves with Constant curvature and zero torsion. Proof: Curvature and Torsion Formulas. Proof of FTSC. Topology: Definition. Trivial, discrete, euclidean topologies.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>18/10/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Balls are open in $\mathbb{R}^n$. Closed sets. Topology through closed sets. Zariski topology. Comparing topologies. Cofinite topology.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>18/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Convergence. Metric spaces. Topology induced by the metric. Interior, closure, boundary in general topological spaces.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>24/10/24</td>
+      <td style="text-align: left">15:00 - 16:00</td>
+      <td style="text-align: left">Limit points are contained in the closure. The converse is false: co-countable topology example. Characterization of interior and closure in metric space. Density.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>24/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Hausdorff spaces. Metric spaces are Hausdorff. Metrizable spaces. Metrizable spaces are Hausdorff. Continuity. Example in $\mathbb{R}^m$. Exercises of Homework 2.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>25/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Continuity. Sequential continuity. Subspace topology. Topological basis. Topology induced by basis. Product topology. Connectedness. Examples.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>31/10/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Intervals. Intermediate value Theorem. Path-connectedness. Examples. Topologist Curve. Surfaces. Topology in $\mathbb{R}^n$. Smooth functions. Differential. Jacobian.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>01/11/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Diffeomorphism and local diffeomorphism. Inverse function Theorem. Examples. Surfaces: Definition. Examples of the plane.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>01/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Examples: Cylinder, Graphs. Double Cone is not a surface. Regular charts and regular surfaces. Examples: Plane, Cylinder, Graphs, Sphere. Spherical coordinates.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>07/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Example: non-regular surface. Reparametrizations. Transition maps. Functions between surfaces. Examples. Diffeomorphisms between surfaces. Tangent space.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>08/11/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Exercises of Homework 3.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>08/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Characterization and Equation Tangent Space. Examples. Unit normal. Orientability. Differential of smooth functions. Differential of smooth functions in coordinates.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>14/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Properties of differential. Examples. Examples of surfaces: Level, Ruled, Surfaces of Revolution. Mobius band is not orientable. First fundamental form (FFF).</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>15/11/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Class Cancelled.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>15/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Examples of FFF. Length of curves on surfaces. Local isometries. Local isometries preserve length of curves and FFF. Angles on surfaces. Angles between curves. Example.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>21/11/24</td>
+      <td style="text-align: left">15:00 - 16:00</td>
+      <td style="text-align: left">Conformal maps. Stereographic projection. Conformal parametrizations. Isothermal coordinates. World Maps: Mercator projection. Second Fundamental Form (SFF) of a chart.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>22/11/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Exam Revision. Questions 1 and 5 from 2022/23 Exam.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>22/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Gauss and Weingarten maps. SFF as a bilinear form on tangent space. Equivalence with SFF of a chart. Matrix of Weingarten map. Gaussian and mean curvatures. Examples.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>28/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Principal curvatures and vectors. Relationship with $G$ and $H$. Examples. Normal and Geodesic curvatures. Curves on the sphere.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>29/11/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Normal and geodesic curvatures for regular curves. Examples.</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>29/11/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Euler’s Theorem. Local Structure Theorem. Umbilical points. Christoffel symbols. Gauss and Codazzi-Mainardi eqns. Fundamental Thm Surfaces. Theorema Egregium. Examples.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>05/12/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Revision Guide: How to prepare for the Exam. Solution of Exam papers 2022/23 and 2023/24.</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>06/12/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Exercises of Homework 4.</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>06/12/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Exercises of Homework 5.</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>12/12/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>13/12/24</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>13/12/24</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="homework">Homework</h2>
+
+<p>There will be 5 Homework papers in total:</p>
+
+<ul>
+  <li>Each Homework paper is worth 100 points.</li>
+  <li>The final Homework grade will be computed by averaging the best 4.</li>
+</ul>
+
+<p>Each homework paper:</p>
+
+<ul>
+  <li>Will be made available on <strong><a href="https://canvas.hull.ac.uk/courses/73612">Canvas</a></strong> on Tuesday 14:00 two weeks before corresponding Due Date.</li>
+  <li>Must be submitted on <strong>Canvas by 14:00 on the Due Date</strong>.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Homework #</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>08/10/24</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">Curve length, regularity, reparametrization.</td>
+    </tr>
+    <tr>
+      <td>22/10/24</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Curvature, torsion, Frenet Frame.</td>
+    </tr>
+    <tr>
+      <td>05/11/24</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Frenet-Serret. Topological spaces: Convergence, Interior, Closure. Topology of Metric Spaces.</td>
+    </tr>
+    <tr>
+      <td>19/11/24</td>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Topological spaces. Density. Connectedness. Regular surfaces. Tangent space. First Fundamental Form.</td>
+    </tr>
+    <tr>
+      <td>03/12/24</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">First and Second Fundamental Forms. Gauss and Weingarten maps. Curvatures. Local shape.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Homework papers submitted <strong>outside of Canvas</strong> or <strong>more than 24 hours after the Due Date</strong> will <strong>NOT BE MARKED</strong></p>
+
+<p>Please submit <strong>PDFs only</strong>. Either:</p>
+
+<ul>
+  <li>Write on tablet and submit PDF Output</li>
+  <li>Write on paper and <strong>Scan in Black and White</strong> using a <strong>Scanner</strong> or <strong>Scanner App</strong> (Tiny Scanner, Scanner Pro, etc)</li>
+</ul>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the module 661955 T1 2024/25]]></summary></entry><entry><title type="html">Numbers, Sequences and Series</title><link href="https://www.silviofanzon.com/blog/2024/NSS/" rel="alternate" type="text/html" title="Numbers, Sequences and Series" /><published>2024-09-15T00:00:00+00:00</published><updated>2024-09-15T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2024/NSS</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2024/NSS/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the module <strong>Numbers, Sequences and Series 400297</strong> for the BSc in Mathematics at the University of Hull, academic year 2024/25.
+This is an introductory module in Mathematical Analysis. We will investigate the properties of real numbers and explore the concepts of limit and series.</p>
+
+<ul>
+  <li><strong>Module leader</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a></li>
+  <li><strong>Office</strong>: Room 104a, Larkin Building</li>
+  <li><strong>Office hours</strong>: Friday 11:00-12:00</li>
+  <li><strong>Canvas Page</strong>: Click <a href="https://canvas.hull.ac.uk/courses/73579">here</a></li>
+</ul>
+
+<h2 id="questions">Questions</h2>
+
+<p>If you have any questions please feel free to either</p>
+
+<ul>
+  <li>Email me</li>
+  <li>Ask in class</li>
+  <li>Attend office hours</li>
+</ul>
+
+<h2 id="key-links">Key Links</h2>
+
+<p>All the module information will be posted on this page, as well as on <strong><a href="https://canvas.hull.ac.uk/courses/73579">Canvas</a></strong>. The links to the reference material are:</p>
+
+<ul>
+  <li><strong><a href="https://www.silviofanzon.com/2024-NSS-Notes/">Lecture Notes</a></strong></li>
+  <li><strong><a href="#lectures-diary">Lectures Diary</a></strong></li>
+  <li><strong><a href="#tutorials">Tutorials</a></strong></li>
+  <li><strong><a href="#homework">Homework</a></strong></li>
+</ul>
+
+<h2 id="lectures">Lectures</h2>
+
+<p>Each week we have:</p>
+
+<ul>
+  <li>2 Lectures of 2h each</li>
+  <li>1 Tutorial of 1h</li>
+  <li>for a total of 5h of contact</li>
+</ul>
+
+<p>Times and venues are as follows:</p>
+
+<ul>
+  <li>
+    <p><strong>Lecture 1</strong>: Thursday 9:00-11:00 in Robert Blackburn Building - Lecture Theatre D</p>
+  </li>
+  <li><strong>Lecture 2</strong>: Thursday 12:00-14:00 with venues as follows
+    <ul>
+      <li>Week 1-4: Robert Blackburn Building - Lecture Theatre D</li>
+      <li>Week 5-12: Robert Blackburn Building - Lecture Theatre B</li>
+    </ul>
+  </li>
+  <li><strong>Tutorial</strong>: Friday 13:00-14:00 in Larkin Building - Lecture Theatre F</li>
+</ul>
+
+<p>Please check on MyTimetable every week to see if there are any changes to the following session times and rooms.</p>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>This module will be assessed as follows:</p>
+
+<ul>
+  <li><strong>Final exam</strong>: 80% of final grade (date TBA in January 2025)</li>
+  <li><strong>Homework</strong>: 20% of final grade (details <a href="#homework">here</a>)</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>
+    <p><strong>Numbers</strong>: Number sets, algebraic operations and fields. Axiomatic construction of the real numbers. Completeness of \(\mathbb{R}\). Countability of \(\mathbb{Q}\). Complex numbers: definition and main properties, complex plane, solving polynomial equations.</p>
+  </li>
+  <li>
+    <p><strong>Sequences</strong>: Definition of convergence. Algebra of limits. Limit tests. Complex sequences.</p>
+  </li>
+  <li>
+    <p><strong>Series</strong>: Known series. Convergence of series. Nonnegative series. Testing convergence of general series. Rearrangements.</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><strong>Lecture Notes</strong>: Available <strong><a href="https://www.silviofanzon.com/2024-NSS-Notes/">here</a></strong></p>
+  </li>
+  <li>
+    <p><strong>Main Book</strong>: Bartle and Sherbert <d-cite key="bartle"></d-cite>. This is available from the 
+<a href="https://hull.summon.serialssolutions.com/#!/search/document?ho=t&amp;include.ft.matches=f&amp;l=en-UK&amp;q=bartle%20Sherbert&amp;id=FETCHMERGED-hull_catalog_b230345432">University Library</a></p>
+  </li>
+  <li>
+    <p><strong>Other resources</strong>: Abbott <d-cite key="abbott"></d-cite> and Rudin <d-cite key="rudin_introduction"></d-cite></p>
+  </li>
+</ul>
+
+<h2 id="lectures-diary">Lectures Diary</h2>
+
+<p>The module Lecture Notes are available <strong><a href="https://www.silviofanzon.com/2024-NSS-Notes/">here</a></strong>. Topics covered in each lecture are as follows:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Class #</strong></th>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Time</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>26/09/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Canvas, Lecture Notes, Assessment etc. Introduction: Numbers $\mathbb{N}, \mathbb{Z}, \mathbb{Q}$ and $\mathbb{R}$. Proof: $\sqrt{2} \notin \mathbb{Q}$.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>26/09/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Preliminaries: Sets, Basic Logic, Operations on Sets, infinite unions and intersections. Examples. Exercises in Tutorial 1.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>27/09/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Finished exercises in Tutorial 1. Complement, Power set. Examples.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>03/10/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Product of sets. Binary relations. Equivalence, Partial Order, Total order relations. Intervals. Functions.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>03/10/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Exercises in Tutorial 2. Absolute value. Geometric meaning. Basic lemma on absolute value. Triangle inequality (with proof). Corollaries of Triangle inequality.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>04/10/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Proofs in Mathematics. Induction. Recurrence sequence. Examples. Hints for Homework 1.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>10/10/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Binary operations. Commutativity, associativity, neutral element, inverse. Fields. Examples. Ordered Fields. $\mathbb{Q}$ is ordered field.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>10/10/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Partition of a set, Cut of a set, Cut Property. Proof that $\mathbb{Q}$ does not have the Cut Property. Upper bound, bounded above, sup. Uniqueness of sup. Maximum.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>11/10/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Exercises in Tutorial 3. Correction of Homework 1.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>17/10/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Lower bound, inf, min. $\mathbb{Q}$ is not complete (partial proof). Axiom of Completeness. Definition of $\mathbb{R}$. Theorem: $\mathbb{R}$ exists unique (no proof).</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>17/10/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">$\mathbb{N}$ as inductive subset of $\mathbb{R}$. Properties. Principle of Induction. Exercises in Tutorial 4.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>18/10/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Definition of $\mathbb{Z}$, $\mathbb{Q}$ and properties. Archimedean property 1 (proof) and 2 (no proof). Nested Interval Property (proof). Counterexample with open intervals.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>24/10/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Examples: Calculation of sup and inf. Existence of $k$-th roots (no proof). $\mathbb{Q}$ and irrationals dense in $\mathbb{R}$. Injectivity, Surjectivity, Bijectivity.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>24/10/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Exercises in Tutorial 5. Correction of Homework 2. Cardinality. Subsets of countable sets. Examples. $\mathbb{N}$, $\mathbb{Z}$ are countable.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>25/10/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Countable unions. $\mathbb{Q}$ countable. $\mathbb{R}$ and Irrationals uncountable. Complex numbers: Addition, multiplication, Inverses. $\mathbb{C}$ is a field (not ordered).</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>31/10/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Complex conjugate. Cartesian representation. Modulus. Triangle inequality. Trigonometric and exponential forms.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>31/10/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Fundamental Theorem of algebra. Polynomial division algorithm and examples. Exercises in Tutorial 6.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>01/11/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Solving polynomial equations in $\mathbb{C}$: order 2, and higher order.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>07/11/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Roots of Unity. Roots in $\mathbb{C}$. Sequences: Definition and examples. Convergent sequences. Examples. Divergent sequences. Examples. Uniqueness of limit.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>07/11/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Homework 3 Correction. Bounded sequences. Convergent sequences are bounded. Converse is false: counterexample. Algebra of Limits Theorem. Examples.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>08/11/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Exercises in Tutorial 7.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>14/11/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Fractional powers. Limit of square root of sequence. Examples. Squeeze Theorem and examples. Geometric Sequence Test. Examples. Ratio Test. Examples.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>14/11/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Monotone sequences. Monotone Convergence Theorem. Euler’s Number. Special Limits. Exercises in Tutorial 8.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>15/11/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Sequences in $\mathbb{C}$. Boundedness. Algebra of Limits in $\mathbb{C}$. Examples. Convergence to zero. GST and Ratio Test in $\mathbb{C}$.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>21/11/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Convergence of Real and Imaginary part. Convergent Series. Necessary Condition. Telescopic series. Geometric series and examples. Algebra of Limits for series. Examples.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>21/11/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Correction of Homework 4. Exercises in Tutorial 9. Non-negative series: Harmonic series diverges and p-series with $p=2$ converges.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>22/11/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Cauchy Condensation Test, $p$-series, series involving logarithm. Comparison Test (CT). Examples.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>28/11/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Limit CT. Ratio Test. General series. Absolute Convergence Test. Ratio Test for general series. Complex exponential. Conditional convergence. Riemann rearrangement Theorem.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>28/11/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Dirichlet Test. Alternating Series Test. Abel Test. Examples. Exercises in Tutorial 10.</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>29/12/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Finished Exercises in Tutorial 10. Solution of Q1 in Exam paper 2019/2020.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>05/12/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Finished solving Exam paper 2019/20. Revision Guide: How to prepare for the Exam.</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>05/12/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Solution of Exam papers 2020/21, 2023/24.</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>06/12/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Correction of Homework 5. Exam Paper 2022/23.</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>12/12/24</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>12/12/24</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>13/12/24</td>
+      <td style="text-align: left">13:00 - 14:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<p>Each week we have 1h of Tutorial in which we will solve exercises on the topics listed below. You should attempt solving the exercises <strong>before</strong> the tutorial.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Tutorial #</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>26/09/24</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">Irrational numbers.</td>
+    </tr>
+    <tr>
+      <td>03/10/24</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Irrational numbers. Basic set theory.</td>
+    </tr>
+    <tr>
+      <td>10/10/24</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Equivalence relation. Absolute value. Triangle inequality. Induction.</td>
+    </tr>
+    <tr>
+      <td>17/10/24</td>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Induction. Operations. Fields.</td>
+    </tr>
+    <tr>
+      <td>24/10/24</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">Sup and inf. Inductive sets.</td>
+    </tr>
+    <tr>
+      <td>31/10/24</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">Injectivity and surjectivity. Cardinality. Complex numbers.</td>
+    </tr>
+    <tr>
+      <td>07/11/24</td>
+      <td style="text-align: left">7</td>
+      <td style="text-align: left">Equations in $\mathbb{C}$. Convergent sequences. Divergent sequences.</td>
+    </tr>
+    <tr>
+      <td>14/11/24</td>
+      <td style="text-align: left">8</td>
+      <td style="text-align: left">Algebra of Limits. Limit Theorems.</td>
+    </tr>
+    <tr>
+      <td>21/11/24</td>
+      <td style="text-align: left">9</td>
+      <td style="text-align: left">Complex sequences. Geometric Series. Cauchy Condensation Test.</td>
+    </tr>
+    <tr>
+      <td>28/12/24</td>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">Comparison, Limit Comparison, Ratio Tests. Absolute and conditional convergence.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="homework">Homework</h2>
+
+<p>There will be 5 Homework papers in total:</p>
+
+<ul>
+  <li>Each Homework paper is worth 100 points.</li>
+  <li>The final Homework grade will be computed by averaging the best 4.</li>
+</ul>
+
+<p>Each homework paper:</p>
+
+<ul>
+  <li>Will be made available on <strong><a href="https://canvas.hull.ac.uk/courses/73579">Canvas</a></strong> on Tuesday 14:00 two weeks before corresponding Due Date.</li>
+  <li>Must be submitted on <strong>Canvas by 14:00 on the Due Date</strong>.</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Homework #</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>08/10/24</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">Irrational numbers. Basic set theory.</td>
+    </tr>
+    <tr>
+      <td>22/10/24</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Order relation, Induction, Proofs.</td>
+    </tr>
+    <tr>
+      <td>05/11/24</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Fields, Supremum and infimum.</td>
+    </tr>
+    <tr>
+      <td>19/11/24</td>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Complex Numbers, Convergent sequences.</td>
+    </tr>
+    <tr>
+      <td>03/12/24</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">Convergence/Divergence of sequences and series.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Homework papers submitted <strong>outside of Canvas</strong> or <strong>more than 24 hours after the Due Date</strong> will <strong>NOT BE MARKED</strong></p>
+
+<p>Please submit <strong>PDFs only</strong>. Either:</p>
+
+<ul>
+  <li>Write on tablet and submit PDF Output</li>
+  <li>Write on paper and <strong>Scan in Black and White</strong> using a <strong>Scanner</strong> or <strong>Scanner App</strong> (Tiny Scanner, Scanner Pro, etc)</li>
+</ul>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the module 400297 T1 2024/25]]></summary></entry><entry><title type="html">Statistical Models</title><link href="https://www.silviofanzon.com/blog/2024/Statistical-Models/" rel="alternate" type="text/html" title="Statistical Models" /><published>2024-01-04T00:00:00+00:00</published><updated>2024-01-04T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2024/Statistical-Models</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2024/Statistical-Models/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Course <strong>Statistical Models 551305</strong> for the BSc in Mathematics at the University of Hull, academic year 2023/24. 
+This module focusses on both the technical and practical aspects of a range of linear statistical models. We will investigate how and why these models work, what the assumptions 
+behind them are, and how to interpret the results. We will also implement such models using the programming language R.</p>
+
+<ul>
+  <li><strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a></li>
+  <li><strong>Office</strong>: Room 104a, Larkin Building</li>
+  <li><strong>Office hours</strong>: Wednesday 12:00-13:00</li>
+  <li><strong>Canvas Page</strong>: Click <a href="https://canvas.hull.ac.uk/courses/70065">here</a></li>
+</ul>
+
+<h2 id="questions">Questions</h2>
+
+<p>If you have any questions please feel free to <code class="language-plaintext highlighter-rouge">email me</code>. We will address Homework and Coursework in class. In addition, please do not hesitate to attend <code class="language-plaintext highlighter-rouge">office hours</code>.</p>
+
+<h2 id="key-links">Key Links</h2>
+
+<p>All the course information will be posted on this page, as well as on <a href="https://canvas.hull.ac.uk/courses/70065">Canvas</a>. The links to the reference material are:</p>
+
+<ul>
+  <li><strong><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/">Slides</a></strong></li>
+  <li><strong><a href="#lectures-diary">Lectures Diary</a></strong></li>
+  <li><strong><a href="#homework">Homework</a></strong></li>
+</ul>
+
+<h2 id="lectures-calendar">Lectures Calendar</h2>
+
+<p>We have two <code class="language-plaintext highlighter-rouge">Lectures</code> and one <code class="language-plaintext highlighter-rouge">Tutorial</code> per week:</p>
+
+<ul>
+  <li><strong>Lecture 1</strong>: Wednesday 10:00-12:00 in Wilberforce Building - Lecture Room 22</li>
+  <li><strong>Lecture 2</strong>: Thursday 15:00-17:00 in Wilberforce Building - Lecture Room 10</li>
+  <li><strong>Tutorial</strong>: Thursday 11:00-12:00 in Wilberforce Building - Lecture Room 7</li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>This course will be assessed as follows:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Type of Assessment</strong></th>
+      <th><strong>Percentage of final grade</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Coursework Portfolio</td>
+      <td>70%</td>
+    </tr>
+    <tr>
+      <td>Homework</td>
+      <td>30%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Rules for Coursework</strong>:</p>
+
+<ul>
+  <li>
+    <p>Coursework available on Canvas from Week 3</p>
+  </li>
+  <li>
+    <p>We will discuss coursework exercises in class</p>
+  </li>
+  <li>
+    <p>Coursework must be submitted on <strong><a href="https://canvas.hull.ac.uk/courses/70065">Canvas</a></strong> by <strong>14:00 on Thursday 2nd May 2024</strong></p>
+  </li>
+</ul>
+
+<p><strong>Rules for Homework</strong>:</p>
+
+<ul>
+  <li>
+    <p>There will be 10 Homework papers, posted weekly on <strong><a href="https://canvas.hull.ac.uk/courses/70065">Canvas</a></strong></p>
+  </li>
+  <li>
+    <p>Each Homework paper is worth 14 points</p>
+  </li>
+  <li>Final Homework grade computation:
+    <ul>
+      <li>Sum the top 7 scores (max score 98 points)</li>
+      <li>Bonus 2 points will be added to the final score</li>
+    </ul>
+  </li>
+  <li>Homework papers must be submitted on <strong><a href="https://canvas.hull.ac.uk/courses/70065">Canvas</a></strong> by <strong>14:00 on Mondays</strong>. Due dates are listed <strong><a href="#homework">below</a></strong></li>
+</ul>
+
+<p><strong>How to submit assignments</strong>:</p>
+
+<ul>
+  <li>
+    <p>Submit <strong>PDFs only</strong> on <strong><a href="https://canvas.hull.ac.uk/courses/70065">Canvas</a></strong></p>
+  </li>
+  <li>
+    <p>You have two options:</p>
+    <ul>
+      <li>Write on tablet and submit PDF Output</li>
+      <li>Write on paper and <strong>Scan in Black and White</strong> using a <strong>Scanner</strong> or <strong>Scanner App</strong> (Tiny Scanner, Scanner Pro, …)</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Important</strong>: I will not mark</p>
+
+<ul>
+  <li>Assignments submitted <strong>outside of Canvas</strong></li>
+  <li>Assignments submitted <strong>After the Deadline</strong></li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>Linear regression models with one or more explanatory variables</li>
+  <li>Least squares estimation of model coefficients and their properties</li>
+  <li>Checking the regression modelling assumptions</li>
+  <li>Analysis of variance (ANOVA)</li>
+  <li>Analysis of real-world datasets</li>
+  <li>Statistical software for testing, prediction and visualisation of data</li>
+</ul>
+
+<h2 id="lectures-diary">Lectures Diary</h2>
+
+<p>There are <strong>11 lectures</strong> in this module. Links to the slides and lecture titles are below</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Week of</strong></th>
+      <th style="text-align: left"><strong>Slides</strong></th>
+      <th style="text-align: left"><strong>Title</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>29 Jan</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_1.html#/title-slide">Lecture 1</a></td>
+      <td style="text-align: left">An introduction to Statistics</td>
+    </tr>
+    <tr>
+      <td>5 Feb</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_2.html#/title-slide">Lecture 2</a></td>
+      <td style="text-align: left">Multivariate distributions</td>
+    </tr>
+    <tr>
+      <td>12 Feb</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_3.html#/title-slide">Lecture 3</a></td>
+      <td style="text-align: left">Random samples</td>
+    </tr>
+    <tr>
+      <td>19 Feb</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_4.html#/title-slide">Lecture 4</a></td>
+      <td style="text-align: left">Hypothesis tests in R – Part 1</td>
+    </tr>
+    <tr>
+      <td>26 Feb</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_5.html#/title-slide">Lecture 5</a></td>
+      <td style="text-align: left">Hypothesis tests in R – Part 2</td>
+    </tr>
+    <tr>
+      <td>4 Mar</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_6.html#/title-slide">Lecture 6</a></td>
+      <td style="text-align: left">Two-sample hypothesis tests</td>
+    </tr>
+    <tr>
+      <td>11 Mar</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_7.html#/title-slide">Lecture 7</a></td>
+      <td style="text-align: left">The chi-squared test</td>
+    </tr>
+    <tr>
+      <td>18 Mar</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_8.html#/title-slide">Lecture 8</a></td>
+      <td style="text-align: left">The maths of regression</td>
+    </tr>
+    <tr>
+      <td>8 Apr</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_9.html#/title-slide">Lecture 9</a></td>
+      <td style="text-align: left">General linear regression</td>
+    </tr>
+    <tr>
+      <td>15 Apr</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_10.html#/title-slide">Lecture 10</a></td>
+      <td style="text-align: left">Practical regression</td>
+    </tr>
+    <tr>
+      <td>22 Apr</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_11.html#/title-slide">Lecture 11</a></td>
+      <td style="text-align: left">Violation of regression assumptions and ANOVA</td>
+    </tr>
+    <tr>
+      <td>29 Apr</td>
+      <td style="text-align: left">Revision Week</td>
+      <td style="text-align: left">Coursework submission deadline</td>
+    </tr>
+    <tr>
+      <td>Extra</td>
+      <td style="text-align: left"><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/slides/lecture_12.html#/title-slide">Appendix</a></td>
+      <td style="text-align: left">More on R</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="statistical-tables">Statistical tables</h2>
+
+<ul>
+  <li>Available <a href="/assets/pdf/teaching/2024-Statistical-Models/Statistics_Tables.pdf">here</a></li>
+</ul>
+
+<h2 id="r-codes">R codes</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Lecture</strong></th>
+      <th style="text-align: left"><strong>Material</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Lecture 4</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/one_sample_t_test.R">One-Sample t-test</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Lecture 5</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/variance_ratio_test.R">Variance ratio test</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Lecture 6</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/two_sample_t_test.R">Two-Sample t-test</a> | <a href="/assets/pdf/teaching/2024-Statistical-Models/F_test.R">F-test</a>  <br />   <a href="/assets/pdf/teaching/2024-Statistical-Models/F_test_first_principles.R">F-test First Principles</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Lecture 7</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/good_fit.R">Goodness-of-fit</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/good_fit_first_principles.R">Goodness-of-fit First Principles</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/monte_carlo_pi.R">Monte Carlo pi</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/monte_carlo_p_value.R">Monte Carlo p-value</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/good_fit_contingency.R">Goodness-of-fit Contingency</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/independence_test.R">Independence Test</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Lecture 8</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/least_squares_1.R">Least-squares Solution 1</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/least_squares_2.R">Least-squares Solution 2</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Lecture 9</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/multiple_regression.R">Multiple regression</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/R2_multiple_regression.R">R2 multiple regression</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Lecture 10</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/simple_regression.R">Simple regression</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/longley_regression.R">Longley regression</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/longley_selection.R">Longley selection</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/galileo.R">Galileo</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/divorces.R">Divorces</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Lecture 11</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/residual_graphs.R">Residual graphs</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/autocorrelation_graph_tests.R">Autocorrelation graphic tests</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/multicollinearity.R">Multicollinearity</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/longley_stepwise.R">Stepwise Regression: Longley</a> <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/divorces_stepwise.R">Stepwise Regression: Divorces</a>  <br /> <a href="/assets/pdf/teaching/2024-Statistical-Models/anova.R">Anova models</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Appendix</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2024-Statistical-Models/2008_crisis_code.R">2008 Crisis</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="datasets">Datasets</h2>
+
+<ul>
+  <li><a href="/assets/pdf/teaching/2024-Statistical-Models/stock_gold.txt">Stock-Gold prices</a></li>
+  <li><a href="/assets/pdf/teaching/2024-Statistical-Models/longley.txt">Longley</a></li>
+  <li><a href="/assets/pdf/teaching/2024-Statistical-Models/fridge_sales.txt">Fridge Sales</a></li>
+  <li><a href="/assets/pdf/teaching/2024-Statistical-Models/2008_crisis.txt">2008 Crisis</a></li>
+  <li><a href="/assets/pdf/teaching/2024-Statistical-Models/family_guy.txt">Family Guy</a></li>
+</ul>
+
+<h2 id="homework">Homework</h2>
+
+<p>Homework papers must be submitted on <strong><a href="https://canvas.hull.ac.uk/courses/70065">Canvas</a> by 14:00 on Mondays</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Homework #</strong></th>
+      <th style="text-align: left"><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td style="text-align: left">5 Feb</td>
+      <td style="text-align: left">Moment generating function. Poisson distribution.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td style="text-align: left">12 Feb</td>
+      <td style="text-align: left">Poisson models for soccer</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td style="text-align: left">19 Feb</td>
+      <td style="text-align: left">Computing the pdf of Student’s t distribution</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td style="text-align: left">26 Feb</td>
+      <td style="text-align: left">t-test in R and by hand</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td style="text-align: left">4 Mar</td>
+      <td style="text-align: left">Cancelled. Replaced by Homework 8 now worth 28 points</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td style="text-align: left">11 Mar</td>
+      <td style="text-align: left">Chi-squared distribution and variance ratio test</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td style="text-align: left">18 Mar</td>
+      <td style="text-align: left">Properties of chi-squared and F-distribution</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td style="text-align: left">8 Apr</td>
+      <td style="text-align: left">Homework 8 is worth 28 points. Two-sample t-test and F-test. Chi-squared tests</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td style="text-align: left">15 Apr</td>
+      <td style="text-align: left">Simple and general linear regression</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td style="text-align: left">22 Apr</td>
+      <td style="text-align: left">t-test and F-test for regression</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><strong>Slides</strong>: Available <strong><a href="https://www.silviofanzon.com/2024-Statistical-Models-Slides/">here</a></strong></p>
+  </li>
+  <li>
+    <p><strong>Main References</strong>: The slides are self-contained and based on the books</p>
+
+    <ul>
+      <li>Bingham and Fry <d-cite key="bingham-fry"></d-cite></li>
+      <li>Fry and Burke <d-cite key="fry-burke"></d-cite></li>
+    </ul>
+  </li>
+</ul>
+
+<p><a href="https://link.springer.com/book/10.1007/978-1-84882-969-5"><img align="top" src="/assets/pdf/teaching/2024-Statistical-Models/bingham_fry.png" alt="drawing" width="48%" /></a>
+<a href="https://www.mheducation.co.uk/quantitative-methods-in-finance-using-r-9780335251261-emea-group"><img align="top" src="/assets/pdf/teaching/2024-Statistical-Models/fry_burke.png" alt="drawing" width="49%" /></a></p>
+
+<ul>
+  <li>
+    <p><strong>Secondary References</strong>: In addition we recommend the following</p>
+
+    <ul>
+      <li><strong>Probability &amp; Statistics Manual</strong>: Casella and Berger <d-cite key="casella-berger"></d-cite></li>
+      <li><strong>Easier Probability &amp; Statistics Manual</strong>: DeGroot and Schervish <d-cite key="degroot"></d-cite></li>
+      <li><strong>Concise Statistics with R</strong>: Dalgaard <d-cite key="dalgaard"></d-cite></li>
+      <li><strong>Comprehensive R manual</strong>: Davies <d-cite key="davies"></d-cite></li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the Course 551305 T2 2023/24]]></summary></entry><entry><title type="html">Numbers, Sequences and Series</title><link href="https://www.silviofanzon.com/blog/2023/NSS/" rel="alternate" type="text/html" title="Numbers, Sequences and Series" /><published>2023-06-02T00:00:00+00:00</published><updated>2023-06-02T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2023/NSS</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2023/NSS/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Course of <strong>Numbers, Sequences and Series 400297</strong> for the BSc in Mathematics at the University of Hull, academic year 2023/24.
+This is an introductory course of Mathematical Analysis. We will investigate the properties of real numbers and explore the concept of limit.</p>
+
+<ul>
+  <li><strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a></li>
+  <li><strong>Office</strong>: Room 104a, Larkin Building</li>
+  <li><strong>Office hours</strong>: Friday 13:00-14:00</li>
+  <li><strong>Canvas Page</strong>: Click <a href="https://canvas.hull.ac.uk/courses/67551">here</a></li>
+</ul>
+
+<h2 id="questions">Questions</h2>
+
+<p>If you have any questions please feel free to <code class="language-plaintext highlighter-rouge">email me</code>. We will use the <code class="language-plaintext highlighter-rouge">Tutorials</code> to address homework and exam preparation. In addition, please do not hesitate to attend <code class="language-plaintext highlighter-rouge">office hours</code>.</p>
+
+<h2 id="key-links">Key Links</h2>
+
+<p>All the course information will be posted on this page, as well as on <strong><a href="https://canvas.hull.ac.uk/courses/67551">Canvas</a></strong>. The links to the reference material are:</p>
+
+<ul>
+  <li><strong><a href="https://www.silviofanzon.com/2023-NSS-Notes/">Lecture Notes</a></strong></li>
+  <li><strong><a href="#lectures-diary">Lectures Diary</a></strong></li>
+  <li><strong><a href="#tutorials">Tutorials</a></strong></li>
+  <li><strong><a href="#homework">Homework</a></strong></li>
+</ul>
+
+<h2 id="lectures">Lectures</h2>
+
+<p>We have two <code class="language-plaintext highlighter-rouge">Lectures</code> and one <code class="language-plaintext highlighter-rouge">Tutorial</code> per week. The lectures are 2 hours long, and the tutorial is 1 hour long.</p>
+
+<p><strong>Lecture 1</strong>: Thursdays 9:00-11:00 with venues as follows</p>
+<ul>
+  <li>Week 1: Robert Blackburn Building - Lecture Theatre B</li>
+  <li>Week 2: Larkin Building - Lecture Theatre E</li>
+  <li>Week 3-5: Robert Blackburn Building - Lecture Theatre B</li>
+  <li>Week 6: Robert Blackburn Building - Lecture Theatre C</li>
+  <li>Week 7-8: Robert Blackburn Building - Lecture Theatre B</li>
+  <li>Week 9: Larkin Building - Lecture Theatre A</li>
+  <li>Week 10-12: Robert Blackburn Building - Lecture Theatre B</li>
+</ul>
+
+<p><strong>Lecture 2</strong>: Thursdays 16:00-18:00 in Wilberforce Building - Lecture Theatre 12</p>
+
+<p><strong>Tutorial</strong>: Fridays 9:00-10:00 in Brynmor Jones Library - Teaching Room 1</p>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>This course will be assessed as follows:</p>
+
+<ul>
+  <li><strong>Final exam</strong>: 80% of final grade</li>
+  <li><strong>Homework</strong>: 20% of final grade. There will be 5 Homework papers in total. You must submit 4 out of 5 Homework papers</li>
+</ul>
+
+<p>Each Homework paper is worth 100 points. The final Homework grade will be computed averaging the best 4.</p>
+
+<p>Homework papers will be posted on <strong><a href="https://canvas.hull.ac.uk/courses/67551">Canvas</a></strong>.</p>
+
+<p>Homework papers must be submitted on <strong>Canvas by 14:00 on the Due Date</strong>. The due dates are:</p>
+
+<ul>
+  <li><strong>Homework 1</strong>: 11th of October</li>
+  <li><strong>Homework 2</strong>: 25th of October</li>
+  <li><strong>Homework 3</strong>: 8th of November</li>
+  <li><strong>Homework 4</strong>: 22nd of November</li>
+  <li><strong>Homework 5</strong>: 13th of December</li>
+</ul>
+
+<p>Homework papers submitted <strong>outside of Canvas</strong> or <strong>after the deadline</strong> will <strong>NOT BE MARKED</strong></p>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>
+    <p><strong>Numbers</strong>: Number sets, algebraic operations and fields. Axiomatic construction of the real numbers. Completeness of \(\mathbb{R}\). Countability of \(\mathbb{Q}\). Complex numbers: definition and main properties, complex plane, solving polynomial equations.</p>
+  </li>
+  <li>
+    <p><strong>Sequences</strong>: Definition of convergence. Algebra of limits. Limit tests. Complex sequences.</p>
+  </li>
+  <li>
+    <p><strong>Series</strong>: Known series. Convergence of series. Nonnegative series. Testing convergence of general series. Rearrangements.</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><strong>Lecture Notes</strong>: Available <strong><a href="https://www.silviofanzon.com/2023-NSS-Notes/">here</a></strong></p>
+  </li>
+  <li>
+    <p><strong>Main Book</strong>: Bartle and Sherbert <d-cite key="bartle"></d-cite>. This is available from the 
+<a href="https://hull.summon.serialssolutions.com/#!/search/document?ho=t&amp;include.ft.matches=f&amp;l=en-UK&amp;q=bartle%20Sherbert&amp;id=FETCHMERGED-hull_catalog_b230345432">University Library</a></p>
+  </li>
+  <li>
+    <p><strong>Other resources</strong>: Abbott <d-cite key="abbott"></d-cite> and Rudin <d-cite key="rudin_introduction"></d-cite></p>
+  </li>
+</ul>
+
+<h2 id="lectures-diary">Lectures Diary</h2>
+
+<p>The course Lecture Notes are available <strong><a href="https://www.silviofanzon.com/2023-NSS-Notes/">here</a></strong>. Each week we have 2 Lectures of 2h each and 1 Tutorial of 1h, for a total of 5h of contact.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Lesson</strong></th>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Time</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>28/09/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Intro: Canvas page, Lecture Notes, Assignments, Assessment. What is $\mathbb{R}$? Numbers $\mathbb{N}, \mathbb{Z}, \mathbb{Q}$. Proof that $\sqrt{2} \notin \mathbb{Q}$.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>28/09/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Preliminaries Sets, Basic Logic, Operations on Sets, Binary relations, Equivalence relation with examples.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>29/09/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Partial Order relation. Total order. Intervals. Functions.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>05/10/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Absolute value. Geometric meaning. Basic lemma on absolute value. Triangle inequality with proof. Proofs in Mathematics. Example of proof involving $\varepsilon$.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>05/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Induction. Recurrence sequence. Correction of exercises in Tutorial 1.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>06/10/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Binary operations. Fields. Field with $2$ elements. Uniqueness of neutral element and inverse. $\mathbb{N}$ and $\mathbb{Z}$ are not fields. $\mathbb{Q}$ is a field.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>12/10/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Ordered Fields. $\mathbb{Q}$ is ordered field. Partition of a set, Cut of a set, Cut Property. Proof that $\mathbb{Q}$ does not have the Cut Property.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>12/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Upper bound, bounded above, sup. Uniqueness of sup. Max. Lower bound, inf, min. Relation between inf and sup. Proof that $\mathbb{Q}$ is not complete. Axiom of Completeness.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>13/10/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of exercises in Tutorial 2.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>19/10/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Cut property is equivalent to Completeness. $\mathbb{R}$ as ordered complete field. Archimedean property: 2 Versions. Nested Interval Property.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>19/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Equivalent formulation of sup and inf. Sup, inf, max, min of interval $(a,b)$. Correction of Homework 1.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>20/10/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of exercises in Tutorial 3.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>26/10/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Examples of calculation of sup and inf. $\mathbb{N}$ as inductive subset of $\mathbb{R}$. Properties. Induction. Definition of $\mathbb{Z}$, $\mathbb{Q}$ and properties.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>26/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Density of $\mathbb{Q}$ and irrationals in $\mathbb{R}$. Existence of $k$-th roots. Bijective functions. Examples. Cardinality. Subsets of countable sets.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>27/10/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of Tutorial 4.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>02/11/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Correction of Homework 2. Countable union of countable sets. $\mathbb{Q}$ is countable. $\mathbb{R}$ and irrationals are uncountable. Complex numbers: Addition, multiplication.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>02/11/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Inverses. $\mathbb{C}$ is a field. $\mathbb{C}$ not ordered. Complex conjugate. Cartesian representation. Modulus. Triangle inequality. Trigonometric and exponential forms.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>03/11/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of Tutorial 5.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>09/11/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Homework 2: went over most common mistakes. Canvas Announcements. Revision of Complex Numbers. Fundamental Theorem of algebra. Solving polynomial equations.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>09/11/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Polynomial division algorithm and examples. Roots of Unity. Roots in $\mathbb{C}$.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>10/11/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of Tutorial 6.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>16/11/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Sequences: Definition and examples. Convergent sequences. Examples. Divergent sequences. Examples. Uniqueness of limit.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>16/11/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Bounded sequences. Convergent sequences are bounded. Converse is false: counterexample. Homework 3 Correction.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>17/11/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of Tutorial 7.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>23/11/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Algebra of Limits Theorem. Examples. Fractional powers. Limit of square root of sequence. Examples. Squeeze Theorem and examples.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>23/11/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Correction of Homework 4. Geometric Sequence Test with proof. Examples. Ratio Test with proof. Examples. Examples in which Ratio test is inconclusive.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>24/11/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of Tutorial 8.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>30/11/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Monotone sequences. Monotone Convergence Theorem. Euler’s Number. Sequences in $\mathbb{C}$. Boundedness. Algebra of Limits in $\mathbb{C}$. Examples.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>30/11/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Convergence to zero. GST and Ratio Test in $\mathbb{C}$. Convergence of Real and Imaginary parts. Series. Convergent Series. Necessary Condition. Telescopic series.</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>01/12/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Examples. Geometric series and examples.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>07/12/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Algebra of Limits for series. Non-negative series: Cauchy Condensation Test, $p$-series, Comparison Test (CT), Limit CT, Ratio Test. General series. Absolute Convergence Test.</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>07/12/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Ratio Test for general series. Exponential function and Euler’s Number. Conditional convergence. Riemann rearrangement Theorem. Dirichlet Test. Alternating Series Test.</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>08/12/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Correction of Tutorial 9.</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>14/12/23</td>
+      <td style="text-align: left">09:00 - 11:00</td>
+      <td style="text-align: left">Correction of Tutorial 10. Solution of past Written Exams.</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>14/12/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>15/12/23</td>
+      <td style="text-align: left">09:00 - 10:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tutorials">Tutorials</h2>
+
+<p>Each week we have 1h of Tutorial in which I will solve exercises on the topics listed below. You should attempt solving the exercises <strong>before</strong> the tutorial.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Tutorial Number</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>06/10/23</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">Irrational numbers.</td>
+    </tr>
+    <tr>
+      <td>13/10/23</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Basic set theory. Equivalence relation.</td>
+    </tr>
+    <tr>
+      <td>20/10/23</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Absolute value. Triangle inequality. Induction.</td>
+    </tr>
+    <tr>
+      <td>27/10/23</td>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Induction. Operations. Fields.</td>
+    </tr>
+    <tr>
+      <td>03/11/23</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">Fields. Sup and Inf.</td>
+    </tr>
+    <tr>
+      <td>10/11/23</td>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">Sup and inf. Inductive sets. Injectivity and surjectivity. Cardinality.</td>
+    </tr>
+    <tr>
+      <td>17/11/23</td>
+      <td style="text-align: left">7</td>
+      <td style="text-align: left">Complex numbers. Trigonometric and exponential form. Equations in $\mathbb{C}$.</td>
+    </tr>
+    <tr>
+      <td>24/11/23</td>
+      <td style="text-align: left">8</td>
+      <td style="text-align: left">Convergent sequences. Divergent sequences. Algebra of Limits. Limit Theorems.</td>
+    </tr>
+    <tr>
+      <td>08/12/23</td>
+      <td style="text-align: left">9</td>
+      <td style="text-align: left">Complex sequences.</td>
+    </tr>
+    <tr>
+      <td>15/12/23</td>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">Tests for convergence/divergence of series of real and complex numbers.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="homework">Homework</h2>
+
+<p>Homework papers must be submitted on <strong><a href="https://canvas.hull.ac.uk/courses/67551">Canvas</a> by 14:00 on the Due Date</strong></p>
+
+<p>Homework papers submitted <strong>outside of Canvas</strong> or <strong>after the deadline</strong> will <strong>NOT BE MARKED</strong></p>
+
+<p>Please submit <strong>PDFs only</strong>. Either:</p>
+
+<ul>
+  <li>Write on tablet and submit PDF Output</li>
+  <li>Write on paper and <strong>Scan in Black and White</strong> using a <strong>Scanner</strong> or <strong>Scanner App</strong> (Tiny Scanner, Scanner Pro, etc)</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Homework Number</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11/10/23</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">Irrational numbers. Basic set theory.</td>
+    </tr>
+    <tr>
+      <td>25/10/23</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Order relation, Induction, Proofs.</td>
+    </tr>
+    <tr>
+      <td>08/11/23</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Fields, Supremum and infimum.</td>
+    </tr>
+    <tr>
+      <td>22/11/23</td>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Complex Numbers, Convergent sequences.</td>
+    </tr>
+    <tr>
+      <td>15/12/23</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">Convergence/Divergence of sequences and series.</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the Course 400297 T1 2023/24]]></summary></entry><entry><title type="html">Differential Geometry</title><link href="https://www.silviofanzon.com/blog/2023/Differential-Geometry/" rel="alternate" type="text/html" title="Differential Geometry" /><published>2023-06-01T00:00:00+00:00</published><updated>2023-06-01T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2023/Differential-Geometry</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2023/Differential-Geometry/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Course of <strong>Differential Geometry 661955</strong> for the BSc in Mathematics at the University of Hull, academic year 2023/24. 
+This course studies curves and surfaces in 2D and 3D.</p>
+
+<ul>
+  <li><strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a></li>
+  <li><strong>Office</strong>: Room 104a, Larkin Building</li>
+  <li><strong>Office hours</strong>: Friday 13:00-14:00</li>
+  <li><strong>Canvas Page</strong>: Click <a href="https://canvas.hull.ac.uk/courses/67594/">here</a></li>
+</ul>
+
+<h2 id="questions">Questions</h2>
+
+<p>If you have any questions please feel free to <code class="language-plaintext highlighter-rouge">email me</code>. We will use the <code class="language-plaintext highlighter-rouge">Tutorials</code> to address homework and exam preparation. In addition, please do not hesitate to attend <code class="language-plaintext highlighter-rouge">office hours</code>.</p>
+
+<h2 id="key-links">Key Links</h2>
+
+<p>All the course information will be posted on this page, as well as on <a href="https://canvas.hull.ac.uk/courses/67594/">Canvas</a>. The links to the reference material are:</p>
+
+<ul>
+  <li><strong><a href="https://www.silviofanzon.com/2023-Differential-Geometry-Notes/">Lecture Notes</a></strong></li>
+  <li><strong><a href="#lectures-diary">Lectures Diary</a></strong></li>
+  <li><strong><a href="#homework">Homework</a></strong></li>
+</ul>
+
+<h2 id="lectures">Lectures</h2>
+
+<p>We have two <code class="language-plaintext highlighter-rouge">Lectures</code> and one <code class="language-plaintext highlighter-rouge">Tutorial</code> per week. The lectures are 2 hours long, and the tutorial is 1 hour long.</p>
+
+<p>Pattern from Week 1 to Week 7:</p>
+
+<ul>
+  <li><strong>Lecture 1</strong>: Fridays 11:00-13:00 in Larkin Building - Lecture Theatre E</li>
+  <li><strong>Lecture 2</strong>: Fridays 16:00-18:00 in Robert Blackburn Building - Lecture Theatre B</li>
+  <li><strong>Tutorial</strong>: Thursdays 12:00-13:00 in Wilberforce Building - Lecture Room 21</li>
+</ul>
+
+<p>Pattern from Week 8 to Week 12:</p>
+
+<ul>
+  <li><strong>Lecture 1</strong>: Thursdays 12:00-14:00 in Wilberforce Building - Lecture Room 21</li>
+  <li><strong>Lecture 2</strong>: Fridays 11:00-13:00 in Larkin Building - Lecture Theatre E</li>
+  <li><strong>Tutorial</strong>: Fridays 16:00-17:00 in Robert Blackburn Building - Lecture Theatre B</li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>This course will be assessed as follows:</p>
+<ul>
+  <li><strong>Final exam</strong>: 70% of final grade</li>
+  <li><strong>Homework</strong>: 30% of final grade. There will be 5 Homework papers in total. You must submit 4 out of 5 Homework papers</li>
+</ul>
+
+<p>Each Homework paper is worth 100 points. The final Homework grade will be computed averaging the best 4.</p>
+
+<p>Homework papers will be posted on <strong><a href="https://canvas.hull.ac.uk/courses/67594/">Canvas</a></strong>.</p>
+
+<p>Homework papers must be submitted on <strong>Canvas by 14:00 on the Due Date</strong>. The due dates are:</p>
+
+<ul>
+  <li><strong>Homework 1</strong>: 11th of October</li>
+  <li><strong>Homework 2</strong>: 25th of October</li>
+  <li><strong>Homework 3</strong>: 8th of November</li>
+  <li><strong>Homework 4</strong>: 22nd of November</li>
+  <li><strong>Homework 5</strong>: 13th of December</li>
+</ul>
+
+<p>Homework papers submitted <strong>outside of Canvas</strong> or <strong>after the deadline</strong> will <strong>NOT BE MARKED</strong></p>
+
+<p>Please submit <strong>PDFs only</strong>. Either:</p>
+
+<ul>
+  <li>Write on tablet and submit PDF Output</li>
+  <li>Write on paper and <strong>Scan in Black and White</strong> using a <strong>Scanner</strong> or <strong>Scanner App</strong> (Tiny Scanner, Scanner Pro, etc)</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>
+    <p><strong>Curves in 2D and 3D</strong>: regular curves, curvature, Frenet frame.</p>
+  </li>
+  <li>
+    <p><strong>Surfaces in 3D</strong>: regular surfaces, quadrics.</p>
+  </li>
+  <li>
+    <p><strong>First Fundamental Form</strong>: maps preserving lengths, angles and areas.</p>
+  </li>
+  <li>
+    <p><strong>Second Fundamental Form</strong>: Gaussian curvature, Gauss’s Theorem Egregium.</p>
+  </li>
+  <li>
+    <p><strong>Topology</strong>: General topology, metric spaces, compactness, connectedness.</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>
+    <p><strong>Lecture Notes</strong>: Available <strong><a href="https://www.silviofanzon.com/2023-Differential-Geometry-Notes/">here</a></strong></p>
+  </li>
+  <li>
+    <p><strong>Differential Geometry Book</strong>: Pressley <d-cite key="pressley"></d-cite>. This is available from the 
+<a href="https://hull.summon.serialssolutions.com/#!/search/document?ho=t&amp;include.ft.matches=f&amp;l=en-UK&amp;q=pressley%20differential&amp;id=FETCHMERGED-hull_catalog_b2542712x2">University Library</a></p>
+  </li>
+  <li>
+    <p><strong>Topology Book</strong>: Manetti <d-cite key="manetti"></d-cite>.</p>
+  </li>
+  <li>
+    <p><strong>Background</strong>: For analysis please refer to Zorich <d-cite key="zorich-1"></d-cite> and <d-cite key="zorich-2"></d-cite></p>
+  </li>
+</ul>
+
+<h2 id="lectures-diary">Lectures Diary</h2>
+
+<p>The course Lecture Notes are available 
+<strong><a href="https://www.silviofanzon.com/2023-Differential-Geometry-Notes/">here</a></strong>. Each week we have 2 Lectures of 2h each. Dates and topics are below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Lesson</strong></th>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Time</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>28/09/23</td>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Intro: Canvas page, Lecture Notes, Assignments, Assessment. Curves as Level sets. Parametrized curves. Examples.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>29/09/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Plotting curves in Python using Matplotlib and Plotly. Parametrized curves examples. Tangent vector. Definition of Length of $\gamma$ as limit of length of polygonals.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>29/09/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Proven that $L(\gamma)$ can be compute by integrating $| \dot \gamma |$ when $\gamma$ regular.  Computed length of circle and portion of Helix.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>05/10/23</td>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Arc-Length. Examples. Scalar product in $\mathbb{R}^2$: geometric definition. SP in coordinates and in $\mathbb{R}^n$. Bilinearity, Symmetry, Differentiation of SP.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>06/10/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Speed. Reparametrizations. Regular and singular points. Unit speed reparametrization. Thm: Regularity is equivalent to existence of unit speed reparametrization.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>06/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Theorem: Arc-length as unit speed reparametrization. Periodic curves. Closed curves. Period of a closed curve. Theorem: Period of closed curve exists. Examples.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>12/10/23</td>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Curvature: motivation with Taylor formula. Curvature for unit speed curves. Curvature of circle of radius $R$ computed via reparametrization to unit speed curve.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>13/10/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Vector Product in $\mathbb{R}^3$: Algebraic definition and geometric properties. General formula for curvature of regular curves (no proof for now). Examples.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>13/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Plane curves. Signed curvature (SC). Geometric meaning of SC. SC characterizes plane curves (no proof). Correction of Homework 1.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>19/10/23</td>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Hyperbolic functions and their properties. Example of the catenary curve.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>20/10/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Torsion for unit speed curves. Torsion, general formula. Example of calculation of curvature and torsion. Frenet Frame. Frenet-Serret equations.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>20/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Frenet Frame of Helix. Characterization Theorem of 3D curves. New notations. Proof of general curvature formula. Geometric consequences of Frenet-Serret.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>26/10/23</td>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Definition of Topology. Trivial, discrete and euclidean topologies. Balls are open in $\mathbb{R}^n$. Closed sets. Topology through closed sets. Zariski topology.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>27/10/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Comparing topologies. Cofinite topology. Convergence. Metric spaces. Interior, closure, boundary in general topological spaces.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>27/10/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Limit points are contained in the closure. The converse is false: co-countable topology example. Characterization of interior and closure in metric space. Density.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>02/11/23</td>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Correction of Homework 2. Hausdorff space. Metric spaces are Hausdorff. Metrizable spaces. Metrizable spaces are Hausdorff.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>03/11/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Examples of Hausdorff spaces. Continuity. Subspace topology. Topological basis. Topology induced by basis.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>03/11/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Product topology. Connectedness. Examples. Connectedness is topological invariant. $\mathbb{R}^n$ is not homeomorphic to $\mathbb{R}$.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>09/11/23</td>
+      <td style="text-align: left">12:00 - 13:00</td>
+      <td style="text-align: left">Sequential continuity: fixed one of the proofs. Characterization of connected sets in $\mathbb{R}$. Intermediate value theorem in topological space.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>10/11/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Path connectedness. Definition, Examples. Path connectedness implies connectedness. Converse is false: Topologist Curve. Surfaces: Introductory discussion.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>10/11/23</td>
+      <td style="text-align: left">16:00 - 18:00</td>
+      <td style="text-align: left">Correction of Homework 3. Topology in $\mathbb{R}^n$. Smooth functions $f \colon \mathbb{R}^n \to \mathbb{R}^m$, differential, Jacobian.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>16/11/23</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Inverse function Theorem. Examples. Surface: Definition and Examples. Regular charts and regular surfaces.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>17/11/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Spherical coordinates. Level surfaces. Reparametrizations.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>17/11/23</td>
+      <td style="text-align: left">16:00 - 17:00</td>
+      <td style="text-align: left">Transition maps. Functions between surfaces. Smooth functions.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>23/11/23</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Diffeomorphisms between surfaces. Tangent space and characterization. Examples. Differential of smooth functions. Differential of smooth functions in coordinates.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>24/11/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Properties of differential of smooth functions. Linear Algebra preliminaries. Examples of surfaces: Level Surfaces, Quadrics, Ruled Surfaces, Surfaces of Revolution.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>24/11/23</td>
+      <td style="text-align: left">16:00 - 17:00</td>
+      <td style="text-align: left">First fundamental form (FFF): Abstract definition and expression in coordinates. Length of curves on surfaces.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>30/11/23</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Local isometries. Local isometries preserve length of curves and FFF. Angles on surfaces. Angles between curves. Conformal maps.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>01/11/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Conformal maps and FFF. Conformal parametrizations. Conformally flat surfaces. Unit normal. Orientability. Orientable surfaces.</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>01/12/23</td>
+      <td style="text-align: left">16:00 - 17:00</td>
+      <td style="text-align: left">Second Fundamental Form (SFF) of a chart. Examples. Gauss map and examples. Weingarten map. SFF as a bilinear form on tangent space. Equivalence with SFF of a chart.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>07/12/23</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Matrix of Weingarten map. Gaussian and mean curvatures $G$ and $H$. Formulas for $G$ and $H$. Principal curvatures and directions. Relationship to $G$ and $H$. Examples.</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>08/12/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Normal and Geodesic curvatures. Euler’s Theorem. Local shape of surface: Elliptic, Hyperbolic, Parabolic and Planar points. Local Structure Theorem.</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>08/12/23</td>
+      <td style="text-align: left">16:00 - 17:00</td>
+      <td style="text-align: left">Umbilical points and structure theorem at umbilics.</td>
+    </tr>
+    <tr>
+      <td>34</td>
+      <td>14/12/23</td>
+      <td style="text-align: left">12:00 - 14:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+    <tr>
+      <td>35</td>
+      <td>15/12/23</td>
+      <td style="text-align: left">11:00 - 13:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+    <tr>
+      <td>36</td>
+      <td>15/12/23</td>
+      <td style="text-align: left">16:00 - 17:00</td>
+      <td style="text-align: left">Revision and Exam Preparation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="homework">Homework</h2>
+
+<p>Homework papers must be submitted on <strong><a href="https://canvas.hull.ac.uk/courses/67594/">Canvas</a> by 14:00 on the Due Date</strong></p>
+
+<p>Homework papers submitted <strong>outside of Canvas</strong> or <strong>after the deadline</strong> will <strong>NOT BE MARKED</strong></p>
+
+<p>Please submit <strong>PDFs only</strong>. Either:</p>
+
+<ul>
+  <li>Write on tablet and submit PDF Output</li>
+  <li>Write on paper and <strong>Scan in Black and White</strong> using a <strong>Scanner</strong> or <strong>Scanner App</strong> (Tiny Scanner, Scanner Pro, etc)</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Homework Number</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11/10/23</td>
+      <td style="text-align: left">1</td>
+      <td style="text-align: left">Curve length, regularity, reparametrization.</td>
+    </tr>
+    <tr>
+      <td>25/10/23</td>
+      <td style="text-align: left">2</td>
+      <td style="text-align: left">Curve length, regularity, reparametrization, curvature, torsion.</td>
+    </tr>
+    <tr>
+      <td>08/11/23</td>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">Curvature, torsion. Topological spaces: Convergence, Interior, Closure. Topology of Metric Spaces.</td>
+    </tr>
+    <tr>
+      <td>22/11/23</td>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">Metric Spaces. Topology induced by metric. Density. Connectedness.</td>
+    </tr>
+    <tr>
+      <td>15/12/23</td>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">First and Second Fundamental Forms. Gauss and Weingarten maps. Curvatures. Local shape.</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the Course 661955 T1 2023/24]]></summary></entry><entry><title type="html">Inverse Problems</title><link href="https://www.silviofanzon.com/blog/2022/Inverse-Problems/" rel="alternate" type="text/html" title="Inverse Problems" /><published>2022-09-26T00:00:00+00:00</published><updated>2022-09-26T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2022/Inverse-Problems</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2022/Inverse-Problems/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Practical Course of Inverse Problems <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/748011?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview&amp;ctx=design=ca;lang=en&amp;scrollTo=toc_overview">MAT.501UB</a> for the Master Degree in Mathematics at the University of Graz. This is the companion module to the theoretical Course of Inverse Problems <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/754539?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview">MAT.500UB</a>. Exercise sheets will be released every two weeks which will cover practical aspects of the topics covered in MAT.500UB. There will also be coding assignments in MatLab or Python.</p>
+
+<ul>
+  <li><strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:Silvio.Fanzon@uni-graz.at">Silvio.Fanzon@uni-graz.at</a></li>
+  <li><strong>Office</strong>: Room 501, Department of Mathematics &amp; Scientific Computing</li>
+  <li><strong>Office hours</strong>: Available on request</li>
+</ul>
+
+<p>Please do not hesitate to email me with any questions you have regarding the module or the exercises.</p>
+
+<p><strong>Note</strong>: I thank my predecessors <a href="https://scholar.google.com/citations?user=0dmnG6QAAAAJ">Martin Holler</a>, <a href="https://scholar.google.com/citations?hl=en&amp;user=OdbpwJsAAAAJ">Richard Huber</a> and <a href="https://scholar.google.com/citations?hl=en&amp;user=Z0jytMcAAAAJ">Francisco Romero</a> for providing lots of high quality teaching material.</p>
+
+<h2 id="lectures-calendar">Lectures Calendar</h2>
+
+<p>There will be 6 classes in <code class="language-plaintext highlighter-rouge">Room 11.34</code> from <code class="language-plaintext highlighter-rouge">12:00-13:30</code>. These are the dates:</p>
+
+<ul>
+  <li><strong>Lecture 1</strong>: 11 October 2022</li>
+  <li><strong>Lecture 2</strong>: 25 October 2022</li>
+  <li><strong>Lecture 3</strong>: 15 November 2022</li>
+  <li><strong>Lecture 4</strong>: 22 November 2022</li>
+  <li><strong>Lecture 5</strong>: 13 December 2022</li>
+  <li><strong>Lecture 6</strong>: 24 January 2023</li>
+</ul>
+
+<h2 id="assessment-rules">Assessment Rules</h2>
+
+<p>To each Lecture will correspond one Exercise Sheet. This will be uploaded 2 weeks before the Lecture, and is due for <code class="language-plaintext highlighter-rouge">Crossing</code> and <code class="language-plaintext highlighter-rouge">Presentation</code> on the day
+of the Lecture.</p>
+
+<ul>
+  <li>
+    <p><strong>Crossing</strong>: At the beginning of each Lecture, a form will be handed out in which you should declare the problems you solved. This is referred to as <code class="language-plaintext highlighter-rouge">Crossing</code>. You will be awarded points for each cross, according to the amount specified on the Exercise Sheet for the corresponding problem. The total is always 100 points. The final <code class="language-plaintext highlighter-rouge">Crossing Percentage</code> is then computed by averaging on the 6 Exercise Sheets.</p>
+  </li>
+  <li>
+    <p><strong>Presentation</strong>: Based on the crossing, some students will be called at the blackboard to solve one of the exercises they declared. A presentation is given a grade between 0 and 5, with 5 being highest. Ideally each student should present at least 2 times during the course, one of which a numerical exercise. The final <code class="language-plaintext highlighter-rouge">Presentation Percentage</code> is averaged and scaled to a number out of 100. The numerical exercises, to be solved in MatLab or Python, can be presented using my laptop and the room projector: either send the solution to me by email, or I can provide a USB drive in class.</p>
+  </li>
+</ul>
+
+<p>The <code class="language-plaintext highlighter-rouge">Final Percentage</code> is computed by averaging Presentation Percentage and Crossing Percentage. The Final Percentage will be converted into a <code class="language-plaintext highlighter-rouge">Final Grade</code> according to the table below. A pass will be granted for a grade of 4 or better.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Percentage</strong></th>
+      <th style="text-align: center">0-49%</th>
+      <th style="text-align: center">50-59%</th>
+      <th style="text-align: center">60-74%</th>
+      <th style="text-align: center">75-89%</th>
+      <th style="text-align: center">90-100%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Grade</strong></td>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>
+    <p><strong>Introduction</strong>: Differentiation, Deconvolution, and Radon transform. Ill-posedness of inverse Problems. Compact linear operators. Singular value decomposition. Moore-Penrose inverse</p>
+  </li>
+  <li>
+    <p><strong>Regulatrisation of linear inverse problems</strong>:  Linear methods of filtering (TSVD), Tikhonov regularisation. Source condition and convergence rates. Choice of parameters (a priori, a posteriori, heuristic). Optional: projection methods (e.g. Galerkin), iterative regularisation (e.g. Landweber, CG)</p>
+  </li>
+  <li>
+    <p><strong>Nonlinear inverse problems</strong>: Ill-posedness (relation to linear problems). Nonlinear Tikhonov regularisation. Optional: Electrical impedance tomography (EIT), Calderon problem, Inverse scattering problems (Helmholtz)</p>
+  </li>
+  <li>
+    <p><strong>Assumed knowledge</strong>: understanding of Functional Analysis, Numerical Analysis and PDEs</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><strong>Inverse Problems</strong>: The books <d-cite key="engl-hanke-neurbauer"></d-cite> and the hands-on review paper <d-cite key="mueller-siltanen"></d-cite>. I also recommend these lecture notes by Clason <d-cite key="clason-notes"></d-cite> available on <a href="https://arxiv.org/pdf/2001.00617.pdf">arXiv</a></li>
+  <li><strong>Proximal methods</strong>: The review paper <d-cite key="chambolle-pock-review"></d-cite>, available on <a href="https://hal.science/hal-01346507/document">HAL</a></li>
+  <li><strong>Functional Analysis</strong>: All the topics discussed throughout the course can be found in <d-cite key="conway"></d-cite></li>
+  <li><strong>PDEs and Sobolev Spaces</strong>: Refer to <d-cite key="leoni"></d-cite> and <d-cite key="brezis"></d-cite></li>
+  <li><strong>MatLab</strong>: The book <d-cite key="lyche-merrien"></d-cite></li>
+</ul>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<h2 id="exercise-sheets">Exercise Sheets</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Exercises</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11 Oct</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_01.pdf">Sheet 1</a></td>
+      <td style="text-align: left">Differentiation. Deconvolution</td>
+    </tr>
+    <tr>
+      <td>25 Oct</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_02.pdf">Sheet 2</a></td>
+      <td style="text-align: left">Compact operators</td>
+    </tr>
+    <tr>
+      <td>15 Nov</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_03.pdf">Sheet 3</a></td>
+      <td style="text-align: left">Minimal norm elements. Moore-Penrose inverse</td>
+    </tr>
+    <tr>
+      <td>22 Nov</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_04.pdf">Sheet 4</a>,   <a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_04_coding.zip">Coding 4</a></td>
+      <td style="text-align: left">Radon Transform (RT) and its numerical implementation</td>
+    </tr>
+    <tr>
+      <td>13 Dec</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_05.pdf">Sheet 5</a>,   <a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_05_coding.zip">Coding 5</a></td>
+      <td style="text-align: left">Singular values of RT. Limited angle problem</td>
+    </tr>
+    <tr>
+      <td>24 Jan</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_06.pdf">Sheet 6</a>,   <a href="/assets/pdf/teaching/2022-Inverse-Problems/ex_06_coding.zip">Coding 6</a></td>
+      <td style="text-align: left">Tikhonov regularization. Primal-Dual Algorithm</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Silvio Fanzon</name></author><category term="code" /><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the Course MAT.501UB WS 2022/23]]></summary></entry><entry><title type="html">Analysis 3</title><link href="https://www.silviofanzon.com/blog/2022/Analysis-3/" rel="alternate" type="text/html" title="Analysis 3" /><published>2022-09-18T00:00:00+00:00</published><updated>2022-09-18T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2022/Analysis-3</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2022/Analysis-3/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Practical Course of Analysis 3 <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/769560?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview&amp;ctx=design=ca;lang=en&amp;scrollTo=toc_overview">MAT.202UB</a> for the Bachelor Degree in Mathematics at the University of Graz. This is the companion module to the theoretical Course of Analysis 3 <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/769559?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview">MAT.201UB</a>. Exercise sheets will be released every week which will cover practical aspects of the topics covered in MAT.201UB.</p>
+
+<ul>
+  <li><strong>Lecturers</strong>: Dr Silvio Fanzon, Andreas Habring</li>
+  <li><strong>Email</strong>: <a href="mailto:Silvio.Fanzon@uni-graz.at">Silvio.Fanzon@uni-graz.at</a></li>
+  <li><strong>Office</strong>: Room 501, Department of Mathematics &amp; Scientific Computing</li>
+  <li><strong>Office hours</strong>: Available on request</li>
+</ul>
+
+<p>Please do not hesitate to email me with any questions you have regarding the module or the exercises.</p>
+
+<h2 id="lectures-calendar">Lectures Calendar</h2>
+
+<p>There will be 13 classes in <code class="language-plaintext highlighter-rouge">Room 11.32</code>. The times are <code class="language-plaintext highlighter-rouge">10:00-11:30</code> for Group 1 and <code class="language-plaintext highlighter-rouge">11:45-13:15</code> for Group 2. These are the dates:</p>
+
+<ul>
+  <li><strong>Lecture 1</strong>: 5 October 2022 (Silvio)</li>
+  <li><strong>Lecture 2</strong>: 12 October 2022 (Silvio)</li>
+  <li><strong>Lecture 3</strong>: 19 October 2022 (Silvio)</li>
+  <li><strong>Lecture 4</strong>: 9 November 2022 (Silvio)</li>
+  <li><strong>Lecture 5</strong>: 16 November 2022 (Silvio)</li>
+  <li><strong>Lecture 6</strong>: 23 November 2022 (Silvio)</li>
+  <li><strong>Lecture 7</strong>: 30 November 2022 (Silvio)</li>
+  <li><strong>Lecture 8</strong>: 7 December 2022 (Andreas)</li>
+  <li><strong>Lecture 9</strong>: 14 December 2022 (Andreas)</li>
+  <li><strong>Lecture 10</strong>: 11 January 2023 (Andreas)</li>
+  <li><strong>Lecture 11</strong>: 18 January 2023 (Andreas)</li>
+  <li><strong>Lecture 12</strong>: 25 January 2023 (Andreas)</li>
+  <li><strong>Lecture 13</strong>: 1 February 2023 (Andreas)</li>
+</ul>
+
+<h2 id="assessment-rules">Assessment Rules</h2>
+
+<p>To each Lecture will correspond one Exercise Sheet. This will be uploaded 1 week before the Lecture, and is due for <code class="language-plaintext highlighter-rouge">Crossing</code> and <code class="language-plaintext highlighter-rouge">Presentation</code> on the day
+of the Lecture.</p>
+
+<ul>
+  <li>
+    <p><strong>Crossing</strong>: At the beginning of each Lecture, a form will be handed out in which you should declare the problems you solved. This is referred to as <code class="language-plaintext highlighter-rouge">Crossing</code>. You will be awarded points for each cross, according to the amount specified on the Exercise Sheet for the corresponding problem. The total is always 100 points. The final <code class="language-plaintext highlighter-rouge">Crossing Percentage</code> will then be computed by averaging the best 12 crossing percentages, that is, by summing the best 12 scores out of the 13 sessions, and dividing the obtained sum by 12.</p>
+  </li>
+  <li>
+    <p><strong>Presentation</strong>: Based on the crossing, some students will be called at the blackboard to solve one of the exercises they declared. A presentation is given a grade between 0 and 5, with 5 being highest. Ideally each student should present at least 2 times during the course. The final <code class="language-plaintext highlighter-rouge">Presentation Percentage</code> is averaged and scaled to a number out of 100.</p>
+  </li>
+</ul>
+
+<p>The <code class="language-plaintext highlighter-rouge">Final Percentage</code> is computed by averaging Presentation Percentage and Crossing Percentage. The Final Percentage will be converted into a <code class="language-plaintext highlighter-rouge">Final Grade</code> according to the table below. A pass will be granted for a grade of 4 or better.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Percentage</strong></th>
+      <th style="text-align: center">0-49%</th>
+      <th style="text-align: center">50-59%</th>
+      <th style="text-align: center">60-74%</th>
+      <th style="text-align: center">75-89%</th>
+      <th style="text-align: center">90-100%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Grade</strong></td>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="absences">Absences</h3>
+
+<p>If you cannot attend a session, please email your solutions to the tutor responsible for the class before 10AM on the day of the class. Your Crosses will be filled according to the solutions submitted. If you are absent and do not email the solutions, the Crossing Percentage for that session will be zero.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>Mainly the book <d-cite key="fusco-marcellini-sbordone"></d-cite>. Useful references are <d-cite key="zorich-1"></d-cite> and <d-cite key="zorich-2"></d-cite>.</li>
+</ul>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<h2 id="exercise-sheets">Exercise Sheets</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Exercises</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>5 Oct</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_01.pdf">Sheet 1</a></td>
+      <td style="text-align: left">Some revision. Warming up!</td>
+    </tr>
+    <tr>
+      <td>12 Oct</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_02.pdf">Sheet 2</a></td>
+      <td style="text-align: left">Local maxima/minima. Constrained minimization</td>
+    </tr>
+    <tr>
+      <td>19 Oct</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_03.pdf">Sheet 3</a></td>
+      <td style="text-align: left">Saddle points. Directional derivatives. Implicit Function Thm</td>
+    </tr>
+    <tr>
+      <td>9 Nov</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_04.pdf">Sheet 4</a></td>
+      <td style="text-align: left">Continuous \(\nabla\) vs differentiability. Taylor. Directional derivative</td>
+    </tr>
+    <tr>
+      <td>16 Nov</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_05.pdf">Sheet 5</a></td>
+      <td style="text-align: left">Schwarz Thm. Inverse Function Thm</td>
+    </tr>
+    <tr>
+      <td>23 Nov</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_06.pdf">Sheet 6</a></td>
+      <td style="text-align: left">Inverse Function Thm. Topology: continuity, connectedness</td>
+    </tr>
+    <tr>
+      <td>30 Nov</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_07.pdf">Sheet 7</a></td>
+      <td style="text-align: left">Continuity. Path-connectedness</td>
+    </tr>
+    <tr>
+      <td>7  Dec</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_08.pdf">Sheet 8</a></td>
+      <td style="text-align: left">Unitary matrices. Surfaces: tangent space</td>
+    </tr>
+    <tr>
+      <td>14  Dec</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_09.pdf">Sheet 9</a></td>
+      <td style="text-align: left">Curves and surfaces</td>
+    </tr>
+    <tr>
+      <td>11  Jan</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_10.pdf">Sheet 10</a></td>
+      <td style="text-align: left">Curves and surfaces</td>
+    </tr>
+    <tr>
+      <td>18  Jan</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_11.pdf">Sheet 11</a></td>
+      <td style="text-align: left">Curves and surfaces</td>
+    </tr>
+    <tr>
+      <td>25  Jan</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_12.pdf">Sheet 12</a></td>
+      <td style="text-align: left">Curves and surfaces</td>
+    </tr>
+    <tr>
+      <td>1 Feb</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2022-Analysis-3/ex_13.pdf">Sheet 13</a></td>
+      <td style="text-align: left">Gauss’ Theorem</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the Course MAT.202UB WS 2022/23]]></summary></entry><entry><title type="html">Calculus of Variations</title><link href="https://www.silviofanzon.com/blog/2021/Calculus-of-Variations/" rel="alternate" type="text/html" title="Calculus of Variations" /><published>2021-02-01T00:00:00+00:00</published><updated>2021-02-01T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2021/Calculus-of-Variations</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2021/Calculus-of-Variations/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Course of Calculus of Variations <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/645502?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview&amp;ctx=design=ca;lang=en&amp;scrollTo=toc_overview">MAT.494UB</a> for the Master Degree in Mathematics at the University of Graz</p>
+
+<ul>
+  <li><strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:Silvio.Fanzon@uni-graz.at">Silvio.Fanzon@uni-graz.at</a></li>
+  <li><strong>Office</strong>: Room 501, Department of Mathematics &amp; Scientific Computing</li>
+  <li><strong>Office hours</strong>: Flexibly arranged online, due to COVID-19</li>
+</ul>
+
+<p>Please do not hesitate to email me with any questions you have regarding the module or the exercises. I will answer your questions at the beginning
+of each class, or schedule online office hours</p>
+
+<h2 id="lectures-calendar">Lectures Calendar</h2>
+
+<p>Lectures will be weekly and last approximately 90 minutes. There will be 15 classes in total, with dates</p>
+
+<ul>
+  <li>3, 10, 17, 24 March 2021</li>
+  <li>14, 21, 28 April 2021</li>
+  <li>5, 12, 19, 26 May 2021</li>
+  <li>2, 9, 16, 23 June 2021</li>
+</ul>
+
+<p>Lectures will be <strong>online</strong>, due to the current COVID-19 Orange Light at the University of Graz. Recordings will be available on this webpage as well as on the Moodle page of the course.
+Lecture notes and syllabus are released weekly on this page</p>
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+  <li>
+    <p><strong>Essential Topics</strong>: Minimization of integral functionals for maps of one variable. First variation and indirect method. 
+Metric spaces. Gateaux and Frechet derivatives in normed spaces. Fundamental Lemma of 
+Calculus of Variations. Du Boys-Reymond Lemma. Euler-Lagrange equations for unconstrained problems. 
+Boundary conditions. Direct method and Hilbert spaces. Strong and weak convergence. Weak compactness 
+of unit ball. One dimensional Sobolev spaces. Direct method in Sobolev spaces and applications. Relaxation 
+in metric spaces. Convex envelopes. Gamma convergence with model applications.</p>
+  </li>
+  <li>
+    <p><strong>Optional Topics</strong>: calibrations, Weierstrass fields, functions of bounded variation in one variable, $\Gamma$-convergence</p>
+  </li>
+  <li>
+    <p><strong>Previous knowledge</strong>: Basic knowledge of real analysis, \(L^p\) spaces, general topology and functional analysis.</p>
+  </li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><strong>Calculus of Variations</strong>: I will follow <d-cite key="buttazzo"></d-cite>,  <d-cite key="dacorogna"></d-cite>, and the wonderful course by Gobbino <d-cite key="gobbino"></d-cite></li>
+  <li><strong>Practical Calculus of Variations</strong>: A good reference with lots of examples and guided exercises is Kielhoefer <d-cite key="kielhoefer"></d-cite></li>
+  <li><strong>Functional Analysis</strong>: All the topics discussed throughout the course can be found in <d-cite key="conway"></d-cite></li>
+  <li><strong>Calculus in Normed Spaces</strong>: Mainly following <d-cite key="kesavan"></d-cite>. I had to take a couple of lemmas from <d-cite key="cartan"></d-cite> (in French), but those are quite quick</li>
+  <li><strong>Convex Analysis</strong>: I refer to <d-cite key="rockafellar"></d-cite> and <d-cite key="dacorogna-intro"></d-cite></li>
+  <li><strong>\(L^p\) spaces</strong>: I will follow the construction of <d-cite key="rudin"></d-cite></li>
+  <li><strong>Sobolev spaces</strong>: The main reference is <d-cite key="leoni"></d-cite>. I will also take something from <d-cite key="brezis"></d-cite></li>
+  <li><strong>\(\Gamma\)-convergence</strong>: The book by Braides <d-cite key="braides"></d-cite></li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>There will be an <code class="language-plaintext highlighter-rouge">oral examination</code> of about 1 hour on the topics of the course. This will happen online, on a mutually agreed day in June or July.</p>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<h2 id="lecture-notes-and-videos">Lecture Notes and Videos</h2>
+
+<p>For a detailed account of the topics of each lesson, please refer to the syllabus</p>
+
+<ul>
+  <li><strong>Syllabus</strong>: Download in <a href="/assets/pdf/teaching/2021-Calculus-of-Variations/syllabus.pdf">PDF</a></li>
+</ul>
+
+<p>Lecture Notes and Video Recordings of lectures are available at the links below</p>
+
+<p>Youtube playlist with all the video recordings available <a href="https://www.youtube.com/playlist?list=PLsKUpYVBKUxrcOyI1VNHu1cXgiFvvlbor">here</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Date</strong></th>
+      <th style="text-align: left"><strong>Lecture Notes</strong></th>
+      <th style="text-align: left"><strong>Video Recordings</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_01.pdf">Lesson 1</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/2dMU_fnmbg4">Part 1</a>     <a href="https://youtu.be/rjRNcZigdP0">Part 2</a></td>
+      <td style="text-align: left">Introduction. Basic examples. Functional analysis revision</td>
+    </tr>
+    <tr>
+      <td>10 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_02.pdf">Lesson 2</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/HXN3PbE0kD4">Part 1</a>     <a href="https://youtu.be/1BHR3gfcPYI">Part 2</a></td>
+      <td style="text-align: left">Functional Analysis Revision. Calculus in Normed Spaces</td>
+    </tr>
+    <tr>
+      <td>17 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_03.pdf">Lesson 3</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/P8G2VTzdWw4">Part 1</a>     <a href="https://youtu.be/zeAfi3VjCGo">Part 2</a></td>
+      <td style="text-align: left">Calculus in Normed Spaces. Indirect Method</td>
+    </tr>
+    <tr>
+      <td>24 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_04.pdf">Lesson 4</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/eN3oi6vmaIg">Part 1</a>     <a href="https://youtu.be/KoT5sYjz0KE">Part 2</a></td>
+      <td style="text-align: left">Fundamental Lemmas. Boundary conditions</td>
+    </tr>
+    <tr>
+      <td>14 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_05.pdf">Lesson 5</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/-rN5lVqSNSo">Part 1</a>     <a href="https://youtu.be/m-fkISH4TJc">Part 2</a></td>
+      <td style="text-align: left">Euler-Lagrange Equation</td>
+    </tr>
+    <tr>
+      <td>Extra</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_05_revision.pdf">Revision</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/a9EB7gH__vI">Video overview</a></td>
+      <td style="text-align: left">Revision of \(L^p\) spaces</td>
+    </tr>
+    <tr>
+      <td>21 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_06.pdf">Lesson 6</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/T9TrFIYlIW8">Part 1</a>     <a href="https://youtu.be/pown6pf4nGY">Part 2</a></td>
+      <td style="text-align: left">Sufficient Conditions: convexity, trivial lemma. Convolutions</td>
+    </tr>
+    <tr>
+      <td>28 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_07.pdf">Lesson 7</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/4weE16r31cc">Part 1</a>     <a href="https://youtu.be/rOpTF0zuFP4">Part 2</a></td>
+      <td style="text-align: left">FLCV and DBR Lemma. Sobolev spaces</td>
+    </tr>
+    <tr>
+      <td>5 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_08.pdf">Lesson 8</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/38JAAgRrfOQ">Part 1</a>     <a href="https://youtu.be/kssYL7cLQKU">Part 2</a></td>
+      <td style="text-align: left">Sobolev Spaces: regularity and density results</td>
+    </tr>
+    <tr>
+      <td>12 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_09.pdf">Lesson 9</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/PmWYyxGachg">Part 1</a>     <a href="https://youtu.be/VyKQy9q_KyY">Part 2</a></td>
+      <td style="text-align: left">Sobolev embedding. Ascoli-Arzelà Theorem</td>
+    </tr>
+    <tr>
+      <td>19 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_10.pdf">Lesson 10</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/U-SaPTtzPnM">Part 1</a>     <a href="https://youtu.be/VWHRA5LnXBk">Part 2</a></td>
+      <td style="text-align: left">Higher order Sobolev Spaces. Traces. Euler-Lagrange Equation</td>
+    </tr>
+    <tr>
+      <td>26 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_11.pdf">Lesson 11</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/9CbugyVLTi4">Part 1</a>     <a href="https://youtu.be/_rpqnywxW_s">Part 2</a></td>
+      <td style="text-align: left">Boundary conditions. Sufficient conditions. Direct Method</td>
+    </tr>
+    <tr>
+      <td>2 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_12.pdf">Lesson 12</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/5O1soP3zWoc">Part 1</a>     <a href="https://youtu.be/LR54HjmfQwU">Part 2</a></td>
+      <td style="text-align: left">Direct method: example. General existence theorem</td>
+    </tr>
+    <tr>
+      <td>9 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_13.pdf">Lesson 13</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/GuR85sNuW80">Part 1</a>     <a href="https://youtu.be/9AL-_DxrDhE">Part 2</a></td>
+      <td style="text-align: left">LSC Envelope. Relaxation and its computation</td>
+    </tr>
+    <tr>
+      <td>16 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_14.pdf">Lesson 14</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/oDsr4BvuhZQ">Part 1</a>     <a href="https://youtu.be/gtMRTrvhs2c">Part 2</a></td>
+      <td style="text-align: left">Relaxation of integral functionals. \(\Gamma\)-convergence</td>
+    </tr>
+    <tr>
+      <td>23 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/lecture_notes/lesson_15.pdf">Lesson 15</a></td>
+      <td style="text-align: left"><a href="https://youtu.be/wCVbBohylis">Part 1</a>     <a href="https://youtu.be/E770pJDvd-E">Part 2</a></td>
+      <td style="text-align: left">Examples of \(\Gamma\)-convergence. Homogenization problems</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="exercise-sheets">Exercise Sheets</h2>
+
+<p>This course has a companion practical course <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/645503?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview">MAT.495UB</a> taught by <a href="https://scholar.google.com/citations?user=F-FkuUcAAAAJ">Dr Cinzia Soresina</a>. The exercises assigned will complement the theory seen in the main course, and are released every two weeks. Although I have authored most of the exercises, these will <code class="language-plaintext highlighter-rouge">not be assessed</code> in my course. These are the <a href="/assets/pdf/teaching/2021-Calculus-of-Variations/instructions.pdf">instructions</a> by Dr Soresina.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Exercise Sheet</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_01.pdf">Sheet 1</a></td>
+      <td style="text-align: left">Metric spaces</td>
+    </tr>
+    <tr>
+      <td>26 March</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_02.pdf">Sheet 2</a></td>
+      <td style="text-align: left">Normed spaces. Compactness. Weak topologies</td>
+    </tr>
+    <tr>
+      <td>23 April</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_03.pdf">Sheet 3</a></td>
+      <td style="text-align: left">Frechet derivative. Gateaux derivative</td>
+    </tr>
+    <tr>
+      <td>7 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_04.pdf">Sheet 4</a></td>
+      <td style="text-align: left">Convolutions. Cut-off. Smooth approximations. Minimization</td>
+    </tr>
+    <tr>
+      <td>28 May</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_05.pdf">Sheet 5</a></td>
+      <td style="text-align: left">Sobolev spaces. Poincaré Inequality</td>
+    </tr>
+    <tr>
+      <td>11 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_06.pdf">Sheet 6</a></td>
+      <td style="text-align: left">Assumptions of Theorem 9.9. Brachistochrone</td>
+    </tr>
+    <tr>
+      <td>25 June</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2021-Calculus-of-Variations/exercises/ex_07.pdf">Sheet 7</a></td>
+      <td style="text-align: left">Relaxation. \(\Gamma\)-convergence</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the Course MAT.494UB SS 2020/21]]></summary></entry><entry><title type="html">Advanced Functional Analysis</title><link href="https://www.silviofanzon.com/blog/2019/Advanced-Functional-Analysis/" rel="alternate" type="text/html" title="Advanced Functional Analysis" /><published>2019-09-22T00:00:00+00:00</published><updated>2019-09-22T00:00:00+00:00</updated><id>https://www.silviofanzon.com/blog/2019/Advanced-Functional-Analysis</id><content type="html" xml:base="https://www.silviofanzon.com/blog/2019/Advanced-Functional-Analysis/"><![CDATA[<h2 id="general-information">General Information</h2>
+
+<p>Welcome to the Practical Course of Advanced Functional Analysis <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/584594?$ctx=design=ca;lang=de&amp;$scrollTo=toc_overview&amp;ctx=design=ca;lang=en&amp;scrollTo=toc_overview">MAT.405UB</a> for the Master Degree in Mathematics at the University of Graz. This is the companion module to the theoretical course Advanced Functional Analysis <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/584593?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview">MAT.404UB</a>. Exercise sheets will be released every two weeks which will cover practicals aspect of the topics covered in MAT.404UB.</p>
+<ul>
+  <li><strong>Lecturer</strong>: Dr Silvio Fanzon</li>
+  <li><strong>Email</strong>: <a href="mailto:Silvio.Fanzon@uni-graz.at">Silvio.Fanzon@uni-graz.at</a></li>
+  <li><strong>Office</strong>: Room 501, Department of Mathematics &amp; Scientific Computing</li>
+</ul>
+
+<p>Please do not hesitate to email me with any questions you have regarding the module or the exercises.</p>
+
+<h2 id="lectures-calendar">Lectures Calendar</h2>
+
+<p>We have one lecture every two weeks. The lectures are two hours long, and are roughly every second Mondday from 10:00 to 12:00. In addition there will be a written exam at the end of the course. These are the dates:</p>
+<ul>
+  <li><strong>Lecture 1</strong>: 14 October 2019</li>
+  <li><strong>Lecture 2</strong>: 28 October 2019</li>
+  <li><strong>Lecture 3</strong>: 11 November 2019</li>
+  <li><strong>Lecture 4</strong>: 25 November 2019</li>
+  <li><strong>Lecture 5</strong>: 9 December 2019</li>
+  <li><strong>Lecture 6</strong>: 20 January 2020</li>
+  <li><strong>Exam</strong>: 27 January 2020</li>
+</ul>
+
+<h2 id="topics">Topics</h2>
+<ul>
+  <li><strong>Linear operators</strong>: compact operators, spectral theory, unbounded operators and their adjoints, spectral theorem for self adjoint operators.</li>
+  <li><strong>Topology of vector spaces</strong>: locally convex spaces, weak topologies, compactness, reflexivity.</li>
+  <li><strong>Function spaces</strong>: \(L^p\) spaces, distributions, Sobolev spaces and embedding theorems.</li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li><strong>Functional Analysis</strong>: I will mainly follow Conway <d-cite key="conway"></d-cite>. Additional references will be taken from Rudin <d-cite key="rudin-functional"></d-cite> and Bressan <d-cite key="bressan"></d-cite></li>
+  <li><strong>Calculus in Normed Spaces</strong>: Mainly following Kesavan <d-cite key="kesavan"></d-cite></li>
+  <li><strong>\(L^p\) spaces</strong>: I will follow the construction of Rudin <d-cite key="rudin"></d-cite></li>
+  <li><strong>Sobolev spaces</strong>: The main references are Leoni <d-cite key="leoni"></d-cite> and Brezis <d-cite key="brezis"></d-cite></li>
+  <li><strong>Distributions</strong>: The excellent book by Mitrea <d-cite key="mitrea"></d-cite></li>
+</ul>
+
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+</style>
+
+<h2 id="exercise-sheets">Exercise Sheets</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Due date</strong></th>
+      <th style="text-align: left"><strong>Exercise Sheet</strong></th>
+      <th style="text-align: left"><strong>Topics</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>14 October</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_01.pdf">Sheet 1</a></td>
+      <td style="text-align: left">\(L^p\) spaces. Lax-Milgram</td>
+    </tr>
+    <tr>
+      <td>28 October</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_02.pdf">Sheet 2</a></td>
+      <td style="text-align: left">Convolutions. Mollifiers. Sobolev spaces</td>
+    </tr>
+    <tr>
+      <td>11 November</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_03.pdf">Sheet 3</a></td>
+      <td style="text-align: left">Sobolev spaces. Elliptic PDEs. Partitions of unity</td>
+    </tr>
+    <tr>
+      <td>25 November</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_04.pdf">Sheet 4</a></td>
+      <td style="text-align: left">Sobolev embeddings. TVS. Minkowski functionals</td>
+    </tr>
+    <tr>
+      <td>9 December</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_05.pdf">Sheet 5</a></td>
+      <td style="text-align: left">Locally convex spaces. Weak topologies</td>
+    </tr>
+    <tr>
+      <td>20 January</td>
+      <td style="text-align: left"><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/ex_06.pdf">Sheet 6</a></td>
+      <td style="text-align: left">Distributions. Compact operators. Spectral theory</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="final-exam">Final Exam</h2>
+
+<p>The exam will contain 6 problems. You should choose 4 problems to solve, each graded from 0 to 25 points. You should state which problems you are going to solve. If more than 4 problems are solved, your final grade will be computed by summing the worst 4 scores. For grading, problems and sub-questions within the problems are considered independent. For example, if you only solve point (c) in Problem 1 and you have not solved (a) and (b), you will be awarded 5 points for Problem 1. The hints are there to help you, but of course you may solve the exercises in whichever way you prefer.
+You may use your solutions to the problems in the Exercise Course, as well as the notes from the course <a href="https://online.uni-graz.at/kfu_online/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/584593?$ctx=design=ca;lang=en&amp;$scrollTo=toc_overview">MAT.404UB</a>. You will have 2 hours and 30 minutes to solve the exam.</p>
+
+<ul>
+  <li><a href="/assets/pdf/teaching/2019-Advanced-Functional-Analysis/Exam.pdf">Exam Paper</a></li>
+</ul>
+
+<h2 id="assessment">Assessment</h2>
+
+<p>Two weeks before Lecure x I will upload an exercise sheet on this page. This has to be solved by the day Lecture x happens. You are required to upload your solutions in Moodle as a single pdf file (scans of handwritten solutions or latex) before Lecture x starts.</p>
+
+<ul>
+  <li>At the beginning of each class, a form will be handed out in which every student has to declare which problems they solved. Based on this, some students will be called at the blackboard to solve one of the exercises they declared. If the exercise is correctly solved, the student will get all the points corresponding to the declared exercises. The points awarded for each exercise will be specified in the exercise sheet.</li>
+  <li>If any of the students is not able to present at the blackboard (for a valid reason), I will manually correct one exercise chosen at random among the declared ones; if it is properly solved, the student will get all the points from the declared exercises.</li>
+  <li>If a student cannot come to the exercise lecture, I will correct some of the submitted exercises to grade him. Please, when doing so, write down in the submission box which exercises were solved.</li>
+  <li>If a student declares an exercise that was not solved, there will be 0 points for that exercise sheet.</li>
+</ul>
+
+<p>There will be an exam at the end of the semester. The final percentage will be the average between exam points and exercise points (in percentage), and it will be translated into a grade according to the table below. A pass will be granted for a grade of 4 or better.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Percentage</strong></th>
+      <th style="text-align: center">0-49%</th>
+      <th style="text-align: center">50-59%</th>
+      <th style="text-align: center">60-74%</th>
+      <th style="text-align: center">75-89%</th>
+      <th style="text-align: center">90-100%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Grade</strong></td>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Note</strong>: Every student needs to present at least 3 times during the semester.</p>]]></content><author><name>Silvio Fanzon</name></author><category term="teaching" /><category term="maths" /><summary type="html"><![CDATA[Webpage of the Course MAT.405UB WS 2019/20]]></summary></entry></feed>
