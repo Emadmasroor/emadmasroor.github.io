@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /Silvio_Fanzon_CV.pdf
+permalink: /CV_EmadMasroor.pdf
 title: CV
 description:
 nav: true
