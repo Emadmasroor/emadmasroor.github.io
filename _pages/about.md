@@ -2,11 +2,11 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href='https://www.hull.ac.uk/staff-directory/silvio-fanzon'>Lecturer in Applied Mathematics</a>  &#64;  <a href='https://www.hull.ac.uk'>Hull</a>
+subtitle: Visiting Assistant Professor of Engineering  &#64;  <a href='https://www.swarthmore.edu/'>Swarthmore College</a>
 
 profile:
   align: right
-  image: emad.webp
+  image: emad4.webp
   image_circular: false # crops the image to make it circular
   
     
@@ -50,6 +50,6 @@ My contact information is **[here](https://www.silviofanzon.com/contact/)**. If 
 --!>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-Office Hours
+See my 'scientific family tree' [here](/genealogy), courtesy the [Math Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/){:target="\_blank"} at North Dakota State University.
 </div>
 
