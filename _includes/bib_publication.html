@@ -36,7 +36,13 @@
         {%- else -%}
             <div class="title">{{entry.title}}</div>
         {%- endif %}
-        
+
+  <!-- Title of Talk - Adds an envelope to the left if presentation is invited -->
+  {% if entry.invited %}
+      <div class="talk_title">  <i class="far fa-envelope" style="font-size: 0.85em;"></i> &nbsp;  {{entry.title}} </div>
+  {% else %}
+      <div class="talk_title">{{entry.title}}</div>
+  {% endif %}        
 
 
         <!-- Author -->
