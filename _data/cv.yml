@@ -17,7 +17,7 @@
     - name: Orcid
       value: <a href = "https://orcid.org/0000-0002-8770-1429">0000-0002-8770-1429</a>
     - name: Full CV
-      value: Download PDF &nbsp;  <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
+      value: Download PDF &nbsp;  <a href = "{{site.url}}/assets/pdf/CV_EmadMasroor.pdf"><i class="fas fa-file-pdf"></i></a>
 
 
 
@@ -67,7 +67,7 @@
 - title: Academic Positions
   type: time_table
   contents:
-    - title: Visiting Assistant Professor of Engineering &nbsp; <a href="https://www.hull.ac.uk/staff-directory/silvio-fanzon"><i class="fas fa-external-link-alt"></i></a>
+    - title: Visiting Assistant Professor of Engineering &nbsp; <a href="https://www.swarthmore.edu/engineering/faculty-staff"><i class="fas fa-external-link-alt"></i></a>
       institution: Swarthmore College
       year: Since 2023
       description:
