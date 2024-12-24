@@ -5,17 +5,17 @@
   type: map
   contents:
     - name: Full Name
-      value: Silvio Fanzon
+      value: Emad Masroor
     - name: Currently 
-      value: Lecturer in Applied Mathematics
+      value: Visiting Assistant Professof of Engineering
     - name: Institution 
-      value: University of Hull, UK
+      value: Swarthmore College
     - name: Email
-      value: S.Fanzon@hull.ac.uk
+      value: emasroo1@swarthmore.edu
     - name: Website
-      value: <a href = "https://www.silviofanzon.com/">silviofanzon.com</a>
+      value: <a href = "https:emadmasroor.github.io">emadmasroor.github.io</a>
     - name: Orcid
-      value: <a href = "https://orcid.org/0000-0003-1974-1434">0000-0003-1974-1434</a>
+      value: <a href = "https://orcid.org/0000-0002-8770-1429">0000-0002-8770-1429</a>
     - name: Full CV
       value: Download PDF &nbsp;  <a href = "https://www.silviofanzon.com/assets/pdf/Silvio_Fanzon_CV.pdf"><i class="fas fa-file-pdf"></i></a>
 
