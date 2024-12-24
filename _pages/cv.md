@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /CV_EmadMasroor.pdf
+permalink: /assets/pdf/CV_EmadMasroor.pdf
 title: CV
 description:
 nav: true
