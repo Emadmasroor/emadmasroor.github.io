@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink:
-title: CV
+title: CV2
 description:
-nav: false
+nav: true
 nav_order: 80
 cv_pdf: Silvio_Fanzon_CV.pdf
 ---
