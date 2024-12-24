@@ -1,11 +1,11 @@
 ---
 layout: cv
-permalink: /CV2/
-title: CV2
+permalink: /CV/
+title: CV
 description:
 nav: true
 nav_order: 80
-cv_pdf: Silvio_Fanzon_CV.pdf
+cv_pdf: CV_EmadMasroor.pdf
 ---
 
 Hello, world
