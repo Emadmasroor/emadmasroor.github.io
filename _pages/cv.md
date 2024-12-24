@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: page
 permalink: /CV_EmadMasroor.pdf
 title: CV
 description:
