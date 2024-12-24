@@ -15,7 +15,7 @@ nav_order: 4
  <li><a href="#journal"><b>Journal Articles</b></a></li>
  <li><a href="#talk"><b>Academic Talks</b></a></li>
 
-
+<!-- 
 <div class="large-badges" style="margin-top: 1.2rem;">
     <a href="https://scholar.google.com/citations?user={{ site.data.scholar.id }}">
         <img src="https://img.shields.io/badge/citations-{{ site.data.scholar.citations }}-000000?style=flat" 
@@ -30,7 +30,7 @@ nav_order: 4
         alt="{{ site.data.scholar.i10_index }} Google Scholar i10-index">
     </a>
 </div>
-
+-->
 
 
 

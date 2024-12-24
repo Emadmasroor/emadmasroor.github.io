@@ -37,7 +37,7 @@ All the courses I taught as
 <a id="ior"><h3 style="margin-top: 3.3rem; margin-bottom: -1.0rem;"><b>Instructor of Record at Virginia Tech</b></h3></a>
 {%- for y in page.years_vt %}    
     <h2 class="year">{{ y }}</h2>
-        {% bibliography -f teaching_vap -q @*[yearacademic={{y}}]* %}
+        {% bibliography -f teaching_vt -q @*[yearacademic={{y}}]* %}
 {% endfor %}
 
 
