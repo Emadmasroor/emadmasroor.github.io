@@ -77,7 +77,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 
-orcid_id: # i0000-0003-1974-1434 # your ORCID ID
+orcid_id: 0000-0002-8770-1429
 github_username: emadmasroor # your GitHub user name
 linkedin_username: /emad-masroor-52005364/ # your LinkedIn user name
 arxiv_username: Emadmasroor # your profile on arXiv.org

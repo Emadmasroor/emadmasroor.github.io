@@ -7,7 +7,7 @@ nav_order: 9
 ---
 
 <div>
-    <h4 style="margin-bottom: 2rem;"><b>Silvio Fanzon</b></h4>
+    <h4 style="margin-bottom: 2rem;"><b>Emad Masroor</b></h4>
     <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
       <br>
@@ -30,7 +30,7 @@ nav_order: 9
         <tbody>
         <tr>
         <td> <i class="fas fa-briefcase" style="font-size: 1.3em;"></i> </td>
-        <td> &nbsp; <a href = "https://www.hull.ac.uk/staff-directory/silvio-fanzon">Homepage @ Hull</a> </td>
+        <td> &nbsp; <a href = https://www.swarthmore.edu/engineering/faculty-staff">Faculty Directory @ Swarthmore</a> </td>
         </tr>
         <tr>
         <td> &nbsp; </td>
