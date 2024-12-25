@@ -30,7 +30,7 @@ nav_order: 9
         <tbody>
         <tr>
         <td> <i class="fas fa-briefcase" style="font-size: 1.3em;"></i> </td>
-        <td> &nbsp; <a href = https://www.swarthmore.edu/engineering/faculty-staff">Faculty Directory @ Swarthmore</a> </td>
+        <td> &nbsp; <a href="https://www.swarthmore.edu/engineering/faculty-staff">Faculty Directory @ Swarthmore</a> </td>
         </tr>
         <tr>
         <td> &nbsp; </td>
