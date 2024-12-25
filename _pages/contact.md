@@ -8,26 +8,22 @@ nav_order: 9
 
 <div>
     <h4 style="margin-bottom: 2rem;"><b>Silvio Fanzon</b></h4>
-      <i class="fas fa-envelope" style="font-size: 1.3em;"></i> &nbsp;
+    <i class="fas fa-envelope" style="font-size: 1.1em;"></i> &nbsp;
       Email
       <br>
-      <a href = "mailto: S.Fanzon@hull.ac.uk">S.Fanzon@hull.ac.uk</a>
-      <br style="line-height: 1.5rem;"/>
+      <a href = "mailto: emasroo1@swarthmore.edu"><b>emasroo1@swarthmore.edu</b></a>
+      <br style="line-height: 1.3rem;"/>
       &nbsp;
       <br>    
-      <i class="fas fa-map-marker-alt" style="font-size: 1.3em;"></i> &nbsp;
+      <i class="fas fa-map-marker-alt" style="font-size: 1.1em;"></i> &nbsp;
       Address
       <br>
-      Office 104a
+      112 Singer Hall
       <br>
-      Larkin Building
+      Swarthmore College
       <br>
-      University of Hull
-      <br>
-      Hull HU6 7RX
-      <br>
-      United Kingdom
-      <br style="line-height: 1.5rem;"/>
+      Swarthmore, PA 19081
+      <br style="line-height: 1.3rem;"/>
       &nbsp;
       <br>  
       <table>
