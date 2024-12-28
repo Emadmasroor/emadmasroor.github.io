@@ -190,11 +190,15 @@ collections:
     output: true
     permalink: /next/:path/
   
-
   projects:
     output: true
     permalink: /projects/:path/
 
+  classes:
+    defaults:
+      layout: distill
+    output: true
+    permalink: /classes/:path/
 
 
 news:
