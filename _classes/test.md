@@ -1,5 +1,5 @@
 ---
-title:
+title: Test
 description: Official course website
 code: E91
 term: Spring 2025
@@ -39,4 +39,9 @@ toc:
 
 ---
 
-Hello, world
+Hello, world!
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
+<script>markdeepOptions = { tocStyle: 'long', tocDepth: 2 };</script>
+<script src="markdeep/markdeep.1.16.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+
