@@ -41,6 +41,11 @@ toc:
 
 Hello, world!
 
+Class | Lecture | Topic | HW due | Test (Content) | Lab
+---- |:---- | :---- | :---- | :---- | :--
+1.1 <br> 09/03  |  [Lec 1](Lecs/Lec1.pdf)   | Introduction & Installation; variables & types             | | | 
+1.2 <br> 09/05 |  [Lec 2](Lecs/Lec2.pdf)   | Programming basics: variables, types, conditionals                 | | |
+
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script>markdeepOptions = { tocStyle: 'long', tocDepth: 2 };</script>
 <script src="markdeep/markdeep.1.16.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
