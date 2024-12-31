@@ -7,7 +7,7 @@ institution: Swarthmore College
 giscus_comments: false
 tags: teaching 
 date: 2024-09-15
-layout: none
+layout: pagee
 
 
 
