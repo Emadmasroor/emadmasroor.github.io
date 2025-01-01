@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!-- _layouts/distill.html --><html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ENGR 091 Nonlinear Dynamics and Chaos | Emad Masroor</title>
+    <meta name="author" content="Emad  Masroor">
+    <meta name="description" content="Official course website">
+    <meta name="keywords" content="fluid dynamics, dynamical systems">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8C%80&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://emadmasroor.github.io/classes/E91_S25/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+  </head>
+
+  <body>
+<d-front-matter>
+    <script async type="text/json">{
+      "title": "ENGR 091 Nonlinear Dynamics and Chaos",
+      "description": "Official course website",
+      "published": "January 1, 2025",
+      "term": "Spring 2025",
+      "authors": [
+        {
+          "author": "Emad Masroor",
+          "authorURL": "https://emadmasroor.github.io",
+          "affiliations": [
+            {
+              "name": "Swarthmore College",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold" style="color: var(--global-navbar-text-color);">Emad Masroor</span></a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">About</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/news/">News</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/publications/">Publications &amp; Talks</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">Teaching</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/contact/">Contact</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/CV/">CV</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="post distill">
+
+      <d-title>
+        <h1>ENGR 091 Nonlinear Dynamics and Chaos</h1>
+        <p>Official course website</p>
+        <p>Spring 2025 • E91 • Swarthmore College</p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            <div><a href="#general-information">General Information</a></div>
+            <div><a href="#class-schedule">Class schedule</a></div>
+            <div><a href="#textbook">Textbook</a></div>
+            <div><a href="#labs">Labs</a></div>
+            <div><a href="#policies">Policies</a></div>
+            
+          </nav>
+        </d-contents>
+
+        <p>Welcome to the website for E91: Nonlinear Dynamics &amp; Chaos! Lecture notes and homework assignments will be posted here.</p>
+
+<h2 id="general-information">General Information</h2>
+
+<ul>
+  <li>
+<strong>Class meeting times</strong>: MW 11:45 AM — 1:00 PM in Singer 221</li>
+  <li>
+<strong>Instructor</strong>: Emad Masroor</li>
+  <li>
+<strong>Office Hours</strong>: M 1:00 PM to 3:00 PM</li>
+  <li>
+<strong>Labs</strong>: Self-scheduled, TBA</li>
+  <li>
+<strong>Grader</strong>: Brandon Mickelson <a href="mailto:bmickel1@swarthmore.edu">bmickel1@swarthmore.edu</a>
+</li>
+</ul>
+
+<h2 id="class-schedule">Class schedule</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Class</strong></th>
+      <th><strong>Date</strong></th>
+      <th><strong>Topic</strong></th>
+      <th><strong>Readings</strong></th>
+      <th><strong>HW</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.1</td>
+      <td>Wed, Jan 22</td>
+      <td>Introduction &amp; Review of Differential Equations</td>
+      <td>Ch. 1</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1.2</td>
+      <td>Wed, Jan 22</td>
+      <td>1-d dynamics on R^1: equilibrium, stability &amp; potentials</td>
+      <td>Ch. 2.0, 2.1, 2.2, 2.4, 2.7</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2.1</td>
+      <td>Mon, Jan 27</td>
+      <td>Bifurcations 1</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2.2</td>
+      <td>Wed, Jan 29</td>
+      <td>Bifurcations 2</td>
+      <td> </td>
+      <td>HW 1</td>
+    </tr>
+    <tr>
+      <td>3.1</td>
+      <td>Mon, Feb 3</td>
+      <td>Linear systems n = 2</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3.2</td>
+      <td>Wed, Feb 5</td>
+      <td>Phase plane 1</td>
+      <td> </td>
+      <td>HW 2</td>
+    </tr>
+    <tr>
+      <td>4.1</td>
+      <td>Mon, Feb 10</td>
+      <td>Phase plane 2</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4.2</td>
+      <td>Wed, Feb 12</td>
+      <td>Phase plane 3</td>
+      <td> </td>
+      <td>HW 3</td>
+    </tr>
+    <tr>
+      <td>5.1</td>
+      <td>Mon, Feb 17</td>
+      <td>Limit Cycles 1</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5.2</td>
+      <td>Wed, Feb 19</td>
+      <td>Limit Cycles 2</td>
+      <td> </td>
+      <td>HW 4</td>
+    </tr>
+    <tr>
+      <td>6.1</td>
+      <td>Mon, Feb 24</td>
+      <td>Limit Cycles 3</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>6.2</td>
+      <td>Wed, Feb 26</td>
+      <td>Bifurcations 1</td>
+      <td> </td>
+      <td>HW 5</td>
+    </tr>
+    <tr>
+      <td>7.1</td>
+      <td>Mon, Mar 3</td>
+      <td>Bifurcations 2</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>7.2</td>
+      <td>Wed, Mar 5</td>
+      <td>Bifurcations 3</td>
+      <td> </td>
+      <td>HW 6</td>
+    </tr>
+    <tr>
+      <td>8.1</td>
+      <td>Mon, Mar 17</td>
+      <td>The Lorenz system</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>8.2</td>
+      <td>Wed, Mar 19</td>
+      <td>Chaotic waterwheel</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9.1</td>
+      <td>Mon, Mar 24</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>9.2</td>
+      <td>Wed, Mar 26</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>10.1</td>
+      <td>Mon, Mar 31</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>10.2</td>
+      <td>Wed, Apr 2</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>11.1</td>
+      <td>Mon, Apr 7</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>11.2</td>
+      <td>Wed, Apr 9</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>12.1</td>
+      <td>Mon, Apr 14</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>12.2</td>
+      <td>Wed, Apr 16</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>13.1</td>
+      <td>Mon, Apr 21</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>13.2</td>
+      <td>Wed, Apr 23</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>14.1</td>
+      <td>Mon, Apr 28</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>14.2</td>
+      <td>Wed, Apr 30</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="textbook">Textbook</h2>
+
+<p>This course will follow the classic textbook by Strogatz. It is available in two equally acceptable editions:</p>
+
+<ul>
+  <li>Strogatz, S. H. (2018). Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering. United States: CRC Press.</li>
+  <li>Strogatz, S. (2024). Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering. United Kingdom: CRC Press.</li>
+</ul>
+
+<p>The Swarthmore textbook store stocks copies of this book; meanwhile, Cornell library holds copies in reserve. You can also find electronic copies on the internet. However, <strong>you must have a physical copy</strong> of your own for the duration of the semester.</p>
+
+<h2 id="labs">Labs</h2>
+
+<p>The labs for this class will be self-scheduled. This means that you should expect to spend the same amount of time doing ‘lab work’ that you would in any other ENGR class at Swarthmore, but you this may happen in a less structured way than you’re used to.</p>
+
+<p>More details to follow…</p>
+
+<h2 id="policies">Policies</h2>
+
+<h3 id="class-meetings">Class meetings</h3>
+<p>This course will be conducted in the form of (in-person) lectures during the regularly scheduled meeting times (i.e., Mondays and Wednesdays at 11:45 AM for 75 minutes per class meeting). Students are expected to attend every class meeting and take notes. The instructor will make available the lecture notes developed in class, but these do not replace the need for students to actively engage with the material, ideally by taking their own notes. Please be respectful of everyone else’s time by being punctual. You must not use cell phones or laptop computers during class, but you are permitted to take notes on a tablet or tablet-like device. Note that you need explicit permission of the instructor to take notes on your laptop, and such permission will be granted only in exceptional circumstances. If you must use your cell phone during class, you may excuse yourself from the classroom.</p>
+
+<h3 id="exams">Exams</h3>
+<p>There will be one midterm exam and one final exam for this course. You should expect the midterm to be held around spring break, and you should expect the final to be a <strong>take-home exam</strong> which you can complete over a 24-hour period of your choosing during finals week. The final exam will be cumulative.</p>
+
+<h3 id="homework">Homework</h3>
+<p>Homework assignments are an integral part of this course. You should expect to turn in approximately 12 homework assignments over the course of the semester. These assignments will collectively serve as a written document testifying to your ability to solve problems in nonlinear dynamics. As such, you should strive to turn in your best work.</p>
+
+<ul>
+  <li>Your submissions should be in PDF format, either typeset on your computer or handwritten and neatly scanned.</li>
+  <li>Although you will need to write code to solve some problems, your code will typically not be graded. You may, however, be asked to submit your code as an appendix.</li>
+  <li>Diagrams should be ‘publication-quality’ whenever feasible. At a minimum, they should  include all axis labels and legends where appropriate, and should use a font size that is large enough to be legible. You should pay attention to the thickness of lines, the shape of markers, and the contrast between colors.</li>
+</ul>
+
+<p>Due dates are strict on the timescale of days (e.g., you can’t normally submit a homework assignment a day or two late) but flexible on the time scale of an hour (i.e., you can typically submit a homework assignment up to an hour after the deadline and still ‘have it count’ as if it was submitted on time. A penalty of 10% per day will be applied for late homework assignments, and they will not be accepted more than seven days after the deadline. The purpose of the 10% penalty is two-fold: it eliminates the need for negotiations about exactly what happens when you miss a deadline, and it encourages you to stick to the deadlines to stay on track.</p>
+
+<h3 id="collaboration-and-attribution">Collaboration and Attribution</h3>
+<p>Working together with others on homework assignments is acceptable and even encouraged. However, what you submit must either be entirely your own work, or clearly name your collaborators. If you worked closely enough with a fellow student that you suspect your solutions will be substantially similar, you should attribute each other on your homework on the front page with a statement like “I worked together with X on problem 2”. You are also encouraged to attribute online resources if you use them.</p>
+
+<h3 id="artificial-intelligence">Artificial Intelligence</h3>
+<p>With the widespread availability of Large Language Models and other general-purpose artificial intelligence tools, you now have access to a powerful piece of technology that has the potential to drastically change the way we obtain information. At the same time, these tools threaten to reshape our relationship to <em>knowledge</em> and <em>understanding</em>, and some of these changes are inimical to the values of a college. With this in mind, note that</p>
+
+<ul>
+  <li>You are not prohibited from using these tools — the same way you would use a search engine or an online forum — to help you answer questions when you are studying for this class.</li>
+  <li>You are encouraged to use these tools creatively to aid in your understanding. If you have a question about the topics you are learning about in this course and you ‘ask an AI’, you may get a good answer. But to get a <em>really</em> good answer, you’ll need to know how to write a good question, which takes some practice.</li>
+  <li>Large Language Models are essentially very sophisticated plagiarism machines. After ingesting everything that humans have ever written that’s on the internet, these tools can regurgitate this information by sequentially predicting the ‘best’ words in a given ‘conversation’.</li>
+  <li>AI is (still) often wrong. There are many reasons for this, but it’s important to note that there are basically no guarantees against against finding something wrong on a Google search or a ChatGPT query.</li>
+  <li>Everything you turn in for this class must be your own work. Asking an AI tool how to solve a homework or exam problem, and then turning in that solution in your own words is a violation of academic integrity and will be treated as such. In this, AI tools are no different than using Chegg or StackExchange to find out how to solve a problem.</li>
+</ul>
+
+<h3 id="assessment">Assessment</h3>
+
+<p>Your grade will consist of the following components:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Homework</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>Midterm</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <td>Final</td>
+      <td>35%</td>
+    </tr>
+    <tr>
+      <td>Lab</td>
+      <td>15%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The thresholds for this class will be as follows:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Letter grade</th>
+      <th>Min. score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A-</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>B-</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <td>C-</td>
+      <td>60</td>
+    </tr>
+    <tr>
+      <td>D-</td>
+      <td>50</td>
+    </tr>
+  </tbody>
+</table>
+
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+      <d-bibliography src="/assets/bibliography/"></d-bibliography>
+</div>
+
+    <!-- Footer -->
+<footer class="fixed-bottom text-center">
+    <div class="container mt-0" style="font-size: 0.82rem;">
+      © 2025 Emad  Masroor   
+        𐤟   <a href="https://emadmasroor.github.io/contact/">Contact</a>   𐤟  
+        Updated: 01/2025
+  </div>
+</footer>
+
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  
+</body>
+</html>
