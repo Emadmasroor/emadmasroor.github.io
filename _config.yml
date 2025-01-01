@@ -196,7 +196,7 @@ collections:
 
   classes:
     defaults:
-      layout: distill
+      layout:
     output: true
     permalink: /classes/:path/
 
