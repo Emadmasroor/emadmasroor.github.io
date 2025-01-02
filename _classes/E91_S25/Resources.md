@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: Official course website
+description: 
 code: E91
 term: Spring 2025
 institution: Swarthmore College
