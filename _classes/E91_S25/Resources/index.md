@@ -36,7 +36,7 @@ toc:
 
 [PDF](E91-S25-LectureTemplate.pdf)
 
-[LaTeX](E91-S25-LectureTemplate.pdf)
+[LaTeX](E91-S25-LectureTemplate.tex)
 
 ## Demonstrations
 
