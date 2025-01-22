@@ -28,7 +28,7 @@ bibliography:
 toc:
   - name: General Information
   - name: Syllabus
-  - name: Lectures and HW
+  - name: Schedule
   - name: Labs
 
 ---
@@ -46,7 +46,9 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and ho
 
 <object data="E91-S25-Syllabus.pdf" width="100%" height="1000" type='application/pdf'></object>
 
-## Lectures and HW
+## Schedule
+
+Hyperlinks to lectures and homework assignments will be posted here.
 
 |   **Class**  |   **Date**     |   **Topic**                      |   **Readings**        |   **Due**  |
 |--------------|----------------|----------------------------------|-----------------------|------------|
