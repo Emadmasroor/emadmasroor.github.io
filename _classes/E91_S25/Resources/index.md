@@ -34,9 +34,9 @@ toc:
 
 ## Lecture Notes Template
 
-[PDF](E91-S25-LectureTemplate.pdf)
+[PDF]({ page.permalink }/E91-S25-LectureTemplate.pdf)
 
-[LaTeX](E91-S25-LectureTemplate.tex)
+[LaTeX]({ page.permalink }/E91-S25-LectureTemplate.tex)
 
 ## Demonstrations
 
