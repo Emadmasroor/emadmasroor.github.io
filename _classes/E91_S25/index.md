@@ -33,7 +33,7 @@ toc:
 
 ---
 
-Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and homework assignments will be posted here.
+Welcome to the website for E91: Nonlinear Dynamics & Chaos!
 
 ## General Information
 
