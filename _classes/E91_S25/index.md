@@ -27,8 +27,8 @@ bibliography:
 
 toc:
   - name: General Information
-  - name: Class schedule
-  - name: Textbook
+  - name: Syllabus
+  - name: Lectures and HW
   - name: Labs
   - name: Policies
 
@@ -37,6 +37,15 @@ toc:
 ---
 
 Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and homework assignments will be posted here.
+
+## General Information
+
+- **Class meeting times**: MW 11:45 AM --- 1:00 PM in Singer 221
+- **Instructor**: Emad Masroor
+- **Office Hours**: W 2:00 PM to 4:00 PM
+- **Labs**: Self-scheduled, TBA 
+
+## Syllabus
 
 <iframe src="../../assets/pdf/E91-S25-Syllabus.pdf" width="100%" height="500" frameborder="0" />
 
@@ -49,16 +58,7 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and ho
 <embed src="E91-S25-Syllabus.pdf" width="500" height="375" 
  type="application/pdf">
 
-## General Information
-
-- **Class meeting times**: MW 11:45 AM --- 1:00 PM in Singer 221
-- **Instructor**: Emad Masroor
-- **Office Hours**: W 2:00 PM to 4:00 PM
-- **Labs**: Self-scheduled, TBA 
-- **Grader**: Brandon Mickelson [bmickel1@swarthmore.edu](mailto:bmickel1@swarthmore.edu)
-
-
-## Class schedule
+## Lectures and HW
 
 |   **Class**  |   **Date**     |   **Topic**                      |   **Readings**        |   **Due**  |
 |--------------|----------------|----------------------------------|-----------------------|------------|
@@ -93,14 +93,6 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and ho
 |   14.1       |   Mon, Apr 28  |                                  |                       |            |
 |   14.2       |   Wed, Apr 30  |                                  |                       |            |
 
-## Textbook
-
-This course will follow the classic textbook by Strogatz. It is available in two equally acceptable editions:
-
-- Strogatz, S. H. (2018). Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering. United States: CRC Press.
-- Strogatz, S. (2024). Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering. United Kingdom: CRC Press.
-
-The Swarthmore textbook store stocks copies of this book; meanwhile, Cornell library holds copies in reserve. You can also find electronic copies on the internet. However, **you must have a physical copy** of your own for the duration of the semester.
 
 ## Labs
 
