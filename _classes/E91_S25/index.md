@@ -4,6 +4,7 @@ description: Official course website
 code: E91
 term: Spring 2025
 institution: Swarthmore College
+timeplace: MW 11:45 to 1:00 Singer 221
 giscus_comments: false
 tags: teaching 
 date: 2025-01-01
@@ -36,6 +37,8 @@ toc:
 ---
 
 Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and homework assignments will be posted here.
+
+<iframe src="../assets/pdf/E91-S25-Syllabus.pdf" width="100%" height="500" frameborder="0" />
 
 <embed src="E91-S25-Syllabus.pdf" width="500" height="375" 
  type="application/pdf">
