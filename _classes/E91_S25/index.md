@@ -41,7 +41,7 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and ho
 
 - **Class meeting times**: MW 11:45 AM --- 1:00 PM in Singer 221
 - **Instructor**: Emad Masroor
-- **Office Hours**: M 1:00 PM to 3:00 PM
+- **Office Hours**: M 2:30 PM to 4:30 PM
 - **Labs**: Self-scheduled, TBA 
 - **Grader**: Brandon Mickelson [bmickel1@swarthmore.edu](mailto:bmickel1@swarthmore.edu)
 
@@ -90,7 +90,7 @@ The Swarthmore textbook store stocks copies of this book; meanwhile, Cornell lib
 
 ## Labs
 
-The labs for this class will be self-scheduled. This means that you should expect to spend the same amount of time doing 'lab work' that you would in any other ENGR class at Swarthmore, but you this may happen in a less structured way than you're used to.
+The labs for this class will be self-scheduled.
 
 More details to follow...
 
@@ -102,6 +102,9 @@ This course will be conducted in the form of (in-person) lectures during the reg
 
 ### Exams
 There will be one midterm exam and one final exam for this course. You should expect the midterm to be held around spring break, and you should expect the final to be a **take-home exam** which you can complete over a 24-hour period of your choosing during finals week. The final exam will be cumulative. 
+
+#### Missed Exams
+If you miss an exam without prior notice, it will not be rescheduled. If you need to take an exam at an alternate time for any reason, you must request this in writing at least one week prior to the scheduled exam. Such a request will be granted on a case-by-case basis at the discretion of the instructor. 
 
 ### Homework 
 Homework assignments are an integral part of this course. You should expect to turn in approximately 12 homework assignments over the course of the semester. These assignments will collectively serve as a written document testifying to your ability to solve problems in nonlinear dynamics. As such, you should strive to turn in your best work.
