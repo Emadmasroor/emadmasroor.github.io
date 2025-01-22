@@ -25,14 +25,19 @@ bibliography:
 
 
 toc:
-  - name: General Information
-  - name: Class schedule
-  - name: Textbook
-  - name: Labs
-  - name: Policies
+  - name: Lecture Notes Template
+  - name: Demonstrations
 
 
 
 ---
 
-This page has resources
+## Lecture Notes Template
+
+[PDF](E91-S25-LectureTemplate.pdf)
+
+[LaTeX](E91-S25-LectureTemplate.pdf)
+
+## Demonstrations
+
+### Numerical Solution of Differential Equations
