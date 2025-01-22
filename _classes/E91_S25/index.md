@@ -37,6 +37,8 @@ toc:
 
 Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and homework assignments will be posted here.
 
+<iframe src="E91-S25-Syllabus.pdf" width="100%" height="500" frameborder="0" />
+
 ## General Information
 
 - **Class meeting times**: MW 11:45 AM --- 1:00 PM in Singer 221
