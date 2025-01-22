@@ -48,36 +48,38 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and ho
 
 ## Class schedule
 
-| **Class** | **Date**       | **Topic**                                                   | **Readings**                   | **HW**  |
-|-----------|----------------|-------------------------------------------------------------|--------------------------------|---------|
-|   1.1     |   Wed, Jan 22  |   Introduction & Review of Differential Equations           |   Ch. 1                        |         |
-|   1.2     |   Wed, Jan 22  |   1-d dynamics on R^1: equilibrium, stability & potentials  |   Ch. 2.0, 2.1, 2.2, 2.4, 2.7  |         |
-|   2.1     |   Mon, Jan 27  |   Bifurcations 1                                            |                                |         |
-|   2.2     |   Wed, Jan 29  |   Bifurcations 2                                            |                                |   HW 1  |
-|   3.1     |   Mon, Feb 3   |   Linear systems n = 2                                      |                                |         |
-|   3.2     |   Wed, Feb 5   |   Phase plane 1                                             |                                |   HW 2  |
-|   4.1     |   Mon, Feb 10  |   Phase plane 2                                             |                                |         |
-|   4.2     |   Wed, Feb 12  |   Phase plane 3                                             |                                |   HW 3  |
-|   5.1     |   Mon, Feb 17  |   Limit Cycles 1                                            |                                |         |
-|   5.2     |   Wed, Feb 19  |   Limit Cycles 2                                            |                                |   HW 4  |
-|   6.1     |   Mon, Feb 24  |   Limit Cycles 3                                            |                                |         |
-|   6.2     |   Wed, Feb 26  |   Bifurcations 1                                            |                                |   HW 5  |
-|   7.1     |   Mon, Mar 3   |   Bifurcations 2                                            |                                |         |
-|   7.2     |   Wed, Mar 5   |   Bifurcations 3                                            |                                |   HW 6  |
-|   8.1     |   Mon, Mar 17  |   The Lorenz system                                         |                                |         |
-|   8.2     |   Wed, Mar 19  |   Chaotic waterwheel                                        |                                |         |
-|   9.1     |   Mon, Mar 24  |                                                             |                                |         |
-|   9.2     |   Wed, Mar 26  |                                                             |                                |         |
-|   10.1    |   Mon, Mar 31  |                                                             |                                |         |
-|   10.2    |   Wed, Apr 2   |                                                             |                                |         |
-|   11.1    |   Mon, Apr 7   |                                                             |                                |         |
-|   11.2    |   Wed, Apr 9   |                                                             |                                |         |
-|   12.1    |   Mon, Apr 14  |                                                             |                                |         |
-|   12.2    |   Wed, Apr 16  |                                                             |                                |         |
-|   13.1    |   Mon, Apr 21  |                                                             |                                |         |
-|   13.2    |   Wed, Apr 23  |                                                             |                                |         |
-|   14.1    |   Mon, Apr 28  |                                                             |                                |         |
-|   14.2    |   Wed, Apr 30  |                                                             |                                |         |
+|   **Class**  |   **Date**     |   **Topic**                      |   **Readings**        |   **Due**  |
+|--------------|----------------|----------------------------------|-----------------------|------------|
+|   1.1        |   Wed, Jan 22  |   Introduction & Review          |                       |            |
+|   2.1        |   Mon, Jan 27  |   Three approaches to dynamics   |   2.0, 2.1, 4.0, 4.1  |            |
+|   2.2        |   Wed, Jan 29  |   Potentials & Linear Stability  |   2.4, 2.7            |   HW 1     |
+|   3.1        |   Mon, Feb 3   |   Bifurcations                   |   Ch. 3               |            |
+|   3.2        |   Wed, Feb 5   |   Bifurcations                   |   Ch. 3               |   HW 2     |
+|   4.1        |   Mon, Feb 10  |   Linear systems                 |   Ch. 5               |            |
+|   4.2        |   Wed, Feb 12  |   Linear systems                 |   Ch. 5               |   HW 3     |
+|   5.1        |   Mon, Feb 17  |   Nonlinear phase plane          |   Ch. 6               |            |
+|   5.2        |   Wed, Feb 19  |   Nonlinear phase plane          |   Ch. 6               |   HW 4     |
+|   6.1        |   Mon, Feb 24  |   Limit cycles                   |   Ch. 7               |            |
+|   6.2        |   Wed, Feb 26  |   Limit cycles                   |   Ch. 7               |   HW 5     |
+|   7.1        |   Mon, Mar 3   |   Bifurcations                   |   Ch. 8               |            |
+|   7.2        |   Wed, Mar 5   |   Bifurcations                   |   Ch. 8               |   HW 6     |
+|   8.1        |   Mon, Mar 17  |   The Lorenz System              |                       |            |
+|   8.2        |   Wed, Mar 19  |                                  |                       |   Midterm  |
+|   9.1        |   Mon, Mar 24  |                                  |                       |            |
+|   9.2        |   Wed, Mar 26  |                                  |                       |   HW 7     |
+|   10.1       |   Mon, Mar 31  |                                  |                       |            |
+|   10.2       |   Wed, Apr 2   |                                  |                       |   HW 8     |
+|   11.1       |   Mon, Apr 7   |                                  |                       |            |
+|   11.2       |   Wed, Apr 9   |                                  |                       |   HW 9     |
+|   12.1       |   Mon, Apr 14  |                                  |                       |            |
+|   12.2       |   Wed, Apr 16  |                                  |                       |   HW 10    |
+|   13.1       |   Mon, Apr 21  |                                  |                       |            |
+|   13.2       |   Wed, Apr 23  |                                  |                       |   HW 11    |
+|   14.1       |   Mon, Apr 28  |                                  |                       |            |
+|   14.2       |   Wed, Apr 30  |                                  |                       |   HW 12    |
+|   13.2       |   Wed, Apr 23  |                                  |                       |            |
+|   14.1       |   Mon, Apr 28  |                                  |                       |            |
+|   14.2       |   Wed, Apr 30  |                                  |                       |            |
 
 ## Textbook
 
