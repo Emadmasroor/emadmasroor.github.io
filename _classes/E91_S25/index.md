@@ -41,7 +41,7 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos! Lecture notes and ho
 
 - **Class meeting times**: MW 11:45 AM --- 1:00 PM in Singer 221
 - **Instructor**: Emad Masroor
-- **Office Hours**: M 2:30 PM to 4:30 PM
+- **Office Hours**: W 2:00 PM to 4:00 PM
 - **Labs**: Self-scheduled, TBA 
 - **Grader**: Brandon Mickelson [bmickel1@swarthmore.edu](mailto:bmickel1@swarthmore.edu)
 
