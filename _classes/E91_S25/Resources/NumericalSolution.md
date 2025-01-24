@@ -23,12 +23,18 @@ bibliography:
 
 
 toc:
-  - name: Lecture Notes Template
-  - name: Demonstrations
+  - name: The Initial Value Problem
+  - name: Using Python
+  - name: Using Mathematica
+  - name: Using MATLAB
 
 
 
 ---
+
+## The Initial Value Problem
+Numerically solve the initial value problem given by
+$$ \dot{y} = \sin y, \quad y(0) = \pi/6.$$
 
 ## Using Python
 
@@ -69,9 +75,6 @@ Plot[y[t] /. solution, {t, 0, 2 \[Pi]}]
 ```
 
 ![Mathematica image](mathematica_ivp.png)
-
-<embed src="mathematica_ivp.pdf" width="500" height="375" 
- type="application/pdf">
 
 ## Using MATLAB
 
