@@ -57,4 +57,28 @@ plt.ylabel('x(t)')
 plt.show()    # uncomment to preview figure
 ```
 
+## Using Mathematica
 
+```
+solution = 
+ NDSolve[{y'[t] == Sin[y[t]], y[0] == \[Pi]/6}, y[t], {t, 0, 2 \[Pi]}]
+
+Plot[y[t] /. solution, {t, 0, 2 \[Pi]}]
+```
+
+<embed src="mathematica_ivp.pdf" width="500" height="375" 
+ type="application/pdf">
+
+## Using MATLAB
+
+```
+x_init      = pi/6;
+t_vector    = linspace(0,2*pi,100);
+[t,x]       = ode45(@rhs,t_vector,x_init);
+
+figure(1);
+plot(t,x,LineWidth=2,Marker=".",MarkerSize=12,Color='Red');
+xlabel('t');
+ylabel('x(t)');
+grid on;
+```
