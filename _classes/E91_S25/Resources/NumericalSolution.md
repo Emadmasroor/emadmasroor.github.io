@@ -63,7 +63,7 @@ plt.ylabel('x(t)')
 plt.show()    # uncomment to preview figure
 ```
 
-![Python image](python_ivp.png)
+![Python image](python_ivp.png){:style="max-width: 100%; height: auto;"}
 
 ## Using Mathematica
 
@@ -74,7 +74,7 @@ solution =
 Plot[y[t] /. solution, {t, 0, 2 \[Pi]}]
 ```
 
-![Mathematica image](mathematica_ivp.png)
+![Mathematica image](mathematica_ivp.png){:style="max-width: 100%; height: auto;"}
 
 ## Using MATLAB
 
@@ -90,4 +90,4 @@ ylabel('x(t)');
 grid on;
 ```
 
-![MATLAB image](matlab_ivp.png)
+![MATLAB image](matlab_ivp.png){:style="max-width: 100%; height: auto;"}
