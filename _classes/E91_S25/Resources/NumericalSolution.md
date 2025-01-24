@@ -57,6 +57,8 @@ plt.ylabel('x(t)')
 plt.show()    # uncomment to preview figure
 ```
 
+![Python image](python_ivp.png)
+
 ## Using Mathematica
 
 ```
@@ -65,6 +67,8 @@ solution =
 
 Plot[y[t] /. solution, {t, 0, 2 \[Pi]}]
 ```
+
+![Mathematica image](mathematica_ivp.png)
 
 <embed src="mathematica_ivp.pdf" width="500" height="375" 
  type="application/pdf">
@@ -82,3 +86,5 @@ xlabel('t');
 ylabel('x(t)');
 grid on;
 ```
+
+![MATLAB image](matlab_ivp.png)
