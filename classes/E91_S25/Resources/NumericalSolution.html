@@ -124,13 +124,19 @@
         <d-contents>
           <nav class="l-text figcaption">
           <h3>Contents</h3>
-            <div><a href="#lecture-notes-template">Lecture Notes Template</a></div>
-            <div><a href="#demonstrations">Demonstrations</a></div>
+            <div><a href="#the-initial-value-problem">The Initial Value Problem</a></div>
+            <div><a href="#using-python">Using Python</a></div>
+            <div><a href="#using-mathematica">Using Mathematica</a></div>
+            <div><a href="#using-matlab">Using MATLAB</a></div>
             
           </nav>
         </d-contents>
 
-        <h2 id="using-python">Using Python</h2>
+        <h2 id="the-initial-value-problem">The Initial Value Problem</h2>
+<p>Numerically solve the initial value problem given by
+\(\dot{y} = \sin y, \quad y(0) = \pi/6.\)</p>
+
+<h2 id="using-python">Using Python</h2>
 
 <p>You must have the packages <code class="language-plaintext highlighter-rouge">scipy</code>, <code class="language-plaintext highlighter-rouge">numpy</code>, and <code class="language-plaintext highlighter-rouge">matplotlib</code> installed in order to use the import statements shown below. If you don’t know how to install these packages, please see the tutorial <a href="https://packaging.python.org/en/latest/tutorials/installing-packages/" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
@@ -167,8 +173,6 @@ Plot[y[t] /. solution, {t, 0, 2 \[Pi]}]
 </code></pre></div></div>
 
 <p><img src="mathematica_ivp.png" alt="Mathematica image"></p>
-
-<embed src="mathematica_ivp.pdf" width="500" height="375" type="application/pdf"></embed>
 
 <h2 id="using-matlab">Using MATLAB</h2>
 
