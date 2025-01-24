@@ -34,7 +34,8 @@ toc:
 
 ## The Initial Value Problem
 Numerically solve the initial value problem given by
-$$ \dot{y} = \sin y, \quad y(0) = \pi/6.$$
+
+$$ \dot{y} = \sin y, \, y(0) = \pi/6.$$
 
 ## Using Python
 
