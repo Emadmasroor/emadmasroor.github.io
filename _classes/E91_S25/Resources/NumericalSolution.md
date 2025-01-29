@@ -91,4 +91,12 @@ ylabel('x(t)');
 grid on;
 ```
 
+For this to work, you must have the file `rhs.m` in the same directory, and the file should contain:
+
+```
+function [dydt] = rhs(t,y)
+dydt = sin(y);
+end
+```
+
 ![MATLAB image](matlab_ivp.png){:style="max-width: 100%; height: auto;"}
