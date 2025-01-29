@@ -32,6 +32,8 @@ toc:
 
 ---
 
+# Section 1
+
 ## Lecture Notes Template
 
 [PDF]({ page.permalink }/E91-S25-LectureTemplate.pdf)
@@ -40,7 +42,11 @@ toc:
 
 ## Demonstrations
 
+# Section 2
+
 ### Numerical Solution of Differential Equations
+
+[Tutorial](/NumericalSolution.md)
 
 ### The Logistic Equation
 
