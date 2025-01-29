@@ -41,3 +41,8 @@ toc:
 ## Demonstrations
 
 ### Numerical Solution of Differential Equations
+
+### The Logistic Equation
+
+<iframe src="https://www.wolframcloud.com/obj/95ff1bff-9dba-41e7-a337-92c401bf3d9a?_embed=iframe" width="600" height="800"></iframe>
+
