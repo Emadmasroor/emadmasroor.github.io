@@ -188,6 +188,13 @@ ylabel('x(t)');
 grid on;
 </code></pre></div></div>
 
+<p>For this to work, you must have the file <code class="language-plaintext highlighter-rouge">rhs.m</code> in the same directory, and the file should contain:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>function [dydt] = rhs(t,y)
+dydt = sin(y);
+end
+</code></pre></div></div>
+
 <p><img src="matlab_ivp.png" alt="MATLAB image" style="max-width: 100%; height: auto;"></p>
 
       </d-article>
