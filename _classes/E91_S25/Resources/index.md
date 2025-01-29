@@ -44,4 +44,4 @@ toc:
 
 ### The Logistic Equation
 
-<iframe src="https://www.wolframcloud.com/obj/d13bcabe-5f8e-4efd-bc49-1ebae7f5e6c1?_embed=iframe" width="600" height="800"></iframe>
+[Mathematica Notebook](https://www.wolframcloud.com/obj/c36c6ae1-7623-4a0b-bb6c-85193b1572d1)
