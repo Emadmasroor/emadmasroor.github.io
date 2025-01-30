@@ -56,7 +56,7 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |--------------|----------------|------------------------------------|-----------------------|------------|
 |   [1.1](Lecs/E91.S25.Lec1.pdf)        |   Wed, Jan 22  |   Introduction & Review            |                       |            |
 |   [2.1](Lecs/E91.S25.Lec2.pdf)        |   Mon, Jan 27  |   Three approaches to dynamics     |   2.0, 2.1, 4.0, 4.1  |            |
-|   [2.2](Lecs/E91.S25.Lec3.pdf)        |   Wed, Jan 29  |   Potentials & Linear Stability    |   2.4, 2.7            |   [HW 1](HW/HW1.pdf)     |
+|   [2.2](Lecs/E91.S25.Lec3.pdf)        |   Wed, Jan 29  |   Potentials & Linear Stability    |   2.4, 2.7            |   [HW 1](HW/HW1.pdf) [[solutions](HW/HW1Solutions.pdf)]     |
 |   3.1        |   Mon, Feb 3   |   Bifurcations                     |   Ch. 3               |            |
 |   3.2        |   Wed, Feb 5   |   Bifurcations                     |   Ch. 3               |   [HW 2](HW/HW2.pdf)     |
 |   4.1        |   Mon, Feb 10  |   Linear systems                   |   Ch. 5               |            |
