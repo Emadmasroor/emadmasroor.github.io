@@ -26,7 +26,8 @@ bibliography:
 
 toc:
   - name: Lecture Notes Template
-  - name: Demonstrations
+  - name: Numerical Solution of Differential Equations
+  - name: The Logistic Equation
 
 
 
@@ -40,15 +41,11 @@ toc:
 
 [LaTeX](E91-S25-LectureTemplate.tex)
 
-## Demonstrations
-
-# Section 2
-
-### Numerical Solution of Differential Equations
+## Numerical Solution of Differential Equations
 
 [Tutorial](/NumericalSolution.md)
 
-### The Logistic Equation
+## The Logistic Equation
 
 [Interactive Mathematica Notebook](https://www.wolframcloud.com/obj/c36c6ae1-7623-4a0b-bb6c-85193b1572d1)
 
