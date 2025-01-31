@@ -33,8 +33,6 @@ toc:
 
 ---
 
-# Section 1
-
 ## Lecture Notes Template
 
 [PDF]({{ page.permalink }}/E91-S25-LectureTemplate.pdf)
