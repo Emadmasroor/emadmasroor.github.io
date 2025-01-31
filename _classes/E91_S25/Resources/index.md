@@ -37,16 +37,16 @@ toc:
 
 ## Lecture Notes Template
 
-[PDF](E91-S25-LectureTemplate.pdf)
+[PDF]({{ page.permalink }}/E91-S25-LectureTemplate.pdf)
 
-[LaTeX](E91-S25-LectureTemplate.tex)
+[LaTeX]({{ page.permalink }}/E91-S25-LectureTemplate.tex)
 
 ## Numerical Solution of Differential Equations
 
-[Tutorial](/NumericalSolution.md)
+[Tutorial]({{ page.permalink }}/NumericalSolution.md)
 
 ## The Logistic Equation
 
 [Interactive Mathematica Notebook](https://www.wolframcloud.com/obj/c36c6ae1-7623-4a0b-bb6c-85193b1572d1)
 
-[Mathematica *.nb file](LogisticEquation.nb)
+[Mathematica *.nb file]({{ page.permalink }}/LogisticEquation.nb)
