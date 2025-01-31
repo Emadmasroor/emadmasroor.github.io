@@ -91,4 +91,8 @@ The labs for this class will be self-scheduled.
 
 More details to follow...
 
+## Resources
+
+[Resources](Resources)
+
 
