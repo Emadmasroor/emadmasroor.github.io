@@ -36,9 +36,9 @@ toc:
 
 ## Lecture Notes Template
 
-[PDF]({ page.permalink }/E91-S25-LectureTemplate.pdf)
+[PDF](E91-S25-LectureTemplate.pdf)
 
-[LaTeX]({ page.permalink }/E91-S25-LectureTemplate.tex)
+[LaTeX](E91-S25-LectureTemplate.tex)
 
 ## Demonstrations
 
@@ -50,4 +50,6 @@ toc:
 
 ### The Logistic Equation
 
-[Mathematica Notebook](https://www.wolframcloud.com/obj/c36c6ae1-7623-4a0b-bb6c-85193b1572d1)
+[Interactive Mathematica Notebook](https://www.wolframcloud.com/obj/c36c6ae1-7623-4a0b-bb6c-85193b1572d1)
+
+[Mathematica *.nb file](LogisticEquation.nb)
