@@ -41,7 +41,7 @@ toc:
 
 ## Numerical Solution of Differential Equations
 
-[Tutorial]({{ page.permalink }}/NumericalSolution.md)
+[Tutorial]({{ page.permalink }}/NumericalSolution)
 
 ## The Logistic Equation
 
