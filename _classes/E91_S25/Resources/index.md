@@ -53,3 +53,5 @@ toc:
 ## Bifurcations
 
 [Saddle-Node, Transcritical, and Pitchfork bifurcations](https://www.wolframcloud.com/obj/bb46477a-21b0-4256-86e7-5f67b25dbb43)
+
+[Higher-order Pitchfork Bifurcation](https://tinyurl.com/higherorderbifurcation1)
