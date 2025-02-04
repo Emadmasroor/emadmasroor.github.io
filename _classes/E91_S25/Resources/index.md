@@ -28,6 +28,7 @@ toc:
   - name: Lecture Notes Template
   - name: Numerical Solution of Differential Equations
   - name: The Logistic Equation
+  - name: Bifurcations
 
 
 
@@ -48,3 +49,7 @@ toc:
 [Interactive Mathematica Notebook](https://www.wolframcloud.com/obj/c36c6ae1-7623-4a0b-bb6c-85193b1572d1)
 
 [Mathematica *.nb file]({{ page.permalink }}/LogisticEquation.nb)
+
+## Bifurcations
+
+[Saddle-Node, Transcritical, and Pitchfork bifurcations](https://www.wolframcloud.com/obj/bb46477a-21b0-4256-86e7-5f67b25dbb43)
