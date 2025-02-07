@@ -34,12 +34,34 @@ toc:
 ## Introduction
 In this lab, you will ...
 
+## Equipment and hardware
+
+This lab makes use of a compound pendulum mounted onto a potentiometer. The compound pendulum is made of Aluminum, and measures 10" x 1" x 1/4". It is secured with the help of a set-screw to the shaft of the poteniometer. The potentiometer is the [Vishay Spectrol 157-11103](https://www.vishay.com/docs/57042/157.pdf), which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading.
+
+Data collection is carried out using the [Analog Discovery 3](https://digilent.com/shop/analog-discovery-3/), a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.
+
 ## Software
 This lab will make use of the open-source software [WaveForms](https://tinyurl.com/E91LabSoftware) from Digilent, the manufacturer of the analog I/O device that you'll use to collect data. Download WaveForms, install it on your computer, and bring it with you to the lab.
 
 WaveForms can load a 'workspace', which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab [here]({{ page.permalink }}/../Lab1Workspace.dwf3work). It will look something like this:
 
 ![workspace]({{ page.permalink }}/../waveforms.png)
+
+A reference manual for WaveForms is available [here](https://digilent.com/reference/software/waveforms/waveforms-3/reference-manual).
+
+## Wiring and Connections
+
+The wiring should already be set up for you; all you need to do is plug in the USB-c cable from the Analog Discovery. In case you need to re-wire the potentiometer to the Analog Discovery:
+
+- Connect the red wire to V+
+- Connect the black wire to any GND
+- Connect the white wire to 1+
+
+## Testing and calibration
+
+After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.
+
+![connected]({{ page.permalink }}/../pic1.png)
 
 
 ## The Initial Value Problem
