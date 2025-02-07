@@ -61,7 +61,6 @@ The wiring should already be set up for you; all you need to do is plug in the U
 
 ## Testing the virtual oscilloscope
 
-
 After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.
 
 ![connected]({{ page.permalink }}/../pic1.png){:style="max-width: 100%; height: auto;"}
@@ -73,6 +72,24 @@ You should see a trace of the voltage develop across the screen. 'C2' reads the 
 The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.
 
 ![rightpanel]({{ page.permalink }}/../pic3.png){:style="max-width: 100%; height: auto;"}
+
+## Calibration
+
+Before any dynamic data can be collected, you must calibrate the potentiometer. It is important that you perform the calibration as close as possible to when you collect dynamic data  to minimize the possibility that environmental uncertainties introduce errors into the calibration. Such errors _can_ be fixed during post-processing, but it is best to minimze them when collecting data.
+
+### Drift
+
+It has been noticed that the rest reading of the potentiometer can sometimes drift. Therefore, after switching on the scope, you should wait for the rest reading to settle at a constant value. A good way to decide whether the potentiometer has 'settled' is to check if the reading is off by more than 1 mV in about a minute. Your mileage may vary; just keep in mind that this drift is bad for our experiment.
+
+### Calibrating at zero degrees
+
+We will measure the angle from the vertical, and so the rest reading --- when you are not doing anything to the pendulum --- is zero degrees. After you are satisfied that the drift has settled down, make a 5-second recording at 1 kHz to record the rest reading. This is almost certainly overkill, but computers make it easy for us to save five thousand nearly-equal numbers just so we can average them later.
+
+Select 'Mode: Record' as shown here, and set the sampling rate to 1 kHz with 5 s of total time.
+
+![gif2]({{ page.permalink }}/../gif2.gif)
+
+From now on, the 'record' button will use these settings unless you change them. Use this setting to save 
 
 ## The Initial Value Problem
 Numerically solve the initial value problem given by
