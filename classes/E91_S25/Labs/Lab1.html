@@ -134,12 +134,36 @@
 <h2 id="introduction">Introduction</h2>
 <p>In this lab, you will …</p>
 
+<h2 id="equipment-and-hardware">Equipment and hardware</h2>
+
+<p>This lab makes use of a compound pendulum mounted onto a potentiometer. The compound pendulum is made of Aluminum, and measures 10” x 1” x 1/4”. It is secured with the help of a set-screw to the shaft of the poteniometer. The potentiometer is the <a href="https://www.vishay.com/docs/57042/157.pdf" rel="external nofollow noopener" target="_blank">Vishay Spectrol 157-11103</a>, which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading.</p>
+
+<p>Data collection is carried out using the <a href="https://digilent.com/shop/analog-discovery-3/" rel="external nofollow noopener" target="_blank">Analog Discovery 3</a>, a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.</p>
+
 <h2 id="software">Software</h2>
 <p>This lab will make use of the open-source software <a href="https://tinyurl.com/E91LabSoftware" rel="external nofollow noopener" target="_blank">WaveForms</a> from Digilent, the manufacturer of the analog I/O device that you’ll use to collect data. Download WaveForms, install it on your computer, and bring it with you to the lab.</p>
 
 <p>WaveForms can load a ‘workspace’, which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab <a href="/classes/E91_S25/Labs/Lab1/../Lab1Workspace.dwf3work">here</a>. It will look something like this:</p>
 
 <p><img src="/classes/E91_S25/Labs/Lab1/../waveforms.png" alt="workspace"></p>
+
+<p>A reference manual for WaveForms is available <a href="https://digilent.com/reference/software/waveforms/waveforms-3/reference-manual" rel="external nofollow noopener" target="_blank">here</a>.</p>
+
+<h2 id="wiring-and-connections">Wiring and Connections</h2>
+
+<p>The wiring should already be set up for you; all you need to do is plug in the USB-c cable from the Analog Discovery. In case you need to re-wire the potentiometer to the Analog Discovery:</p>
+
+<ul>
+  <li>Connect the red wire to V+</li>
+  <li>Connect the black wire to any GND</li>
+  <li>Connect the white wire to 1+</li>
+</ul>
+
+<h2 id="testing-and-calibration">Testing and calibration</h2>
+
+<p>After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.</p>
+
+<p><img src="/classes/E91_S25/Labs/Lab1/../pic1.png" alt="connected"></p>
 
 <h2 id="the-initial-value-problem">The Initial Value Problem</h2>
 <p>Numerically solve the initial value problem given by</p>
