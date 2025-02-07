@@ -89,7 +89,11 @@ Select 'Mode: Record' as shown here, and set the sampling rate to 1 kHz with 5 s
 
 ![gif2]({{ page.permalink }}/../gif2.gif)
 
-From now on, the 'record' button will use these settings unless you change them. Use this setting to save 
+From now on, the 'record' button will use these settings unless you change them.
+
+### Calibrating at other angles
+
+Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.
 
 ## The Initial Value Problem
 Numerically solve the initial value problem given by
