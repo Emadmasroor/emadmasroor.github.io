@@ -45,7 +45,7 @@ This lab will make use of the open-source software [WaveForms](https://tinyurl.c
 
 WaveForms can load a 'workspace', which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab [here]({{ page.permalink }}/../Lab1Workspace.dwf3work). It will look something like this:
 
-![workspace]({{ page.permalink }}/../waveforms.png)
+![workspace]({{ page.permalink }}/../waveforms.png){:style="max-width: 100%; height: auto;"}
 
 A reference manual for WaveForms is available [here](https://digilent.com/reference/software/waveforms/waveforms-3/reference-manual).
 
@@ -59,9 +59,15 @@ The wiring should already be set up for you; all you need to do is plug in the U
 
 ## Testing and calibration
 
+
 After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.
 
-![connected]({{ page.permalink }}/../pic1.png)
+![connected]({{ page.permalink }}/../pic1.png){:style="max-width: 100%; height: auto;"}
+
+Start scanning the voltage reading by clicking 'scan' near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that 'mode' is set to 'Screen' as shown here. ![scan]({{ page.permalink }}/../pic2.png)
+
+You should see a trace of the voltage develop across the screen. 'C2' reads the voltage directly, whereas 'M1' is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. ![gif1]({{ page.permalink }}/../gif1.gif))
+
 
 
 ## The Initial Value Problem
