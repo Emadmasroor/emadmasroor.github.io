@@ -175,6 +175,24 @@
 
 <p><img src="/classes/E91_S25/Labs/Lab1/../pic3.png" alt="rightpanel" style="max-width: 100%; height: auto;"></p>
 
+<h2 id="calibration">Calibration</h2>
+
+<p>Before any dynamic data can be collected, you must calibrate the potentiometer. It is important that you perform the calibration as close as possible to when you collect dynamic data  to minimize the possibility that environmental uncertainties introduce errors into the calibration. Such errors <em>can</em> be fixed during post-processing, but it is best to minimze them when collecting data.</p>
+
+<h3 id="drift">Drift</h3>
+
+<p>It has been noticed that the rest reading of the potentiometer can sometimes drift. Therefore, after switching on the scope, you should wait for the rest reading to settle at a constant value. A good way to decide whether the potentiometer has ‘settled’ is to check if the reading is off by more than 1 mV in about a minute. Your mileage may vary; just keep in mind that this drift is bad for our experiment.</p>
+
+<h3 id="calibrating-at-zero-degrees">Calibrating at zero degrees</h3>
+
+<p>We will measure the angle from the vertical, and so the rest reading — when you are not doing anything to the pendulum — is zero degrees. After you are satisfied that the drift has settled down, make a 5-second recording at 1 kHz to record the rest reading. This is almost certainly overkill, but computers make it easy for us to save five thousand nearly-equal numbers just so we can average them later.</p>
+
+<p>Select ‘Mode: Record’ as shown here, and set the sampling rate to 1 kHz with 5 s of total time.</p>
+
+<p><img src="/classes/E91_S25/Labs/Lab1/../gif2.gif" alt="gif2"></p>
+
+<p>From now on, the ‘record’ button will use these settings unless you change them. Use this setting to save</p>
+
 <h2 id="the-initial-value-problem">The Initial Value Problem</h2>
 <p>Numerically solve the initial value problem given by</p>
 
