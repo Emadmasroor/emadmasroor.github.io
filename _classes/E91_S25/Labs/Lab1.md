@@ -21,6 +21,7 @@ authors:
 
 bibliography: 
 toc:
+  - name: Logistics
   - name: Experiments
   - name: Theory
   - name: Data Analysis
