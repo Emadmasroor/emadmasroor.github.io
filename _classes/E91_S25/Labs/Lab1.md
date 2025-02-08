@@ -28,6 +28,17 @@ toc:
 
 In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.
 
+# Logistics
+
+This lab is self-scheduled; you will carry out the tasks here on your own time. The due date is unspecified, but you are recommended to complete the experimental portion of these tasks by February 14. The apparatus is located in Singer Hall 120 (a.k.a. 'the High Bay'). This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people's work.
+
+Sign up for times in the High Bay [here](https://tinyurl.com/E91LabSignup) using the drop-down menu as illustrated below. Please keep in mind that there will be other people using the space, especially 1-4 PM, so you are encouraged to find times outside of the usual lab hours. You should all have OneCard access to the High Bay.
+
+![signup]({{ page.permalink }}/../pic5.png){:style="max-width: 100%; height: auto;"}
+
+Your group has been assigned in Moodle; if you asked to be in a particular group, you have been placed with those students. You should be able to see which group you're in in Moodle.
+
+
 # Experiments
 
 ## Equipment and hardware
@@ -40,7 +51,7 @@ Data collection is carried out using the [Analog Discovery 3](https://digilent.c
 
 ## Measurements
 
-Measure the length, width, and thickness of the pendulum. You should also measure the distance of the mounting hole from its closest short edge. In addition, use a mass balance (located in the center of the High Bay) to determine its mass. **Note:** You will have to loosen the set screw (using the provided allen key) to make these measurements. Make sure you tighten the set screw securely when you return the pendulum on to the shaft; you don't want the pendulum to go flying off the shaft
+Measure the length, width, and thickness of the pendulum. You should also measure the distance of the mounting hole from its closest short edge. In addition, use a mass balance (located in the center of the High Bay) to determine its mass. **Note:** You will have to loosen the set screw (using the provided allen key) to make these measurements. Make sure you tighten the set screw securely when you return the pendulum on to the shaft; you don't want the pendulum to go flying off the shaft.
 
 ## Software
 This lab will make use of the open-source software [WaveForms](https://tinyurl.com/E91LabSoftware) from Digilent, the manufacturer of the analog I/O device that you'll use to collect data.  Download WaveForms, install it on your computer, and bring it with you to the lab.
