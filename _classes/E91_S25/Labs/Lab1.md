@@ -152,6 +152,10 @@ Save each case as a `*.csv` file.
 
 - [ ] Task 1
 - [ ] Task 2
+- [ ]  Task 2.5
+
+[ ]  Task 3
+[ ]  Task 4
 
 # Theory
 
