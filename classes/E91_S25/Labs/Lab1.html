@@ -167,9 +167,9 @@
 
 <p><img src="/classes/E91_S25/Labs/Lab1/../pic1.png" alt="connected" style="max-width: 100%; height: auto;"></p>
 
-<p>Start scanning the voltage reading by clicking ‘scan’ near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that ‘mode’ is set to ‘Screen’ as shown here. <img src="/classes/E91_S25/Labs/Lab1/../pic2.png" alt="scan"></p>
+<p>Start scanning the voltage reading by clicking ‘scan’ near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that ‘mode’ is set to ‘Screen’ as shown here. <img src="/classes/E91_S25/Labs/Lab1/../pic2.png" alt="scan" style="max-width: 100%; height: auto;"></p>
 
-<p>You should see a trace of the voltage develop across the screen. ‘C2’ reads the voltage directly, whereas ‘M1’ is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. <img src="/classes/E91_S25/Labs/Lab1/../gif1.gif" alt="gif1">){:style=”max-width: 100%; height: auto;”}</p>
+<p>You should see a trace of the voltage develop across the screen. ‘C2’ reads the voltage directly, whereas ‘M1’ is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. <img src="/classes/E91_S25/Labs/Lab1/../gif1.gif" alt="gif1" style="max-width: 100%; height: auto;"></p>
 
 <p>The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.</p>
 
@@ -193,9 +193,70 @@
 
 <p>From now on, the ‘record’ button will use these settings unless you change them.</p>
 
+<p>Use the ‘Export’ button in the top-left corner to save the result as a CSV file named, e.g., <code class="language-plaintext highlighter-rouge">Deg0.csv</code>.</p>
+
 <h3 id="calibrating-at-other-angles">Calibrating at other angles</h3>
 
-<p>Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.</p>
+<p>Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. One lab partner should hold the pendulum up to the right angle while the other records the reading.</p>
+
+<p>It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.</p>
+
+<p>It is recommended that you save each measurement with a name such as <code class="language-plaintext highlighter-rouge">Deg20.csv</code>, etc.</p>
+
+<h2 id="dynamic-experiments">Dynamic Experiments</h2>
+
+<p>You will conduct a series of experiments in which the pendulum is held up to a certain angle and released from rest. Since you have already calibrated the voltage-angle relationship, you need not measure the angle at which you release the pendulum. For each experiment,</p>
+
+<ul>
+  <li>Choose the number of seconds based on how long you think something interesting will happen. Enter this number in the ‘Config’ box on the top-left corner of WaveForms.</li>
+  <li>Use a consistent frame rate when recording data. I recommend using 1 kHz, but you are welcome to use a different value as long as you keep it consistent.</li>
+  <li>You may wish to test out the dynamics by using the ‘Screen’ instead of the ‘Record’ mode.</li>
+  <li>Ensure that the precise moment of release from rest is captured on the oscilloscope. This means that you should click ‘Record’ <em>before</em> you release the pendulum.</li>
+</ul>
+
+<p>Collect dynamic data for the following six cases:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Description</th>
+      <th>Approximate Angle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Case 1</td>
+      <td>Low acute angle</td>
+      <td>Below $30^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 2</td>
+      <td>Medium acute angle</td>
+      <td>Between $60^{\circ}$ and $90^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 3</td>
+      <td>High acute angle</td>
+      <td>A little below $90^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 4</td>
+      <td>Obtuse angle</td>
+      <td>Between $90^{\circ}$ and $120^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 5</td>
+      <td>High obtuse angle</td>
+      <td>Around $150^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 6</td>
+      <td>Nearly vertical</td>
+      <td>Just less than $180^{\circ}$</td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="the-initial-value-problem">The Initial Value Problem</h2>
 <p>Numerically solve the initial value problem given by</p>
