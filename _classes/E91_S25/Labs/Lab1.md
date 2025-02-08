@@ -65,9 +65,9 @@ After connecting your Analog Discovery to your computer and opening WaveForms, t
 
 ![connected]({{ page.permalink }}/../pic1.png){:style="max-width: 100%; height: auto;"}
 
-Start scanning the voltage reading by clicking 'scan' near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that 'mode' is set to 'Screen' as shown here. ![scan]({{ page.permalink }}/../pic2.png)
+Start scanning the voltage reading by clicking 'scan' near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that 'mode' is set to 'Screen' as shown here. ![scan]({{ page.permalink }}/../pic2.png){:style="max-width: 100%; height: auto;"}
 
-You should see a trace of the voltage develop across the screen. 'C2' reads the voltage directly, whereas 'M1' is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. ![gif1]({{ page.permalink }}/../gif1.gif)){:style="max-width: 100%; height: auto;"}
+You should see a trace of the voltage develop across the screen. 'C2' reads the voltage directly, whereas 'M1' is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. ![gif1]({{ page.permalink }}/../gif1.gif){:style="max-width: 100%; height: auto;"}
 
 The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.
 
@@ -91,14 +91,43 @@ Select 'Mode: Record' as shown here, and set the sampling rate to 1 kHz with 5 s
 
 From now on, the 'record' button will use these settings unless you change them.
 
+Use the 'Export' button in the top-left corner to save the result as a CSV file named, e.g., `Deg0.csv`.
+
 ### Calibrating at other angles
 
-Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.
+Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. One lab partner should hold the pendulum up to the right angle while the other records the reading. 
+
+It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.
+
+It is recommended that you save each measurement with a name such as `Deg20.csv`, etc.
+
+## Dynamic Experiments 
+
+You will conduct a series of experiments in which the pendulum is held up to a certain angle and released from rest. Since you have already calibrated the voltage-angle relationship, you need not measure the angle at which you release the pendulum. For each experiment,
+
+- Choose the number of seconds based on how long you think something interesting will happen. Enter this number in the 'Config' box on the top-left corner of WaveForms.
+- Use a consistent frame rate when recording data. I recommend using 1 kHz, but you are welcome to use a different value as long as you keep it consistent.
+- You may wish to test out the dynamics by using the 'Screen' instead of the 'Record' mode.
+- Ensure that the precise moment of release from rest is captured on the oscilloscope. This means that you should click 'Record' _before_ you release the pendulum.
+
+Collect dynamic data for the following six cases:
+
+| Case   | Description        | Approximate Angle                      |
+|--------|--------------------|----------------------------------------|
+| Case 1 | Low acute angle    | Below $30^{\circ}$                     |
+| Case 2 | Medium acute angle | Between $60^{\circ}$ and $90^{\circ}$  |
+| Case 3 | High acute angle   | A little below $90^{\circ}$            |
+| Case 4 | Obtuse angle       | Between $90^{\circ}$ and $120^{\circ}$ |
+| Case 5 | High obtuse angle  | Around $150^{\circ}$                   |
+| Case 6 | Nearly vertical    | Just less than $180^{\circ}$           |
+
 
 ## The Initial Value Problem
 Numerically solve the initial value problem given by
 
 $$ \dot{y} = \sin y, \, y(0) = \pi/6.$$
+
+
 
 ## Using Python
 
