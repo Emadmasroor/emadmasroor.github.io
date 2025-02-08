@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<p>In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.</p>
+
+<h1 id="experiments">Experiments</h1>
+
+<h2 id="equipment-and-hardware">Equipment and hardware</h2>
+
+<p>This lab makes use of a compound pendulum mounted onto a potentiometer. The compound pendulum is made of Aluminum, and measures 10” x 1” x 1/4”. It is secured with the help of a set-screw to the shaft of the poteniometer. <strong>Note:</strong> Make sure the set screw is tight; you don’t want the pendulum to go flying off the shaft.</p>
+
+<p>The potentiometer is the <a href="https://www.vishay.com/docs/57042/157.pdf" rel="external nofollow noopener" target="_blank">Vishay Spectrol 157-11103</a>, which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading.</p>
+
+<p>Data collection is carried out using the <a href="https://digilent.com/shop/analog-discovery-3/" rel="external nofollow noopener" target="_blank">Analog Discovery 3</a>, a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.</p>
+
+<h2 id="software">Software</h2>
+<p>This lab will make use of the open-source software <a href="https://tinyurl.com/E91LabSoftware" rel="external nofollow noopener" target="_blank">WaveForms</a> from Digilent, the manufacturer of the analog I/O device that you’ll use to collect data.  Download WaveForms, install it on your computer, and bring it with you to the lab.</p>
+
+<p>WaveForms can load a ‘workspace’, which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab <a href="/../Lab1Workspace.dwf3work">here</a>. It will look something like this:</p>
+
+<p><img src="/../waveforms.png" alt="workspace" style="max-width: 100%; height: auto;"></p>
+
+<p>We will be using Waveforms together with the Analog Discovery 3 as an <em>Oscilloscope</em>, which should be a familiar tool for you. If you need to restart from scratch without using the workspace file provided to you, you can re-create the settings by choosing ‘Scope’ as the tool on the startup screen.</p>
+
+<p>A reference manual for WaveForms is available <a href="https://digilent.com/reference/software/waveforms/waveforms-3/reference-manual" rel="external nofollow noopener" target="_blank">here</a>.</p>
+
+<h2 id="wiring-and-connections">Wiring and Connections</h2>
+
+<p>The wiring should already be set up for you; all you need to do is plug in the USB-c cable from the Analog Discovery. In case you need to re-wire the potentiometer to the Analog Discovery:</p>
+
+<ul>
+  <li>Connect the red wire to V+</li>
+  <li>Connect the black wire to any GND</li>
+  <li>Connect the white wire to 1+</li>
+</ul>
+
+<p>In case you need to re-connect the alligator clips:</p>
+
+<ul>
+  <li>Connect the red clip to 1</li>
+  <li>Connect the white clip to 2</li>
+  <li>Connect the black clip to 3</li>
+</ul>
+
+<h2 id="testing-the-virtual-oscilloscope">Testing the virtual oscilloscope</h2>
+
+<p>After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.</p>
+
+<p><img src="/../pic1.png" alt="connected" style="max-width: 100%; height: auto;"></p>
+
+<p>Start scanning the voltage reading by clicking ‘scan’ near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that ‘mode’ is set to ‘Screen’ as shown here. <img src="/../pic2.png" alt="scan" style="max-width: 100%; height: auto;"></p>
+
+<p>You should see a trace of the voltage develop across the screen. ‘C2’ reads the voltage directly, whereas ‘M1’ is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. <img src="/../gif1.gif" alt="gif1" style="max-width: 100%; height: auto;"></p>
+
+<p>The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.</p>
+
+<p><img src="/../pic3.png" alt="rightpanel" style="max-width: 100%; height: auto;"></p>
+
+<h2 id="calibration">Calibration</h2>
+
+<p>Before any dynamic data can be collected, you must calibrate the potentiometer. It is important that you perform the calibration as close as possible to when you collect dynamic data  to minimize the possibility that environmental uncertainties introduce errors into the calibration. Such errors <em>can</em> be fixed during post-processing, but it is best to minimze them when collecting data.</p>
+
+<h3 id="drift">Drift</h3>
+
+<p>It has been noticed that the rest reading of the potentiometer can sometimes drift. Therefore, after switching on the scope, you should wait for the rest reading to settle at a constant value. A good way to decide whether the potentiometer has ‘settled’ is to check if the reading is off by more than 1 mV in about a minute. Your mileage may vary; just keep in mind that this drift is bad for our experiment.</p>
+
+<h3 id="calibrating-at-zero-degrees">Calibrating at zero degrees</h3>
+
+<p>We will measure the angle from the vertical, and so the rest reading — when you are not doing anything to the pendulum — is zero degrees. After you are satisfied that the drift has settled down, make a 5-second recording at 1 kHz to record the rest reading. This is almost certainly overkill, but computers make it easy for us to save five thousand nearly-equal numbers just so we can average them later.</p>
+
+<p>Select ‘Mode: Record’ as shown here, and set the sampling rate to 1 kHz with 5 s of total time.</p>
+
+<p><img src="/../gif2.gif" alt="gif2" style="max-width: 100%; height: auto;"></p>
+
+<p>From now on, the ‘record’ button will use these settings unless you change them.</p>
+
+<p>Use the ‘Export’ button in the top-left corner to save the result as a CSV file named, e.g., <code class="language-plaintext highlighter-rouge">Deg0.csv</code>.</p>
+
+<h3 id="calibrating-at-other-angles">Calibrating at other angles</h3>
+
+<p>Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. One lab partner should hold the pendulum up to the right angle while the other records the reading.</p>
+
+<p>It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.</p>
+
+<p>It is recommended that you save each measurement with a name such as <code class="language-plaintext highlighter-rouge">Deg20.csv</code>, etc.</p>
+
+<h2 id="dynamic-experiments">Dynamic Experiments</h2>
+
+<p>You will conduct a series of experiments in which the pendulum is held up to a certain angle and released from rest. Since you have already calibrated the voltage-angle relationship, you need not measure the angle at which you release the pendulum. For each experiment,</p>
+
+<ul>
+  <li>Choose the number of seconds based on how long you think something interesting will happen. Enter this number in the ‘Config’ box on the top-left corner of WaveForms.</li>
+  <li>Use a consistent frame rate when recording data. I recommend using 1 kHz, but you are welcome to use a different value as long as you keep it consistent.</li>
+  <li>You may wish to test out the dynamics by using the ‘Screen’ instead of the ‘Record’ mode.</li>
+  <li>Ensure that the precise moment of release from rest is captured on the oscilloscope. This means that you should click ‘Record’ <em>before</em> you release the pendulum.</li>
+</ul>
+
+<p><img src="/../gif3.gif" alt="gif3" style="max-width: 100%; height: auto;"></p>
+
+<p>Collect dynamic data for the following six cases:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Description</th>
+      <th>Approximate Angle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Case 1</td>
+      <td>Low acute angle</td>
+      <td>Below $30^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 2</td>
+      <td>Medium acute angle</td>
+      <td>Between $60^{\circ}$ and $90^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 3</td>
+      <td>High acute angle</td>
+      <td>A little below $90^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 4</td>
+      <td>Obtuse angle</td>
+      <td>Between $90^{\circ}$ and $120^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 5</td>
+      <td>High obtuse angle</td>
+      <td>Around $150^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 6</td>
+      <td>Nearly vertical</td>
+      <td>Just less than $180^{\circ}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Save each case as a <code class="language-plaintext highlighter-rouge">*.csv</code> file.</p>
+
+<h1 id="theory">Theory</h1>
+
+<h1 id="data-analysis">Data Analysis</h1>
+
+</body></html>
