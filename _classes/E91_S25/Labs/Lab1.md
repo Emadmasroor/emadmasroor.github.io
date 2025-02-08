@@ -24,8 +24,6 @@ bibliography:
 
 toc:
   - name: Experiments
-    - name: Equipment and Hardware
-    - name: Software
   - name: Theory
   - name: Data Analysis
 
