@@ -94,7 +94,7 @@ You should see a trace of the voltage develop across the screen. 'C2' reads the 
 
 The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.
 
-![rightpanel]({{ page.permalink }}/../pic3.png){:style="max-width: 50%; height: auto;"}
+![rightpanel]({{ page.permalink }}/../pic3.png){:style="max-width: 20%; height: auto;"}
 
 ## Calibration
 
