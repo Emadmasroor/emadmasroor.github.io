@@ -36,7 +36,7 @@ Sign up for times in the High Bay [here](https://tinyurl.com/E91LabSignup) using
 
 ![signup]({{ page.permalink }}/../pic5.png){:style="max-width: 100%; height: auto;"}
 
-Your group has been assigned in Moodle; if you asked to be in a particular group, you have been placed with those students. You should be able to see which group you're in in Moodle.
+Your group has been assigned in Moodle; if you asked to be in a particular group, you have been placed with those students. 
 
 
 # Experiments
@@ -45,9 +45,13 @@ Your group has been assigned in Moodle; if you asked to be in a particular group
 
 This lab makes use of a compound pendulum mounted onto a potentiometer. The pendulum is secured with the help of a set-screw to the shaft of the poteniometer. **Note:** Make sure the set screw is tight; you don't want the pendulum to go flying off the shaft.
 
+![pendulum]({{ page.permalink }}/../pic6.jpg){:style="max-width: 100%; height: auto;"}
+
 The potentiometer is the [Vishay Spectrol 157-11103](https://www.vishay.com/docs/57042/157.pdf), which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading. 
 
 Data collection is carried out using the [Analog Discovery 3](https://digilent.com/shop/analog-discovery-3/), a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.
+
+![analogdiscovery]({{ page.permalink }}/../pic7.jpg){:style="max-width: 100%; height: auto;"}
 
 ## Measurements
 
