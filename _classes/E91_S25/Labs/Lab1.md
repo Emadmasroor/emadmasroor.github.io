@@ -32,11 +32,15 @@ In this lab, you will use a compound pendulum to investigate linear and nonlinea
 
 ## Equipment and hardware
 
-This lab makes use of a compound pendulum mounted onto a potentiometer. The compound pendulum is made of Aluminum, and measures 10" x 1" x 1/4". It is secured with the help of a set-screw to the shaft of the poteniometer. **Note:** Make sure the set screw is tight; you don't want the pendulum to go flying off the shaft.
+This lab makes use of a compound pendulum mounted onto a potentiometer. The pendulum is secured with the help of a set-screw to the shaft of the poteniometer. **Note:** Make sure the set screw is tight; you don't want the pendulum to go flying off the shaft.
 
 The potentiometer is the [Vishay Spectrol 157-11103](https://www.vishay.com/docs/57042/157.pdf), which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading. 
 
 Data collection is carried out using the [Analog Discovery 3](https://digilent.com/shop/analog-discovery-3/), a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.
+
+## Measurements
+
+Measure the length, width, and thickness of the pendulum. You should also measure the distance of the mounting hole from its closest short edge. In addition, use a mass balance (located in the center of the High Bay) to determine its mass. **Note:** You will have to loosen the set screw (using the provided allen key) to make these measurements. Make sure you tighten the set screw securely when you return the pendulum on to the shaft; you don't want the pendulum to go flying off the shaft
 
 ## Software
 This lab will make use of the open-source software [WaveForms](https://tinyurl.com/E91LabSoftware) from Digilent, the manufacturer of the analog I/O device that you'll use to collect data.  Download WaveForms, install it on your computer, and bring it with you to the lab.
@@ -75,7 +79,7 @@ You should see a trace of the voltage develop across the screen. 'C2' reads the 
 
 The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.
 
-![rightpanel]({{ page.permalink }}/../pic3.png){:style="max-width: 100%; height: auto;"}
+![rightpanel]({{ page.permalink }}/../pic3.png){:style="max-width: 50%; height: auto;"}
 
 ## Calibration
 
@@ -128,6 +132,11 @@ Collect dynamic data for the following six cases:
 | Case 6 | Nearly vertical    | Just less than $180^{\circ}$           |
 
 Save each case as a `*.csv` file.
+
+## Checklist for experiments
+
+- [ ] Task 1
+- [ ] Task 2
 
 # Theory
 
