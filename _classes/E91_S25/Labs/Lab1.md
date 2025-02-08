@@ -1,5 +1,5 @@
 ---
-title: Numerical Solution of Initial Value Problems
+title: Lab 1 Linearity, Nonlinearity, and the Compound Pendulum
 description: 
 code: E91
 term: Spring 2025
@@ -23,20 +23,24 @@ bibliography:
 
 
 toc:
-  - name: Introduction
+  - name: Experiments
+  - name: Theory
+  - name: Data Analysis
 
 
 
 ---
 
-# Lab 1: Linearity, Nonlinearity, and the Compound Pendulum
+# Experiments
 
 ## Introduction
-In this lab, you will ...
+In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.
 
 ## Equipment and hardware
 
-This lab makes use of a compound pendulum mounted onto a potentiometer. The compound pendulum is made of Aluminum, and measures 10" x 1" x 1/4". It is secured with the help of a set-screw to the shaft of the poteniometer. The potentiometer is the [Vishay Spectrol 157-11103](https://www.vishay.com/docs/57042/157.pdf), which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading.
+This lab makes use of a compound pendulum mounted onto a potentiometer. The compound pendulum is made of Aluminum, and measures 10" x 1" x 1/4". It is secured with the help of a set-screw to the shaft of the poteniometer. **Note:** Make sure the set screw is tight; you don't want the pendulum to go flying off the shaft.
+
+The potentiometer is the [Vishay Spectrol 157-11103](https://www.vishay.com/docs/57042/157.pdf), which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading. 
 
 Data collection is carried out using the [Analog Discovery 3](https://digilent.com/shop/analog-discovery-3/), a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.
 
@@ -58,6 +62,12 @@ The wiring should already be set up for you; all you need to do is plug in the U
 - Connect the red wire to V+
 - Connect the black wire to any GND
 - Connect the white wire to 1+
+
+In case you need to re-connect the alligator clips:
+
+- Connect the red clip to 1
+- Connect the white clip to 2
+- Connect the black clip to 3
 
 ## Testing the virtual oscilloscope
 
@@ -87,7 +97,7 @@ We will measure the angle from the vertical, and so the rest reading --- when yo
 
 Select 'Mode: Record' as shown here, and set the sampling rate to 1 kHz with 5 s of total time.
 
-![gif2]({{ page.permalink }}/../gif2.gif)
+![gif2]({{ page.permalink }}/../gif2.gif){:style="max-width: 100%; height: auto;"}
 
 From now on, the 'record' button will use these settings unless you change them.
 
@@ -110,6 +120,8 @@ You will conduct a series of experiments in which the pendulum is held up to a c
 - You may wish to test out the dynamics by using the 'Screen' instead of the 'Record' mode.
 - Ensure that the precise moment of release from rest is captured on the oscilloscope. This means that you should click 'Record' _before_ you release the pendulum.
 
+![gif3]({{ page.permalink }}/../gif3.gif){:style="max-width: 100%; height: auto;"}
+
 Collect dynamic data for the following six cases:
 
 | Case   | Description        | Approximate Angle                      |
@@ -121,74 +133,12 @@ Collect dynamic data for the following six cases:
 | Case 5 | High obtuse angle  | Around $150^{\circ}$                   |
 | Case 6 | Nearly vertical    | Just less than $180^{\circ}$           |
 
+Save each case as a `*.csv` file.
 
-## The Initial Value Problem
-Numerically solve the initial value problem given by
-
-$$ \dot{y} = \sin y, \, y(0) = \pi/6.$$
+# Theory
 
 
+# Data Analysis
 
-## Using Python
 
-You must have the packages `scipy`, `numpy`, and `matplotlib` installed in order to use the import statements shown below. If you don't know how to install these packages, please see the tutorial [here](https://packaging.python.org/en/latest/tutorials/installing-packages/).
 
-```
-from scipy.integrate import solve_ivp
-import matplotlib.pyplot as plt
-from numpy import array,exp,sin,pi,linspace
-
-def f1(t,x):
-    return sin(x)
-
-x_init      = array([pi/6]) 
-t_vector    = linspace(0,2*pi,100)
-solution1   = solve_ivp(f1,                         # r.h.s of diff. eq
-                        (t_vector[0],t_vector[-1]), # start & end time
-                        x_init,                     # initial condition
-                        t_eval=t_vector)            # times to plot
-
-plt.figure(1)
-plt.plot(solution1.t,solution1.y[0],'r.-')
-plt.grid()
-plt.xlabel('t')
-plt.ylabel('x(t)')
-plt.show()    # uncomment to preview figure
-```
-
-![Python image](python_ivp.png){:style="max-width: 100%; height: auto;"}
-
-## Using Mathematica
-
-```
-solution = 
- NDSolve[{y'[t] == Sin[y[t]], y[0] == \[Pi]/6}, y[t], {t, 0, 2 \[Pi]}]
-
-Plot[y[t] /. solution, {t, 0, 2 \[Pi]}]
-```
-
-![Mathematica image](mathematica_ivp.png){:style="max-width: 100%; height: auto;"}
-
-## Using MATLAB
-
-```
-x_init      = pi/6;
-t_vector    = linspace(0,2*pi,100);
-[t,x]       = ode45(@rhs,t_vector,x_init);
-
-figure(1);
-plot(t,x,LineWidth=2,Marker=".",MarkerSize=12,Color='Red');
-xlabel('t');
-ylabel('x(t)');
-grid on;
-```
-
-For this to work, you must have the file `rhs.m` in the same directory, and the file should contain:
-
-```
-function [dydt] = rhs(t,y)
-dydt = sin(y);
-end
-```
-
-![MATLAB image](matlab_ivp.png){:style="max-width: 100%; height: auto;"}
