@@ -22,8 +22,6 @@ authors:
 bibliography: 
 toc:
   - name: Experiments
-      name: Equipment and hardware
-      name: Software
   - name: Theory
   - name: Data Analysis
 ---
