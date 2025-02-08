@@ -7,7 +7,7 @@ institution: Swarthmore College
 giscus_comments: false
 tags: teaching 
 date: 2025-01-01
-layout: distill
+layout: lab
 permalink: /classes/E91_S25/Labs/Lab1
 
 authors:
