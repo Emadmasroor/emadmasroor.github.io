@@ -24,6 +24,8 @@ bibliography:
 
 toc:
   - name: Experiments
+    - name: Equipment and Hardware
+    - name: Software
   - name: Theory
   - name: Data Analysis
 
@@ -31,10 +33,9 @@ toc:
 
 ---
 
-# Experiments
-
-## Introduction
 In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.
+
+# Experiments
 
 ## Equipment and hardware
 
