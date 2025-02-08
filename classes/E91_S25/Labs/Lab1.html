@@ -155,7 +155,7 @@
 
 <p>Data collection is carried out using the <a href="https://digilent.com/shop/analog-discovery-3/" rel="external nofollow noopener" target="_blank">Analog Discovery 3</a>, a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.</p>
 
-<p>!<img src="/classes/E91_S25/Labs/Lab1/../pic6.jpg" alt="pendulum2" style="max-width: 45%; height: auto;"> <a href="/classes/E91_S25/Labs/Lab1/../pic7.jpg" style="max-width: 45%; height: auto;">analogdiscovery</a></p>
+<p>!<img src="/classes/E91_S25/Labs/Lab1/../pic6.jpg" alt="pendulum2" style="max-width: 45%; height: auto;"> <img src="/classes/E91_S25/Labs/Lab1/../pic7.jpg" alt="analogdiscovery" style="max-width: 45%; height: auto;"></p>
 
 <h2 id="measurements">Measurements</h2>
 
@@ -307,7 +307,7 @@
 
 <h1 id="theory">Theory</h1>
 
-<p>The equation of motion for a compound pendulum can be expressed as \(\frac{d}{dt} \left( \boldsymbol{h} \right) = \boldsymbol{M}O\), where $\boldsymbol{h}$ is the angular momentum of the pendulum about its pivot and $\boldsymbol{M}$ is the moment, $\boldsymbol{r} \times \boldsymbol{F}$ relative to the pivot. After some vector calculus, it is possible to show that the equation becomes \(\ddot{\theta} + \frac{m g l}{I_O} \sin \theta = 0,\) where</p>
+<p>The equation of motion for a frictionless compound pendulum can be expressed as \(\frac{d}{dt} \left( \boldsymbol{h} \right) = \boldsymbol{M}O\), where $\boldsymbol{h}$ is the angular momentum of the pendulum about its pivot and $\boldsymbol{M}$ is the moment, $\boldsymbol{r} \times \boldsymbol{F}$ relative to the pivot. After some vector calculus, it is possible to show that the equation becomes \(\ddot{\theta} + \frac{m g l}{I_O} \sin \theta = 0,\) where</p>
 
 <ul>
   <li>$m$ is the mass of the object</li>
@@ -319,6 +319,13 @@
 <p>Recall that the moment of inertia about the centroid of a rectangle with width $w$ and height $w$ in the out-of-plane direction is $I_{G,z} = \frac{m}{12} \left( w^2 + h^2\right)$, where `$G$’ stands for ‘center of gravity / centroid’. Using the parallel axis theorem, it is possible to write the moment of inertia about a different point — here, the pivot — as \(I_O = I_G + m l^2.\)</p>
 
 <p>Making appropriate simplifications, use this information to calculate a numerical value for the coefficient in the equation of motion above.</p>
+
+<h2 id="the-small-angle-approximation">The small-angle approximation</h2>
+<p>Under the small-angle approximation, $\sin \theta \approx \theta$. With this simplification in mind, write down the equation of motion for this pendulum when friction is neglected.</p>
+
+<p>What is the frequency predicted by this equation? (You might want to solve the differential equation if you don’t see it right away). Compare this numerical value against the observed frequency from the first few cycles of oscillation in case 1 of your dynamic experiments. You can either use WaveForms to calculate this, or you can ‘eyeball’ it from a plot, or use something more sophisticated.</p>
+
+<p>In your answer, make sure you think about the difference between ‘angular frequency’ and ‘frequency’.</p>
 
 <h1 id="data-analysis">Data Analysis</h1>
 
