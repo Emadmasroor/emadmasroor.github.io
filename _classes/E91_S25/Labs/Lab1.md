@@ -20,15 +20,7 @@ authors:
 
 
 bibliography: 
-
-
-toc:
-  - name: Experiments
-  - name: Theory
-  - name: Data Analysis
-
-
-
+toc: true
 ---
 
 In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.
