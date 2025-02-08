@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<!-- _layouts/distill.html --><html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 1 Linearity, Nonlinearity, and the Compound Pendulum | Emad Masroor</title>
+    <meta name="author" content="Emad  Masroor">
+    <meta name="description" content="Personal website of Emad Masroor
+">
+    <meta name="keywords" content="fluid dynamics, dynamical systems">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8C%80&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://emadmasroor.github.io/classes/E91_S25/Labs/Lab1">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+  </head>
+
+  <body>
+<d-front-matter>
+    <script async type="text/json">{
+      "title": "Lab 1 Linearity, Nonlinearity, and the Compound Pendulum",
+      "description": "",
+      "published": "January 1, 2025",
+      "term": "Spring 2025",
+      "authors": [
+        {
+          "author": "Emad Masroor",
+          "authorURL": "https://emadmasroor.github.io",
+          "affiliations": [
+            {
+              "name": "Swarthmore College",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
+
+  
+
+    <!-- Header -->
+
+    <!-- Content -->
+    <div class="post distill">
+
+      <d-title>
+        <h1>Lab 1 Linearity, Nonlinearity, and the Compound Pendulum</h1>
+        <p></p>
+        <p>Spring 2025 • E91 • Swarthmore College • </p>
+      </d-title>
+
+      <d-byline></d-byline>
+
+      <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            <div><a href="#experiments">Experiments</a></div>
+            <div><a href="#theory">Theory</a></div>
+            <div><a href="#data-analysis">Data Analysis</a></div>
+            
+          </nav>
+        </d-contents>
+
+        <p>In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.</p>
+
+<h1 id="experiments">Experiments</h1>
+
+<h2 id="equipment-and-hardware">Equipment and hardware</h2>
+
+<p>This lab makes use of a compound pendulum mounted onto a potentiometer. The compound pendulum is made of Aluminum, and measures 10” x 1” x 1/4”. It is secured with the help of a set-screw to the shaft of the poteniometer. <strong>Note:</strong> Make sure the set screw is tight; you don’t want the pendulum to go flying off the shaft.</p>
+
+<p>The potentiometer is the <a href="https://www.vishay.com/docs/57042/157.pdf" rel="external nofollow noopener" target="_blank">Vishay Spectrol 157-11103</a>, which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading.</p>
+
+<p>Data collection is carried out using the <a href="https://digilent.com/shop/analog-discovery-3/" rel="external nofollow noopener" target="_blank">Analog Discovery 3</a>, a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.</p>
+
+<h2 id="software">Software</h2>
+<p>This lab will make use of the open-source software <a href="https://tinyurl.com/E91LabSoftware" rel="external nofollow noopener" target="_blank">WaveForms</a> from Digilent, the manufacturer of the analog I/O device that you’ll use to collect data.  Download WaveForms, install it on your computer, and bring it with you to the lab.</p>
+
+<p>WaveForms can load a ‘workspace’, which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab <a href="/classes/E91_S25/Labs/Lab1/../Lab1Workspace.dwf3work">here</a>. It will look something like this:</p>
+
+<p><img src="/classes/E91_S25/Labs/Lab1/../waveforms.png" alt="workspace" style="max-width: 100%; height: auto;"></p>
+
+<p>We will be using Waveforms together with the Analog Discovery 3 as an <em>Oscilloscope</em>, which should be a familiar tool for you. If you need to restart from scratch without using the workspace file provided to you, you can re-create the settings by choosing ‘Scope’ as the tool on the startup screen.</p>
+
+<p>A reference manual for WaveForms is available <a href="https://digilent.com/reference/software/waveforms/waveforms-3/reference-manual" rel="external nofollow noopener" target="_blank">here</a>.</p>
+
+<h2 id="wiring-and-connections">Wiring and Connections</h2>
+
+<p>The wiring should already be set up for you; all you need to do is plug in the USB-c cable from the Analog Discovery. In case you need to re-wire the potentiometer to the Analog Discovery:</p>
+
+<ul>
+  <li>Connect the red wire to V+</li>
+  <li>Connect the black wire to any GND</li>
+  <li>Connect the white wire to 1+</li>
+</ul>
+
+<p>In case you need to re-connect the alligator clips:</p>
+
+<ul>
+  <li>Connect the red clip to 1</li>
+  <li>Connect the white clip to 2</li>
+  <li>Connect the black clip to 3</li>
+</ul>
+
+<h2 id="testing-the-virtual-oscilloscope">Testing the virtual oscilloscope</h2>
+
+<p>After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.</p>
+
+<p><img src="/classes/E91_S25/Labs/Lab1/../pic1.png" alt="connected" style="max-width: 100%; height: auto;"></p>
+
+<p>Start scanning the voltage reading by clicking ‘scan’ near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that ‘mode’ is set to ‘Screen’ as shown here. <img src="/classes/E91_S25/Labs/Lab1/../pic2.png" alt="scan" style="max-width: 100%; height: auto;"></p>
+
+<p>You should see a trace of the voltage develop across the screen. ‘C2’ reads the voltage directly, whereas ‘M1’ is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. <img src="/classes/E91_S25/Labs/Lab1/../gif1.gif" alt="gif1" style="max-width: 100%; height: auto;"></p>
+
+<p>The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.</p>
+
+<p><img src="/classes/E91_S25/Labs/Lab1/../pic3.png" alt="rightpanel" style="max-width: 100%; height: auto;"></p>
+
+<h2 id="calibration">Calibration</h2>
+
+<p>Before any dynamic data can be collected, you must calibrate the potentiometer. It is important that you perform the calibration as close as possible to when you collect dynamic data  to minimize the possibility that environmental uncertainties introduce errors into the calibration. Such errors <em>can</em> be fixed during post-processing, but it is best to minimze them when collecting data.</p>
+
+<h3 id="drift">Drift</h3>
+
+<p>It has been noticed that the rest reading of the potentiometer can sometimes drift. Therefore, after switching on the scope, you should wait for the rest reading to settle at a constant value. A good way to decide whether the potentiometer has ‘settled’ is to check if the reading is off by more than 1 mV in about a minute. Your mileage may vary; just keep in mind that this drift is bad for our experiment.</p>
+
+<h3 id="calibrating-at-zero-degrees">Calibrating at zero degrees</h3>
+
+<p>We will measure the angle from the vertical, and so the rest reading — when you are not doing anything to the pendulum — is zero degrees. After you are satisfied that the drift has settled down, make a 5-second recording at 1 kHz to record the rest reading. This is almost certainly overkill, but computers make it easy for us to save five thousand nearly-equal numbers just so we can average them later.</p>
+
+<p>Select ‘Mode: Record’ as shown here, and set the sampling rate to 1 kHz with 5 s of total time.</p>
+
+<p><img src="/classes/E91_S25/Labs/Lab1/../gif2.gif" alt="gif2" style="max-width: 100%; height: auto;"></p>
+
+<p>From now on, the ‘record’ button will use these settings unless you change them.</p>
+
+<p>Use the ‘Export’ button in the top-left corner to save the result as a CSV file named, e.g., <code class="language-plaintext highlighter-rouge">Deg0.csv</code>.</p>
+
+<h3 id="calibrating-at-other-angles">Calibrating at other angles</h3>
+
+<p>Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. One lab partner should hold the pendulum up to the right angle while the other records the reading.</p>
+
+<p>It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.</p>
+
+<p>It is recommended that you save each measurement with a name such as <code class="language-plaintext highlighter-rouge">Deg20.csv</code>, etc.</p>
+
+<h2 id="dynamic-experiments">Dynamic Experiments</h2>
+
+<p>You will conduct a series of experiments in which the pendulum is held up to a certain angle and released from rest. Since you have already calibrated the voltage-angle relationship, you need not measure the angle at which you release the pendulum. For each experiment,</p>
+
+<ul>
+  <li>Choose the number of seconds based on how long you think something interesting will happen. Enter this number in the ‘Config’ box on the top-left corner of WaveForms.</li>
+  <li>Use a consistent frame rate when recording data. I recommend using 1 kHz, but you are welcome to use a different value as long as you keep it consistent.</li>
+  <li>You may wish to test out the dynamics by using the ‘Screen’ instead of the ‘Record’ mode.</li>
+  <li>Ensure that the precise moment of release from rest is captured on the oscilloscope. This means that you should click ‘Record’ <em>before</em> you release the pendulum.</li>
+</ul>
+
+<p><img src="/classes/E91_S25/Labs/Lab1/../gif3.gif" alt="gif3" style="max-width: 100%; height: auto;"></p>
+
+<p>Collect dynamic data for the following six cases:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Description</th>
+      <th>Approximate Angle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Case 1</td>
+      <td>Low acute angle</td>
+      <td>Below $30^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 2</td>
+      <td>Medium acute angle</td>
+      <td>Between $60^{\circ}$ and $90^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 3</td>
+      <td>High acute angle</td>
+      <td>A little below $90^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 4</td>
+      <td>Obtuse angle</td>
+      <td>Between $90^{\circ}$ and $120^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 5</td>
+      <td>High obtuse angle</td>
+      <td>Around $150^{\circ}$</td>
+    </tr>
+    <tr>
+      <td>Case 6</td>
+      <td>Nearly vertical</td>
+      <td>Just less than $180^{\circ}$</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Save each case as a <code class="language-plaintext highlighter-rouge">*.csv</code> file.</p>
+
+<h1 id="theory">Theory</h1>
+
+<h1 id="data-analysis">Data Analysis</h1>
+
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
+
+      <d-bibliography src="/assets/bibliography/"></d-bibliography>
+</div>
+
+    <!-- Footer -->
+<footer class="fixed-bottom text-center">
+    <div class="container mt-0" style="font-size: 0.82rem;">
+      © 2025 Emad  Masroor   
+        𐤟   <a href="https://emadmasroor.github.io/contact/">Contact</a>   𐤟  
+        Updated: 02/2025
+  </div>
+</footer>
+
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  
+</body>
+</html>
