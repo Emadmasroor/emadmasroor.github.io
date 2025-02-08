@@ -160,6 +160,16 @@ Save each case as a `*.csv` file.
 
 # Theory
 
+The equation of motion for a compound pendulum can be expressed as $$\frac{d}{dt} \left( \boldsymbol{h} \right) = \boldsymbol{M}O$$, where $\boldsymbol{h}$ is the angular momentum of the pendulum about its pivot and $\boldsymbol{M}$ is the moment, $\boldsymbol{r} \times \boldsymbol{F}$ relative to the pivot. After some vector calculus, it is possible to show that the equation becomes $$\ddot{\theta} + \frac{m g l}{I_O} \sin \theta = 0,$$ where
+
+- $m$ is the mass of the object
+- $g$ is the acceleration due to gravity
+- $l$ is the distance from the pivot to the center of mass
+- $I_O$ is the moment of inertia about the pivot.
+
+Recall that the moment of inertia about the centroid of a rectangle with width $w$ and height $w$ in the out-of-plane direction is $I_{G,z} = \frac{m}{12} \left( w^2 + h^2\right)$, where `$G$' stands for 'center of gravity / centroid'. Using the parallel axis theorem, it is possible to write the moment of inertia about a different point --- here, the pivot --- as $$I_O = I_G + m l^2.$$
+
+Making appropriate simplifications, use this information to calculate a numerical value for the coefficient in the equation of motion above.
 
 # Data Analysis
 
