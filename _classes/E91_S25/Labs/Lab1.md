@@ -51,7 +51,8 @@ The potentiometer is the [Vishay Spectrol 157-11103](https://www.vishay.com/docs
 
 Data collection is carried out using the [Analog Discovery 3](https://digilent.com/shop/analog-discovery-3/), a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.
 
-![analogdiscovery]({{ page.permalink }}/../pic7.jpg){:style="max-width: 100%; height: auto;"}
+
+!![pendulum2]({{ page.permalink }}/../pic6.jpg){:style="max-width: 45%; height: auto;"} [analogdiscovery]({{ page.permalink }}/../pic7.jpg){:style="max-width: 45%; height: auto;"}
 
 ## Measurements
 
