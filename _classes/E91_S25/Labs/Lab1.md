@@ -208,8 +208,10 @@ Compare your measurements of the pendulum's frequency with the theoretical value
 
 ## Calibration
 
-Using the static data that you collected, make a plot of voltage on the horizontal axis and angle $\theta$ (in degrees) on the vertical axis. Draw a line (or, if necessary, a curve) of best fit.
+Using the static data that you collected, make a plot of voltage on the horizontal axis and angle $\theta$ (in degrees) on the vertical axis. Draw a line (or, if necessary, a curve) of best fit, and determine its coefficients.
 
+Use these coefficients to translate data from all six cases into angles instead of voltages. You do not need to turn in this data. 
 
+Without any further data processing, plot the resulting information on six axes neatly arranged in a 2x3 or 3x2 grid. In these plots, the y-axis should be in units of degrees, and the x-axis in units of seconds. **Note**: Do not remove any data from the beginning of your measurement. You may choose to truncate your data toward the end if the pendulum isn't doing anything interesting.
 
 
