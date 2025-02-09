@@ -158,9 +158,9 @@ Save each case as a `*.csv` file.
 
 The equation of motion for a frictionless compound pendulum can be expressed as 
 
-$$\frac{d}{dt} \left( \boldsymbol{h} \right) = \boldsymbol{M}O,$$ 
+$$\frac{d}{dt} \left( \boldsymbol{h} \right) = \boldsymbol{M}_O,$$ 
 
-where $\boldsymbol{h}$ is the angular momentum of the pendulum about its pivot and $\boldsymbol{M}$ is the moment, $\boldsymbol{r} \times \boldsymbol{F}$ relative to the pivot. After some vector calculus, it is possible to show that the equation becomes 
+where $\mathbf{h}$ is the angular momentum of the pendulum about its pivot and $\boldsymbol{M}$ is the moment, $\boldsymbol{r} \times \boldsymbol{F}$ relative to the pivot. After some vector calculus, it is possible to show that the equation becomes 
 
 $$\ddot{\theta} + \frac{m g l}{I_O} \sin \theta = 0,$$ 
 
