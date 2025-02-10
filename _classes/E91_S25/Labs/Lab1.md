@@ -171,7 +171,7 @@ where
 - $l$ is the distance from the pivot to the center of mass
 - $I_O$ is the moment of inertia about the pivot.
 
-![pendulum](pendulum3.png)
+![pendulum](pendulum3.png){:style="max-width: 50%; height: auto;"}
 
 
 Recall that the moment of inertia about the centroid of a rectangle with width $w$ and height $h$ in the out-of-plane direction is 
