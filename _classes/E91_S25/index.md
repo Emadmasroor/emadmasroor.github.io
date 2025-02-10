@@ -87,9 +87,11 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 
 ## Labs
 
-The labs for this class will be self-scheduled.
+| Lab   | Topic                        | Open   | Report Due | Location   |
+|-------|------------------------------|--------|------------|------------|
+| [Lab 1](Labs/Lab1) | Linear vs Nonlinear Dynamics | Feb 10 | Feb 24     | Singer 120 |
+| ...   | ...                          | ...    | ...        | ...        |
 
-More details to follow...
 
 ## Resources
 

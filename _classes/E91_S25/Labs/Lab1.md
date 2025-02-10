@@ -7,6 +7,7 @@ institution: Swarthmore College
 giscus_comments: false
 tags: teaching 
 date: 2025-01-01
+duedate: Mon, Feb 24
 layout: lab
 permalink: /classes/E91_S25/Labs/Lab1
 
@@ -32,7 +33,7 @@ In this lab, you will use a compound pendulum to investigate linear and nonlinea
 
 # Logistics
 
-This lab is self-scheduled; you will carry out the tasks here on your own time. The due date is unspecified, but you are recommended to complete the experimental portion of these tasks by February 17. The apparatus is located in Singer Hall 120 (a.k.a. 'the High Bay'). This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people's work.
+This lab is self-scheduled; you will carry out the tasks here on your own time. The due date for the lab report is Monday, February 24, but you are recommended to complete the experimental portion of these tasks by February 17. The apparatus is located in Singer Hall 120 (a.k.a. 'the High Bay'). This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people's work.
 
 Sign up for times in the High Bay [here](https://tinyurl.com/E91LabSignup) using the drop-down menu as illustrated below. Please keep in mind that there will be other people using the space, especially 1-4 PM, so you are encouraged to find times outside of the usual lab hours. You should all have OneCard access to the High Bay.
 
@@ -385,3 +386,5 @@ Some debugging will probably be required.
 # Narrative
 
 Write a lab report based on the pieces of information you have collected and/or generated during these experiments. Make it as self-contained as possible, so that the reader can fully understand the experiments you conducted, the data analysis that you conducted, and the theory that ties them together. Comment on the ability of the linear model of pendulum dynamics to predict the behavior of a real pendulum.
+
+Turn in a single PDF with figures embedded in the narrative. Attach any code you write in an appendix.
