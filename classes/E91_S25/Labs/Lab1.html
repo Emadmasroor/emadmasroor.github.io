@@ -455,6 +455,69 @@ plt.show()
 
 <p><img src="curvefit.png" alt="curvefit" style="max-width: 60%; height: auto;"></p>
 
+<p>You may also choose to use MATLAB. I recommend that you save the following two functions as separate files:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% Define the function to which data will be fit
+function y = theta_solution(t, a, b, c, d)
+    y = a .* exp(b .* t) .* cos(c .* t - d);
+end
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% Define a function that can read a data file
+function tab1 = getData(file)
+    opts = detectImportOptions(file, 'NumHeaderLines', 12);
+    opts.VariableNames = {'Time', 'Voltage', 'AveVoltage'};
+    tab1 = readtable(file, opts);
+end
+</code></pre></div></div>
+
+<p>and then run the following script:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% Read one of the data files using the 'get table' function of MATLAB.
+experiment_1 = getData("Dynamic1.csv");
+
+% Remove data before and after
+startIdx = 450;
+finisIdx = 12500;
+
+% Center data at zero vertically and horizontally
+v_offset = experiment_1.AveVoltage(finisIdx);
+t_offset = experiment_1.Time(startIdx);
+
+% Create data vectors
+t_data = experiment_1.Time(startIdx:finisIdx) - t_offset;
+v_data = experiment_1.AveVoltage(startIdx:finisIdx) - v_offset;
+
+% Fit curve and extract coefficients
+fitFunc = @(params, t) theta_solution(t, params(1), params(2), params(3), params(4));
+initial_guess = [0.01, -0.22, 7.64,6.59]; 
+% I cheated here and used a nearly-perfect guess!
+% You can explore other curve-fitting techniques, or just guess ... or use
+% Python ¯\_(ツ)_/¯
+options = optimset('Display', 'off');
+params = lsqcurvefit(fitFunc, initial_guess, t_data, v_data, [], [], options);
+
+% Extract coefficients
+a = params(1);
+b = params(2);
+c = params(3);
+d = params(4);
+
+% Use coefficients to build the {x, y} data that arises from the model
+theta_model_vals = theta_solution(t_data, a, b, c, d);
+
+% Plotting
+figure;
+plot(t_data, v_data, '.', 'MarkerSize', 1, 'DisplayName', 'data');
+hold on;
+plot(t_data, theta_model_vals, 'DisplayName', sprintf('A=%.2f, B=%.2f, C=%.2f, D=%.2f', a, b, c, d));
+hold off;
+xlabel('Time (s)');
+ylabel('Voltage');
+title('\theta(t) = A e^{Bt} \cos(Ct - D)', 'Interpreter', 'latex');
+legend;
+saveas(gcf, 'curvefit_matlab.png');
+</code></pre></div></div>
 
       </d-article>
 
