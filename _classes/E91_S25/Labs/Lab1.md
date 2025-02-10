@@ -25,6 +25,7 @@ toc:
   - name: Experiments
   - name: Theory
   - name: Data Analysis
+  - name: Narrative
 ---
 
 In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.
@@ -235,7 +236,7 @@ It will be clear that the experiments involve such a large degree of damping tha
 
 When performing a fit to the data, it is necessary to incorporate some additional parameters that are entirely 'experimental', in the sense that they help us reconcile the observed data with the mathematical model that arises from the laws of physics. One such simple model could be of the form
 
-$$\theta(t) A e^{Bt} \cos (Ct -D),$$ 
+$$\theta(t) = A e^{Bt} \cos (Ct -D),$$ 
 
 where $B$ and $C$ have some physical meaning, as you found earlier in the theory section; $A$ serves to scale the linear solutions based on the initial condition (recall that, in the linear world, 2x a solution is also a solution), and $D$ serves to move the data around on the horizontal axis so that it starts at the 'top' of the cosine curve.
 
@@ -378,6 +379,8 @@ title('\theta(t) = A e^{Bt} \cos(Ct - D)', 'Interpreter', 'latex');
 legend;
 saveas(gcf, 'curvefit_matlab.png');
 ```
+
+Some debugging will probably be required.
 
 # Narrative
 
