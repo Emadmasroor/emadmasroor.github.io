@@ -233,7 +233,7 @@ Without any further data processing, plot the resulting information on six axes 
 
 It will be clear that the experiments involve such a large degree of damping that using the undamped equations of motion of the pendulum is not very useful beyong a rudimentary estimate of the frequency of its motion. In the next step, you will use the linearized equations of motion with damping to fit the experimental data. To do this, you must have the correct solution to the 'incorporating damping effects' part of the Theory section. This solution is in the form of a function $\theta(t)$ that has several parameters; although some of these parameters can be determined theoretically, in this section we will determine all parameters by a best-fit procedure that is described below. 
 
-### The fitting equation
+### Fitting the pendulum's nonlinear (?) dynamics to the linear model with damping.
 
 When performing a fit to the data, it is necessary to incorporate some additional parameters that are entirely 'experimental', in the sense that they help us reconcile the observed data with the mathematical model that arises from the laws of physics. One such simple model could be of the form
 
@@ -241,7 +241,15 @@ $$\theta(t) A e^{Bt} \cos (Ct -D),$$
 
 where $B$ and $C$ have some physical meaning, as you found earlier in the theory section; $A$ serves to scale the linear solutions based on the initial condition (recall that, in the linear world, 2x a solution is also a solution), and $D$ serves to move the data around on the horizontal axis so that it starts at the 'top' of the cosine curve.
 
-Below, you will find a Python script that performs a fit to this equation for a sample dataset that was collected from this apparatus.
+Your task is to:
+
+- attempt to fit all the data you collected to $\theta(t)$ of the above form, by obtaining parameters $\{A,B,C,D\}$ for each of the dynamic experiments that you conducted.
+- Make plots of all your experimental data overlaid with the best-fit model that you can manage. It is unclear how well the model will work for large $\theta_0$. 
+- Make a visual summary of how the parameters change with $\theta_0$; this can be in the form of one or more scatter plots, bar charts, or line plots.
+- Rate how well each of your dynamic experiments is captured by the linear model overall.
+
+
+Below, you will find Python and MATLAB scripts that performs a fit to this equation for a sample dataset that was collected from this apparatus.
 
 ```
 import pandas as pd
@@ -372,3 +380,7 @@ title('\theta(t) = A e^{Bt} \cos(Ct - D)', 'Interpreter', 'latex');
 legend;
 saveas(gcf, 'curvefit_matlab.png');
 ```
+
+# Narrative
+
+Write a lab report based on the pieces of information you have collected and/or generated during these experiments. Make it as self-contained as possible, so that the reader can fully understand the experiments you conducted, the data analysis that you conducted, and the theory that ties them together. Comment on the ability of the linear model of pendulum dynamics to predict the behavior of a real pendulum.
