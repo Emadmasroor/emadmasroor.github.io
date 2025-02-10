@@ -223,6 +223,8 @@ Using the static data that you collected, make a plot of voltage on the horizont
 
 ![calibration]({{ page.permalink }}/../calibration1.png)
 
+![calibration](calibration1.png){:style="max-width: 60%; height: auto;"}
+
 Use these coefficients to translate data from all six cases into angles instead of voltages. You do not need to turn in this data. 
 
 Without any further data processing, plot the resulting information on six axes neatly arranged in a 2x3 or 3x2 grid. In these plots, the y-axis should be in units of degrees, and the x-axis in units of seconds. **Note**: Do not remove any data from the beginning of your measurement. You may choose to truncate your data toward the end if the pendulum isn't doing anything interesting.
@@ -240,3 +242,66 @@ $$\theta(t) A e^{Bt} \cos (Ct -D),$$
 where $B$ and $C$ have some physical meaning, as you found earlier in the theory section; $A$ serves to scale the linear solutions based on the initial condition (recall that, in the linear world, 2x a solution is also a solution), and $D$ serves to move the data around on the horizontal axis so that it starts at the 'top' of the cosine curve.
 
 Below, you will find a Python script that performs a fit to this equation for a sample dataset that was collected from this apparatus.
+
+```
+import pandas as pd
+from statistics import mean,median,stdev
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.optimize import curve_fit
+
+# Define a function to which data will be fit.
+def theta_solution(t,a,b,c,d):
+    return a*np.exp(b*t)*np.cos(c*t-d)
+
+# Define a function that can read a data file.
+def getData(file):
+    tab1 = pd.read_csv(file,
+                    index_col=None,
+                    header=None,
+                    names=['Time','Voltage','AveVoltage'],
+                    skiprows=12,
+                    )
+    return tab1
+
+# Read one of the data files.
+experiment_1 = getData("Dynamic1.csv")
+
+# Remove data before and after
+start = 450
+finis = 12500
+
+# Center data at zero vertically and horizontally
+v_offset = experiment_1["AveVoltage"][finis]
+t_offset = experiment_1["Time"][start]
+
+# Create data vectors
+t_data = np.array(experiment_1["Time"][start:finis]) - t_offset
+v_data = np.array(experiment_1["AveVoltage"][start:finis]) - v_offset
+
+# Fit curve and extract coefficients.
+curvefit = curve_fit(theta_solution,t_data,v_data)
+a = curvefit[0][0]
+b = curvefit[0][1]
+c = curvefit[0][2]
+d = curvefit[0][3]
+
+# Use coefficients to build the {x,y} data that arises from the model
+theta_model_vals = theta_solution(t_data,a,b,c,d)
+
+# Plotting
+labelstring = f"A={a:.2f},B={b:.2f},cC={c:.2f},D={d:.2f}"
+titlestring = "$\theta(t) = A e^{Bt} \cos(Ct -D)$"
+
+plt.plot(t_data,v_data,marker='.',markersize=1,label='data')
+plt.xlabel("Time (s)")
+plt.ylabel("Voltage")
+plt.plot(t_data,theta_model_vals,label=labelstring)
+plt.title(titlestring,usetex=True)
+plt.legend()
+plt.savefig("curvefit.png")
+plt.show()
+```
+
+![curvefit](curvefit.png){:style="max-width: 60%; height: auto;"}
+
