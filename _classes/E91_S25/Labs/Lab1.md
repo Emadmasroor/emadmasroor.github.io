@@ -31,7 +31,7 @@ In this lab, you will use a compound pendulum to investigate linear and nonlinea
 
 # Logistics
 
-This lab is self-scheduled; you will carry out the tasks here on your own time. The due date is unspecified, but you are recommended to complete the experimental portion of these tasks by February 14. The apparatus is located in Singer Hall 120 (a.k.a. 'the High Bay'). This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people's work.
+This lab is self-scheduled; you will carry out the tasks here on your own time. The due date is unspecified, but you are recommended to complete the experimental portion of these tasks by February 17. The apparatus is located in Singer Hall 120 (a.k.a. 'the High Bay'). This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people's work.
 
 Sign up for times in the High Bay [here](https://tinyurl.com/E91LabSignup) using the drop-down menu as illustrated below. Please keep in mind that there will be other people using the space, especially 1-4 PM, so you are encouraged to find times outside of the usual lab hours. You should all have OneCard access to the High Bay.
 
