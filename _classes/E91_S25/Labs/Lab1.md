@@ -193,7 +193,7 @@ In your answer, make sure you think about the difference between 'angular freque
 
 ## Incorporating damping effects
 
-The governing differential equation above is missing the effect of damping. Write down a more complete (still linear) equation of motion in which there is a damping term with units of $T^{-1}$. Then, solve this equation of motion for $\theta(t)$ with the same initial condition as before. Leave your answer in symbolic form; you may find it useful to substitute $\omega^2$ for $m g l/I_O$ when doing so.
+The governing differential equation above is missing the effect of damping. Write down a more complete (still linear) equation of motion in which there is a damping term with units of $T^{-1}$. Then, solve this equation of motion for $\theta(t)$ with the same initial condition as before. Leave your answer in symbolic form; you may find it useful to substitute $\omega^2$ for $m g l/I_O$ when doing so. Your final result will have an exponential term multiplying a cosine term.
 
 ## Incorporating nonlinear effects
 
