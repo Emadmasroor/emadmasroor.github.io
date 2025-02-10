@@ -221,9 +221,7 @@ Compare your measurements of the pendulum's frequency with the theoretical value
 
 Using the static data that you collected, make a plot of voltage on the horizontal axis and angle $\theta$ (in degrees) on the vertical axis. Draw a line (or, if necessary, a curve) of best fit, and determine its coefficients. Your final result should look something like the following, although your specific numbers may be different.
 
-![calibration]({{ page.permalink }}/../calibration1.png)
-
-![calibration](calibration1.png){:style="max-width: 60%; height: auto;"}
+![calibration](calibration1.png){:style="max-width: 80%; height: auto;"}
 
 Use these coefficients to translate data from all six cases into angles instead of voltages. You do not need to turn in this data. 
 
@@ -311,7 +309,7 @@ plt.savefig("curvefit.png")
 plt.show()
 ```
 
-![curvefit](curvefit.png){:style="max-width: 60%; height: auto;"}
+![curvefit](curvefit.png){:style="max-width: 80%; height: auto;"}
 
 
 You may also choose to use MATLAB. I recommend that you save the following two functions as separate files:
