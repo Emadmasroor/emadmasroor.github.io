@@ -130,6 +130,7 @@
             <div><a href="#experiments">Experiments</a></div>
             <div><a href="#theory">Theory</a></div>
             <div><a href="#data-analysis">Data Analysis</a></div>
+            <div><a href="#narrative">Narrative</a></div>
             
           </nav>
         </d-contents>
@@ -386,7 +387,7 @@
 
 <p>When performing a fit to the data, it is necessary to incorporate some additional parameters that are entirely ‘experimental’, in the sense that they help us reconcile the observed data with the mathematical model that arises from the laws of physics. One such simple model could be of the form</p>
 
-\[\theta(t) A e^{Bt} \cos (Ct -D),\]
+\[\theta(t) = A e^{Bt} \cos (Ct -D),\]
 
 <p>where $B$ and $C$ have some physical meaning, as you found earlier in the theory section; $A$ serves to scale the linear solutions based on the initial condition (recall that, in the linear world, 2x a solution is also a solution), and $D$ serves to move the data around on the horizontal axis so that it starts at the ‘top’ of the cosine curve.</p>
 
@@ -525,6 +526,8 @@ title('\theta(t) = A e^{Bt} \cos(Ct - D)', 'Interpreter', 'latex');
 legend;
 saveas(gcf, 'curvefit_matlab.png');
 </code></pre></div></div>
+
+<p>Some debugging will probably be required.</p>
 
 <h1 id="narrative">Narrative</h1>
 
