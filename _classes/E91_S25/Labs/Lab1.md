@@ -191,6 +191,14 @@ What is the numerical value of the pendulum frequency predicted by this equation
 
 In your answer, make sure you think about the difference between 'angular frequency' and 'frequency'.
 
+## Incorporating damping effects
+
+The governing differential equation above is missing the effect of damping. Write down a more complete (still linear) equation of motion in which there is a damping term with units of $T^{-1}$. Then, solve this equation of motion for $\theta(t)$ with the same initial condition as before. Leave your answer in symbolic form; you may find it useful to substitute $\omega^2$ for $m g l/I_O$ when doing so.
+
+## Incorporating nonlinear effects
+
+Write down what the governing differential equation would be if the equation included both nonlinear effects and damping effects.
+
 # Data Analysis
 
 ## Experimentally observed frequency
@@ -219,4 +227,6 @@ Use these coefficients to translate data from all six cases into angles instead 
 
 Without any further data processing, plot the resulting information on six axes neatly arranged in a 2x3 or 3x2 grid. In these plots, the y-axis should be in units of degrees, and the x-axis in units of seconds. **Note**: Do not remove any data from the beginning of your measurement. You may choose to truncate your data toward the end if the pendulum isn't doing anything interesting.
 
+## Data fitting and the damping parameter
 
+It will be clear that the experiments involve such a large degree of damping that using the undamped equations of motion of the pendulum is not very useful beyong a rudimentary estimate of the frequency of its motion. In the next step, you will use the linearized equations of motion with damping to fit the experimental data. To do this, you must have the correct solution to the 'incorporating damping effects' part of the Theory section. This solution is in the form of a function $\theta(t)$ that has several parameters; although some of these parameters can be determined theoretically, in this section we will determine all parameters by a best-fit procedure that is described below. 
