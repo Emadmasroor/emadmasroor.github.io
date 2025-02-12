@@ -46,7 +46,7 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos!
 
 [Syllabus](E91-S25-Syllabus.pdf)
 
-<object data="E91-S25-Syllabus.pdf" width="100%" height="750" type='application/pdf'></object>
+<object data="E91-S25-Syllabus.pdf" width="100%" height="500" type='application/pdf'></object>
 
 ## Schedule
 
