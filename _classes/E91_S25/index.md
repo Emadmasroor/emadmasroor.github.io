@@ -60,7 +60,7 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   [3.1](Lecs/E91.S25.Lec4.pdf)        |   Mon, Feb 3   |   Bifurcations                     |   3.1 to 3.4               |            |
 |   [3.2](Lecs/E91.S25.Lec5.pdf) [[In-class exercise](Exercises/Exercise1.pdf)]        |   Wed, Feb 5   |   Bifurcations                     |   3.4, 3.5 (dimensional analysis and scaling), 3.7               |   [HW 2](HW/HW2.pdf)     |
 |   [4.1](Lecs/E91.S25.Lec6.pdf)  [[In-class exercise](Exercises/Exercise2.pdf)]              |   Mon, Feb 10  |   Linear systems                   |   Ch. 5               |            |
-|   4.2        |   Wed, Feb 12  |   Linear systems                   |   Ch. 5               |   [HW 3](HW/HW3.pdf)     |
+|   4.2        |   Wed, Feb 12  |   Linear systems                   |   Ch. 5.0, 5.1, 5.2               |   [HW 3](HW/HW3.pdf)     |
 |   5.1        |   Mon, Feb 17  |   Nonlinear phase plane            |   Ch. 6               |            |
 |   5.2        |   Wed, Feb 19  |   Nonlinear phase plane            |   Ch. 6               |   HW 4     |
 |   6.1        |   Mon, Feb 24  |   Limit cycles                     |   Ch. 7               |            |
