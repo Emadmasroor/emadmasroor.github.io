@@ -30,6 +30,7 @@ toc:
   - name: Syllabus
   - name: Schedule
   - name: Labs
+  - name: Resources
 
 ---
 
