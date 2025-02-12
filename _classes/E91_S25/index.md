@@ -41,7 +41,6 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos!
 - **Class meeting times**: MW 11:45 AM --- 1:00 PM in Singer 221
 - **Office Hours**: W 2:00 PM to 4:00 PM
 - **Instructor**: Emad Masroor
-- **Labs**: Self-scheduled, TBA 
 
 ## Syllabus
 
