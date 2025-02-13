@@ -29,6 +29,7 @@ toc:
   - name: Numerical Solution of Differential Equations
   - name: The Logistic Equation
   - name: Bifurcations
+  - name: The Phase Plane
 
 
 
