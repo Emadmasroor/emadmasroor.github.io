@@ -67,8 +67,8 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   6.2        |   Wed, Feb 26  |   Limit cycles                     |   Ch. 7               |   ~~HW 5~~     |
 |   7.1        |   Mon, Mar 3   |   Bifurcations                     |   Ch. 8               |            |
 |   7.2        |   Wed, Mar 5   |   Bifurcations                     |   Ch. 8               |   HW 6     |
-|   8.1        |   Mon, Mar 17  |   The Lorenz System                |                       |            |
-|   8.2        |   Wed, Mar 19  |   Introduction to chaos            |                       |   Midterm  |
+|   8.1        |   Mon, Mar 17  |   **Midterm**                |                       |            |
+|   8.2        |   Wed, Mar 19  |   Introduction to chaos            |                       |     |
 |   9.1        |   Mon, Mar 24  |   Lorenz Equations                 |                       |            |
 |   9.2        |   Wed, Mar 26  |   “Strange Attractors”             |                       |   HW 7     |
 |   10.1       |   Mon, Mar 31  |   One-dimensional maps             |                       |            |
