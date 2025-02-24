@@ -63,7 +63,7 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   [4.2](Lecs/E91.S25.Lec7.pdf)        |   Wed, Feb 12  |   Linear systems                   |   Ch. 5.0, 5.1, 5.2               |   [HW 3](HW/HW3.pdf) [[solutions](HW/HW3Solutions.pdf)]     |
 |   [5.1](Lecs/E91.S25.Lec8.pdf)        |   Mon, Feb 17  |   Nonlinear phase plane            |   Ch. 5.3               |            |
 |   [5.2](Lecs/E91.S25.Lec9.pdf)        |   Wed, Feb 19  |   Nonlinear phase plane            |   Ch. 6.1, 6.2, 6.3               |   [HW 4](HW/HW4.pdf)     |
-|   6.1        |   Mon, Feb 24  |   Nonlinear phase plane                     |   Ch. 6.3, 6.4               |            |
+|   [6.1](Lecs/E91.S25.Lec10.pdf)        |   Mon, Feb 24  |   Nonlinear phase plane                     |   Ch. 6.3, 6.4               |            |
 |   6.2        |   Wed, Feb 26  |   Limit cycles                     |   Ch. 7               |   ~~HW 5~~     |
 |   7.1        |   Mon, Mar 3   |   Bifurcations                     |   Ch. 8               |            |
 |   7.2        |   Wed, Mar 5   |   Bifurcations                     |   Ch. 8               |   HW 6     |
