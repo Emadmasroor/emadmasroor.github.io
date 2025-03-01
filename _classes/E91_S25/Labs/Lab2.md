@@ -23,7 +23,8 @@ authors:
 bibliography: 
 toc:
   - name: Logistics
-  - name: Experiments
+  - name: Setup
+  - name: Free Oscillation
   - name: Theory
   - name: Data Analysis
   - name: Narrative
@@ -41,7 +42,7 @@ Sign up for times [here](https://tinyurl.com/E91LabSignup) using the drop-down m
 
 Your group is the same as for Lab 1.
 
-# Experiments
+# Setup
 
 ![image](Lab2/Apparatus.jpeg){:style="max-width: 45%; height: auto;"}
 
@@ -89,9 +90,7 @@ This lab is **less** DIY than Lab 1. As such, you should not need to modify the 
 - Use the ethernet -- Tip-Sleeve cable to connect the Photogate to the 550. The ethernet cable goes in to the photogate and the T-S cable goes into one of the digital ports of the 550.
 - Connect the silver wire that emerges from the rotational motion sensor into one of the 'PASPort' ports of the 550 Universal Interface.
 
-# Tasks
-
-## Freely-oscillating experiments
+# Free Oscillation
 
 Your first task is to collect some data on the rotating disk oscillating on its own. To do this, you must first zero the sensor by clicking the 'Zero Sensor Now' button while your lab partner holds the golden-colored 'point mass' to an upright position.
 
@@ -102,6 +101,16 @@ You must also disable a setting -- which is usually quite useful -- that automat
 ![zerogif](Lab2/zero.gif){:style="max-width: 80%; height: auto;"}
 
 After you have done this, the sensor will always recognize the position you zero'd as its zero position until you change this setting. Thus, you can now be confident that, from run to run, the angles are consistent.
+
+Using the 'record' panel on the bottom right, collect a few runs of data in which you start the disk in different positions, and observe its motion. Capstone has already been configured to show you a 'potential well', where potentially energy is calculated by assuming that the initial kinetic energy is zero. You may or may not get a potential well exactly like the one I got, but it should have the general shape of a potential well.
+
+![potwell](Lab2/potwell.gif){:style="max-width: 80%; height: auto;"}
+
+### Managing and exporting runs
+
+You can manage your runs by clicking the 'Data Summary' tab on the left toolbar. Here, you can rename your experimental runs in a way that helps you keep track of them. You can go to File > Export Data ... to output a table as CSV. Feel free to 'prune' the exported file to only include data that you are interested in.
+
+![manage](Lab2/manage.gif){:style="max-width: 80%; height: auto;"}
 
 
 ## Testing the virtual oscilloscope
