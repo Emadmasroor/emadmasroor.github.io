@@ -49,7 +49,7 @@ Your group is the same as for Lab 1.
 
 This lab makes use of a rotating disk attached to a pulley that is connected to two springs, one of which is driven by a DC motor whose rotational frequency you can control programmatically. The other spring is simply tied to ground.
 
-![pulley](Lab2/Pulley.jpeg){:style="max-width: 45%; height: auto;"} ![disk](Lab2/Disk.jpeg){:style="max-width: 100%; height: auto;"}
+![disk](Lab2/Disk.jpeg){:style="max-width: 45%; height: auto;"} ![pulley](Lab2/Pulley.jpeg){:style="max-width: 45%; height: auto;"}
 
 In this lab, instead of using raw potentiometer voltages that must be calibrated against 'real-world' angles, you will use a professionally designed rotational motion sensor that can simply tell us the angular displacement $\theta$ and angular velocity $\omega$, with the optional ability to 'zero' the angle reading at the click of a button. The rotational motion sensor is wired with a proprietary serial connection to the PASCO 550 Universal Interface, which reads the analog signal and interprets it in units of your choice. (No callibration yay! unfortunately, you will still have to perform callibration in a later E91 lab)
 
