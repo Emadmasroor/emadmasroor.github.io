@@ -164,35 +164,27 @@
 
 <h2 id="measurements">Measurements</h2>
 
-<p>Measure the length, width, and thickness of the pendulum. You should also measure the distance of the mounting hole from its closest short edge. In addition, use a mass balance (located in the center of the High Bay) to determine its mass. <strong>Note:</strong> You will have to loosen the set screw (using the provided allen key) to make these measurements. Make sure you tighten the set screw securely when you return the pendulum on to the shaft; you don’t want the pendulum to go flying off the shaft.</p>
+<p>In this lab, you do not need to directly measure the mass and dimensions of the rotating disk.</p>
 
 <h2 id="software">Software</h2>
-<p>This lab will make use of the open-source software <a href="https://tinyurl.com/E91LabSoftware" rel="external nofollow noopener" target="_blank">WaveForms</a> from Digilent, the manufacturer of the analog I/O device that you’ll use to collect data.  Download WaveForms, install it on your computer, and bring it with you to the lab.</p>
+<p>This lab will make use of <a href="https://www.pasco.com/products/software/capstone#downloads-panel" rel="external nofollow noopener" target="_blank">PASCO Capstone</a>, a proprietary software a license for which has been purchased by ENGR. If you would like to, you can download a copy of PASCO on your own computer; a license costs $1 per student per academic year, and you may be able to circumvent the need for a license by making use of a limited-time free trial. <strong>Note</strong>: No purchase is required for this lab. If you use the lab computer, you don’t need your own copy of PASCO Capstone.</p>
 
-<p>WaveForms can load a ‘workspace’, which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab <a href="/classes/E91_S25/Labs/Lab2/../Lab1Workspace.dwf3work">here</a>. It will look something like this:</p>
+<p>PASCO Capstone can make use of a configuration file with extension <code class="language-plaintext highlighter-rouge">*.cap</code>. Download the workspace needed for this lab <a href="Lab2.cap">here</a>. It will look approximately like this:</p>
 
-<p><img src="/classes/E91_S25/Labs/Lab2/../waveforms.png" alt="workspace" style="max-width: 100%; height: auto;"></p>
+<p><img src="Capstone-sample.png" alt="workspace" style="max-width: 100%; height: auto;"></p>
 
-<p>We will be using Waveforms together with the Analog Discovery 3 as an <em>Oscilloscope</em>, which should be a familiar tool for you. If you need to restart from scratch without using the workspace file provided to you, you can re-create the settings by choosing ‘Scope’ as the tool on the startup screen.</p>
+<p>Capstone is fully configurable, so you are welcome to modify the settings and move things around if you so wish. If you find that a previous lab group has modified the settings from what you would expect, try reloading the <code class="language-plaintext highlighter-rouge">*.cap</code> file downloaded from here.</p>
 
-<p>A reference manual for WaveForms is available <a href="https://digilent.com/reference/software/waveforms/waveforms-3/reference-manual" rel="external nofollow noopener" target="_blank">here</a>.</p>
+<p>A video tutorial for Capstone is available <a href="https://www.pasco.com/resources/video/8HQX7I89b5U" rel="external nofollow noopener" target="_blank">here</a>.</p>
 
 <h2 id="wiring-and-connections">Wiring and Connections</h2>
 
-<p>The wiring should already be set up for you; all you need to do is plug in the USB-c cable from the Analog Discovery. In case you need to re-wire the potentiometer to the Analog Discovery:</p>
+<p>This lab is <strong>less</strong> DIY than Lab 1. As such, you should not need to modify the wiring during the normal course of operation of this lab. However, if it turns out that you do need to reconnect the wires, here is a short summary.</p>
 
 <ul>
-  <li>Connect the red wire to V+</li>
-  <li>Connect the black wire to any GND</li>
-  <li>Connect the white wire to 1+</li>
-</ul>
-
-<p>In case you need to re-connect the alligator clips:</p>
-
-<ul>
-  <li>Connect the red clip to 1</li>
-  <li>Connect the white clip to 2</li>
-  <li>Connect the black clip to 3</li>
+  <li>Connect the red and black wires that emerge from the motor into the red and black ports near the ‘signal generator’ part of the 850 Universal Interface.</li>
+  <li>Use the ethernet – Tip-Sleeve cable to connect the Photogate to the 850. The ethernet cable goes in to the photogate and the T-S cable goes into one of the digital ports of the 850.</li>
+  <li>Connect the silver wire that emerges from the rotational motion sensor into one of the ‘PASPort’ ports of the 850 Universal Interface.</li>
 </ul>
 
 <h2 id="testing-the-virtual-oscilloscope">Testing the virtual oscilloscope</h2>
