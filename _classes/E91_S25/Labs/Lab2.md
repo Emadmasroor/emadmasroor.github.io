@@ -130,7 +130,13 @@ Repeat the experiment from above with a higher voltage. This time, hold the 'poi
 
 ![driven3](Lab2/driven3.png){:style="max-width: 80%; height: auto;"}
 
+## Third driven oscillation: 5.9 ish V, no damping
 
+Repeat the 3.3 V experiment. This time, record for longer and move the voltage up and down ...
+
+## Damping ...
+
+## Systematic search ...
 
 
 
