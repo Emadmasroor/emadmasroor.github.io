@@ -156,21 +156,19 @@
 
 <p><img src="Lab2/Pulley.jpeg" alt="pulley" style="max-width: 45%; height: auto;"> <img src="Lab2/Disk.jpeg" alt="disk" style="max-width: 100%; height: auto;"></p>
 
-<p>In this lab, instead of using raw potentiometer voltages that must be calibrated against ‘real-world’ angles, you will use a professionally designed rotational motion sensor that can simply tell us the angular displacement $\theta$ and angular velocity $\omega$, with the optional ability to ‘zero’ the angle reading at the click of a button. The rotational motion sensor is wired with a proprietary serial connection to the PASCO 850 Universal Interface, which reads the analog signal and interprets it in units of your choice. (No callibration yay! unfortunately, you will still have to perform callibration in a later E91 lab)</p>
+<p>In this lab, instead of using raw potentiometer voltages that must be calibrated against ‘real-world’ angles, you will use a professionally designed rotational motion sensor that can simply tell us the angular displacement $\theta$ and angular velocity $\omega$, with the optional ability to ‘zero’ the angle reading at the click of a button. The rotational motion sensor is wired with a proprietary serial connection to the PASCO 550 Universal Interface, which reads the analog signal and interprets it in units of your choice. (No callibration yay! unfortunately, you will still have to perform callibration in a later E91 lab)</p>
 
-<p>The DC motor is connected to ground and power (black and red) on the 850 Universal Interface, which is technically a ‘signal generator’. This means that the hardware is capable of emitting electrical signals that are a function of time, but we will be using the simplest signal of all: Direct Current. You will be able to control how many volts to provide to the motor. It is rated for 12 V, but you will typically use values much lower than 12V. The motor shaft is connected, via a set screw, to an assembly that allows us to set the amplitude of the circular motion by increasing the length of the arm.</p>
+<p>The DC motor is connected to ground and power (black and red) on the 550 Universal Interface, which is technically a ‘signal generator’. This means that the hardware is capable of emitting electrical signals that are a function of time, but we will be using the simplest signal of all: Direct Current. You will be able to control how many volts to provide to the motor. It is rated for 12 V, but you will typically use values much lower than 12V. The motor shaft is connected, via a set screw, to an assembly that allows us to set the amplitude of the circular motion by increasing the length of the arm.</p>
 
 <p><img src="Lab2/Motor.jpeg" alt="motor" style="max-width: 90%; height: auto;"></p>
 
-<p>You will also see a plastic ‘U’-shaped device attached to the motor mount. This is a ‘photogate’, which sends a digital signal to the 850 Universal Interface. This signal is ‘on’ if the infrared ray across the two arms of the photogate is blocked (you should see a red LED light up if you place your hand between the photogate arms) and ‘off’ if the ray is not blocked.</p>
+<p>You will also see a plastic ‘U’-shaped device attached to the motor mount. This is a ‘photogate’, which sends a digital signal to the 550 Universal Interface. This signal is ‘on’ if the infrared ray across the two arms of the photogate is blocked (you should see a red LED light up if you place your hand between the photogate arms) and ‘off’ if the ray is not blocked.</p>
 
 <p><img src="Lab2/Photogate.jpeg" alt="photogate" style="max-width: 60%; height: auto;"></p>
 
-<p>The 850 Universal Interface is a proprietary input/output that serves the same function as the Analog Discovery did in Lab 1. It powers the DC motor with a confiurable DC signal, reads the analog signal from the rotational motion sensor and the digital signal from the photogate, and provides this information to your computer in a user-friendly way using a USB connection. Unlike the Analog Discovery, it <strong>must</strong> be powered separately.</p>
+<p>The 550 Universal Interface is a proprietary input/output that serves the same function as the Analog Discovery did in Lab 1. It powers the DC motor with a confiurable DC signal, reads the analog signal from the rotational motion sensor and the digital signal from the photogate, and provides this information to your computer in a user-friendly way using a USB connection. Unlike the Analog Discovery, it <strong>must</strong> be powered separately.</p>
 
 <p><img src="Lab2/550.jpeg" alt="datalogger" style="max-width: 80%; height: auto;"></p>
-
-<p><img src="/classes/E91_S25/Labs/Lab2/../pic6.jpg" alt="pendulum2" style="max-width: 45%; height: auto;"> <img src="/classes/E91_S25/Labs/Lab2/../pic7.jpg" alt="analogdiscovery" style="max-width: 45%; height: auto;"></p>
 
 <h2 id="measurements">Measurements</h2>
 
@@ -192,9 +190,9 @@
 <p>This lab is <strong>less</strong> DIY than Lab 1. As such, you should not need to modify the wiring during the normal course of operation of this lab. However, if it turns out that you do need to reconnect the wires, here is a short summary.</p>
 
 <ul>
-  <li>Connect the red and black wires that emerge from the motor into the red and black ports near the ‘signal generator’ part of the 850 Universal Interface.</li>
-  <li>Use the ethernet – Tip-Sleeve cable to connect the Photogate to the 850. The ethernet cable goes in to the photogate and the T-S cable goes into one of the digital ports of the 850.</li>
-  <li>Connect the silver wire that emerges from the rotational motion sensor into one of the ‘PASPort’ ports of the 850 Universal Interface.</li>
+  <li>Connect the red and black wires that emerge from the motor into the red and black ports near the ‘signal generator’ part of the 550 Universal Interface.</li>
+  <li>Use the ethernet – Tip-Sleeve cable to connect the Photogate to the 550. The ethernet cable goes in to the photogate and the T-S cable goes into one of the digital ports of the 550.</li>
+  <li>Connect the silver wire that emerges from the rotational motion sensor into one of the ‘PASPort’ ports of the 550 Universal Interface.</li>
 </ul>
 
 <h2 id="testing-the-virtual-oscilloscope">Testing the virtual oscilloscope</h2>
