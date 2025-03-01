@@ -75,7 +75,7 @@ This lab will make use of [PASCO Capstone](https://www.pasco.com/products/softwa
 
 PASCO Capstone can make use of a configuration file with extension `*.cap`. Download the workspace needed for this lab [here](Lab2.cap). It will look approximately like this:
 
-![workspace](Capstone-sample.png){:style="max-width: 100%; height: auto;"}
+![workspace](Lab2/Capstone-sample.png){:style="max-width: 100%; height: auto;"}
 
 Capstone is fully configurable, so you are welcome to modify the settings and move things around if you so wish. If you find that a previous lab group has modified the settings from what you would expect, try reloading the `*.cap` file downloaded from here.
 
@@ -88,6 +88,21 @@ This lab is **less** DIY than Lab 1. As such, you should not need to modify the 
 - Connect the red and black wires that emerge from the motor into the red and black ports near the 'signal generator' part of the 550 Universal Interface.
 - Use the ethernet -- Tip-Sleeve cable to connect the Photogate to the 550. The ethernet cable goes in to the photogate and the T-S cable goes into one of the digital ports of the 550.
 - Connect the silver wire that emerges from the rotational motion sensor into one of the 'PASPort' ports of the 550 Universal Interface.
+
+# Tasks
+
+## Freely-oscillating experiments
+
+Your first task is to collect some data on the rotating disk oscillating on its own. To do this, you must first zero the sensor by clicking the 'Zero Sensor Now' button while your lab partner holds the golden-colored 'point mass' to an upright position.
+
+![zero](Lab2/zerosensor.png){:style="max-width: 80%; height: auto;"}
+
+You must also disable a setting -- which is usually quite useful -- that automatically zeros the rotary motion sensor at the start of every run. Do this like so:
+
+![zerogif](Lab2/zero.gif){:style="max-width: 80%; height: auto;"}
+
+After you have done this, the sensor will always recognize the position you zero'd as its zero position until you change this setting. Thus, you can now be confident that, from run to run, the angles are consistent.
+
 
 ## Testing the virtual oscilloscope
 
@@ -254,140 +269,6 @@ Your task is to:
 - Rate how well each of your dynamic experiments is captured by the linear model overall.
 
 
-Below, you will find Python and MATLAB scripts that performs a fit to this equation for a sample dataset that was collected from this apparatus.
-
-```
-import pandas as pd
-from statistics import mean,median,stdev
-import matplotlib.pyplot as plt
-import numpy as np
-from scipy.optimize import curve_fit
-
-# Define a function to which data will be fit.
-def theta_solution(t,a,b,c,d):
-    return a*np.exp(b*t)*np.cos(c*t-d)
-
-# Define a function that can read a data file.
-def getData(file):
-    tab1 = pd.read_csv(file,
-                    index_col=None,
-                    header=None,
-                    names=['Time','Voltage','AveVoltage'],
-                    skiprows=12,
-                    )
-    return tab1
-
-# Read one of the data files.
-experiment_1 = getData("Dynamic1.csv")
-
-# Remove data before and after
-start = 450
-finis = 12500
-
-# Center data at zero vertically and horizontally
-v_offset = experiment_1["AveVoltage"][finis]
-t_offset = experiment_1["Time"][start]
-
-# Create data vectors
-t_data = np.array(experiment_1["Time"][start:finis]) - t_offset
-v_data = np.array(experiment_1["AveVoltage"][start:finis]) - v_offset
-
-# Fit curve and extract coefficients.
-curvefit = curve_fit(theta_solution,t_data,v_data)
-a = curvefit[0][0]
-b = curvefit[0][1]
-c = curvefit[0][2]
-d = curvefit[0][3]
-
-# Use coefficients to build the {x,y} data that arises from the model
-theta_model_vals = theta_solution(t_data,a,b,c,d)
-
-# Plotting
-labelstring = f"A={a:.2f},B={b:.2f},cC={c:.2f},D={d:.2f}"
-titlestring = "$\theta(t) = A e^{Bt} \cos(Ct -D)$"
-
-plt.plot(t_data,v_data,marker='.',markersize=1,label='data')
-plt.xlabel("Time (s)")
-plt.ylabel("Voltage")
-plt.plot(t_data,theta_model_vals,label=labelstring)
-plt.title(titlestring,usetex=True)
-plt.legend()
-plt.savefig("curvefit.png")
-plt.show()
-```
-
-![curvefit](curvefit.png){:style="max-width: 80%; height: auto;"}
-
-
-You may also choose to use MATLAB. I recommend that you save the following two functions as separate files:
-
-```
-% Define the function to which data will be fit
-function y = theta_solution(t, a, b, c, d)
-    y = a .* exp(b .* t) .* cos(c .* t - d);
-end
-```
-
-```
-% Define a function that can read a data file
-function tab1 = getData(file)
-    opts = detectImportOptions(file, 'NumHeaderLines', 12);
-    opts.VariableNames = {'Time', 'Voltage', 'AveVoltage'};
-    tab1 = readtable(file, opts);
-end
-```
-
-and then run the following script:
-
-```
-% Read one of the data files using the 'get table' function of MATLAB.
-experiment_1 = getData("Dynamic1.csv");
-
-% Remove data before and after
-startIdx = 450;
-finisIdx = 12500;
-
-% Center data at zero vertically and horizontally
-v_offset = experiment_1.AveVoltage(finisIdx);
-t_offset = experiment_1.Time(startIdx);
-
-% Create data vectors
-t_data = experiment_1.Time(startIdx:finisIdx) - t_offset;
-v_data = experiment_1.AveVoltage(startIdx:finisIdx) - v_offset;
-
-% Fit curve and extract coefficients
-fitFunc = @(params, t) theta_solution(t, params(1), params(2), params(3), params(4));
-initial_guess = [0.01, -0.22, 7.64,6.59]; 
-% I cheated here and used a nearly-perfect guess!
-% You can explore other curve-fitting techniques, or just guess ... or use
-% Python ¯\_(ツ)_/¯
-options = optimset('Display', 'off');
-params = lsqcurvefit(fitFunc, initial_guess, t_data, v_data, [], [], options);
-
-% Extract coefficients
-a = params(1);
-b = params(2);
-c = params(3);
-d = params(4);
-
-% Use coefficients to build the {x, y} data that arises from the model
-theta_model_vals = theta_solution(t_data, a, b, c, d);
-
-% Plotting
-figure;
-plot(t_data, v_data, '.', 'MarkerSize', 1, 'DisplayName', 'data');
-hold on;
-plot(t_data, theta_model_vals, 'DisplayName', sprintf('A=%.2f, B=%.2f, C=%.2f, D=%.2f', a, b, c, d));
-hold off;
-xlabel('Time (s)');
-ylabel('Voltage');
-title('\theta(t) = A e^{Bt} \cos(Ct - D)', 'Interpreter', 'latex');
-legend;
-saveas(gcf, 'curvefit_matlab.png');
-```
-
-Some debugging will probably be required.
-
 # Narrative
 
 Write a lab report based on the pieces of information you have collected and/or generated during these experiments. Make it as self-contained as possible, so that the reader can fully understand the experiments you conducted, the data analysis that you conducted, and the theory that ties them together. Comment on the ability of the linear model of pendulum dynamics to predict the behavior of a real pendulum.
@@ -399,5 +280,6 @@ Turn in a single PDF with figures embedded in the narrative. Attach any code you
 ## Trouble recognizing the sensors in Capstone
 If the sensors no longer appear in Capstone, you can dsiconnect and reconnect the sensors (electronically) using the 'Hardware Setup' tab on the left toolbar. You can also start a new `*.cap` file from scratch and follow the gif below to see how to connect the sensors. 
 
-![hs](HardwareSetup.png){:style="max-width: 15%; height: auto;"} ![gif1](sensors.gif){:style="max-width: 80%; height: auto;"}
+![hs](Lab2/HardwareSetup.png){:style="max-width: 15%; height: auto;"} ![gif1](Lab2/sensors.gif){:style="max-width: 80%; height: auto;"}
 
+Hello, world
