@@ -54,6 +54,10 @@ This lab makes use of a rotating disk attached to a pulley that is connected to 
 
 In this lab, instead of using raw potentiometer voltages that must be calibrated against 'real-world' angles, you will use a professionally designed rotational motion sensor that can simply tell us the angular displacement $\theta$ and angular velocity $\omega$, with the optional ability to 'zero' the angle reading at the click of a button. The rotational motion sensor is wired with a proprietary serial connection to the PASCO 550 Universal Interface, which reads the analog signal and interprets it in units of your choice. (No callibration yay! unfortunately, you will still have to perform callibration in a later E91 lab)
 
+There is also a magnetic damper located behind the disk.
+
+![disk](Lab2/Damper.jpeg){:style="max-width: 45%; height: auto;"} 
+
 The DC motor is connected to ground and power (black and red) on the 550 Universal Interface, which is technically a 'signal generator'. This means that the hardware is capable of emitting electrical signals that are a function of time, but we will be using the simplest signal of all: Direct Current. You will be able to control how many volts to provide to the motor. It is rated for 12 V, but you will typically use values much lower than 12V. The motor shaft is connected, via a set screw, to an assembly that allows us to set the amplitude of the circular motion by increasing the length of the arm. 
 
 ![motor](Lab2/Motor.jpeg){:style="max-width: 90%; height: auto;"}
@@ -74,7 +78,7 @@ In this lab, you do not need to directly measure the mass and dimensions of the 
 ## Software
 This lab will make use of [PASCO Capstone](https://www.pasco.com/products/software/capstone#downloads-panel), a proprietary software a license for which has been purchased by ENGR. If you would like to, you can download a copy of PASCO on your own computer; a license costs $1 per student per academic year, and you may be able to circumvent the need for a license by making use of a limited-time free trial. **Note**: No purchase is required for this lab. If you use the lab computer, you don't need your own copy of PASCO Capstone.
 
-PASCO Capstone can make use of a configuration file with extension `*.cap`. Download the workspace needed for this lab [here](Lab2.cap). It will look approximately like this:
+PASCO Capstone can make use of a configuration file with extension `*.cap`. Download the workspace needed for this lab [here](Lab2/E91Lab2.cap). It will look approximately like this:
 
 ![workspace](Lab2/Capstone-sample.png){:style="max-width: 100%; height: auto;"}
 
@@ -112,123 +116,24 @@ You can manage your runs by clicking the 'Data Summary' tab on the left toolbar.
 
 ![manage](Lab2/manage.gif){:style="max-width: 80%; height: auto;"}
 
+# Driven Oscillations
 
-## Testing the virtual oscilloscope
+## First driven oscillation: 3.3V, no damping
 
-After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.
+On the 'Driven' tab in Capstone, select 'Signal Generator' and set the output voltage to 3.3 V. Start, recording, then switch the signal generator on. Let the motor run for about 30 seconds, then switch the signal generator off but keep recording until oscillations have died out. Make sure the magnetic damper is positioned as far away from the disk as possible.
 
-![connected]({{ page.permalink }}/../pic1.png){:style="max-width: 100%; height: auto;"}
+![driven2](Lab2/driven2.png){:style="max-width: 80%; height: auto;"}
 
-Start scanning the voltage reading by clicking 'scan' near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that 'mode' is set to 'Screen' as shown here. ![scan]({{ page.permalink }}/../pic2.png){:style="max-width: 100%; height: auto;"}
+## Second driven oscillation: 3.9V, no damping
 
-You should see a trace of the voltage develop across the screen. 'C2' reads the voltage directly, whereas 'M1' is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. ![gif1]({{ page.permalink }}/../gif1.gif){:style="max-width: 100%; height: auto;"}
+Repeat the experiment from above with a higher voltage. This time, hold the 'point mass' at its topmost position and let go just when your lab partner clicks 'On' on the signal generator. Record for about 45 seconds, switch off the signal generator, then continue to record data until the oscillations have about settled down.
 
-The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.
-
-![rightpanel]({{ page.permalink }}/../pic3.png){:style="max-width: 20%; height: auto;"}
-
-## Calibration
-
-Before any dynamic data can be collected, you must calibrate the potentiometer. It is important that you perform the calibration as close as possible to when you collect dynamic data  to minimize the possibility that environmental uncertainties introduce errors into the calibration. Such errors _can_ be fixed during post-processing, but it is best to minimze them when collecting data.
-
-### Drift
-
-It has been noticed that the rest reading of the potentiometer can sometimes drift. Therefore, after switching on the scope, you should wait for the rest reading to settle at a constant value. A good way to decide whether the potentiometer has 'settled' is to check if the reading is off by more than 1 mV in about a minute. Your mileage may vary; just keep in mind that this drift is bad for our experiment.
-
-### Calibrating at zero degrees
-
-We will measure the angle from the vertical, and so the rest reading --- when you are not doing anything to the pendulum --- is zero degrees. After you are satisfied that the drift has settled down, make a 5-second recording at 1 kHz to record the rest reading. This is almost certainly overkill, but computers make it easy for us to save five thousand nearly-equal numbers just so we can average them later.
-
-Select 'Mode: Record' as shown here, and set the sampling rate to 1 kHz with 5 s of total time.
-
-![gif2]({{ page.permalink }}/../gif2.gif){:style="max-width: 100%; height: auto;"}
-
-From now on, the 'record' button will use these settings unless you change them.
-
-Use the 'Export' button in the top-left corner to save the result as a CSV file named, e.g., `Deg0.csv`.
-
-### Calibrating at other angles
-
-Use the protractor to make 5-second long recordings of the voltage when the pendulum is held to other angles. One lab partner should hold the pendulum up to the right angle while the other records the reading. 
-
-It is up to you to choose how many angles you would like to do this for; the gold standard is to do this at 10 degree intervals between $\theta = 0^{\circ}$ and $\theta = 170^{\circ}$; avoid trying to do this for $\theta = 180^{\circ}$. It is sufficient to do so for positive values of $\theta$, and to assume that the relationship between voltage and angular position is symmetric about $\theta = 0^{\circ}$.
-
-It is recommended that you save each measurement with a name such as `Deg20.csv`, etc.
-
-## Dynamic Experiments 
-
-You will conduct a series of experiments in which the pendulum is held up to a certain angle and released from rest. Since you have already calibrated the voltage-angle relationship, you need not measure the angle at which you release the pendulum. For each experiment,
-
-- Choose the number of seconds based on how long you think something interesting will happen. Enter this number in the 'Config' box on the top-left corner of WaveForms.
-- Use a consistent frame rate when recording data. I recommend using 1 kHz, but you are welcome to use a different value as long as you keep it consistent.
-- You may wish to test out the dynamics by using the 'Screen' instead of the 'Record' mode.
-- Ensure that the precise moment of release from rest is captured on the oscilloscope. This means that you should click 'Record' _before_ you release the pendulum.
-
-![gif3]({{ page.permalink }}/../gif3.gif){:style="max-width: 100%; height: auto;"}
-
-Collect dynamic data for the following six cases:
-
-| Case   | Description        | Approximate Angle                      |
-|--------|--------------------|----------------------------------------|
-| Case 1 | Low acute angle    | Below $30^{\circ}$                     |
-| Case 2 | Medium acute angle | Between $60^{\circ}$ and $90^{\circ}$  |
-| Case 3 | High acute angle   | A little below $90^{\circ}$            |
-| Case 4 | Obtuse angle       | Between $90^{\circ}$ and $120^{\circ}$ |
-| Case 5 | High obtuse angle  | Around $150^{\circ}$                   |
-| Case 6 | Nearly vertical    | Just less than $180^{\circ}$           |
-
-Save each case as a `*.csv` file.
-
-## Checklist for experiments
-
-- [ ] Task 1
-- [ ] Task 2
-- [ ]  Task 2.5
-
-# Theory
-
-The equation of motion for a frictionless compound pendulum can be expressed as 
-
-$$\frac{d}{dt} \left( \boldsymbol{h} \right) = \boldsymbol{M}_O,$$ 
-
-where $\mathbf{h}$ is the angular momentum of the pendulum about its pivot and $\boldsymbol{M}$ is the moment, $\boldsymbol{r} \times \boldsymbol{F}$ relative to the pivot. After some vector calculus, it is possible to show that the equation becomes 
-
-$$\ddot{\theta} + \frac{m g l}{I_O} \sin \theta = 0,$$ 
-
-where
-
-- $m$ is the mass of the object
-- $g$ is the acceleration due to gravity
-- $l$ is the distance from the pivot to the center of mass
-- $I_O$ is the moment of inertia about the pivot.
-
-![pendulum](pendulum3.png){:style="max-width: 50%; height: auto;"}
+![driven3](Lab2/driven3.png){:style="max-width: 80%; height: auto;"}
 
 
-Recall that the moment of inertia about the centroid of a rectangle with width $w$ and height $h$ in the out-of-plane direction is 
 
-$$I_{G,z} = \frac{m}{12} \left( w^2 + h^2\right),$$ 
 
-where `$G$' stands for 'center of gravity / centroid'. Using the parallel axis theorem, it is possible to write the moment of inertia about a different point --- here, the pivot --- as 
 
-$$I_O = I_G + m l^2.$$
-
-Making appropriate simplifications, use this information to calculate a numerical value for the coefficient in the equation of motion above.
-
-## The small-angle approximation
-Under the small-angle approximation, $\sin \theta \approx \theta$. With this simplification in mind, write down the equation of motion for this pendulum when friction is neglected. Leave your answer in terms of $m$, $g$, $l$, and $I_O$ for now. Solve this differential equation for the initial condition $\theta(0) = \theta_0$ and $\dot{\theta}(0) = 0$, where $\theta_0$ is the angle with which the pendulum is initially released.
-
-What is the numerical value of the pendulum frequency predicted by this equation? Later, you will compare this numerical value against the observed frequency from the first few cycles of oscillation in each case  of your dynamic experiments.
-
-In your answer, make sure you think about the difference between 'angular frequency' and 'frequency'.
-
-## Incorporating damping effects
-
-The governing differential equation above is missing the effect of damping. Write down a more complete (still linear) equation of motion in which there is a damping term with units of $T^{-1}$. Then, solve this equation of motion for $\theta(t)$ with the same initial condition as before. Leave your answer in symbolic form; you may find it useful to substitute $\omega^2$ for $m g l/I_O$ when doing so. Your final result will have an exponential term multiplying a cosine term.
-
-## Incorporating nonlinear effects
-
-Write down what the governing differential equation would be if the equation included both nonlinear effects and damping effects.
 
 # Data Analysis
 
