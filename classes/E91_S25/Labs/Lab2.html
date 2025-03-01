@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lab 1 Linearity, Nonlinearity, and the Compound Pendulum | Emad Masroor</title>
+    <title>Lab 2 The Nonlinear Phase Plane | Emad Masroor</title>
     <meta name="author" content="Emad  Masroor">
     <meta name="description" content="Personal website of Emad Masroor
 ">
@@ -36,7 +36,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8C%80&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://emadmasroor.github.io/classes/E91_S25/Labs/Lab1">
+    <link rel="canonical" href="https://emadmasroor.github.io/classes/E91_S25/Labs/Lab2">
     
     <!-- Dark Mode -->
     
@@ -73,7 +73,7 @@
   <body>
 <d-front-matter>
     <script async type="text/json">{
-      "title": "Lab 1 Linearity, Nonlinearity, and the Compound Pendulum",
+      "title": "Lab 2 The Nonlinear Phase Plane",
       "description": "",
       "published": "January 1, 2025",
       "term": "Spring 2025",
@@ -115,9 +115,9 @@
     <div class="post distill">
 
       <d-title>
-        <h1>Lab 1 Linearity, Nonlinearity, and the Compound Pendulum</h1>
+        <h1>Lab 2 The Nonlinear Phase Plane</h1>
         <p></p>
-        <p>Spring 2025 • E91 • Swarthmore College • Due Mon, Feb 24</p>
+        <p>Spring 2025 • E91 • Swarthmore College • Due TBD</p>
       </d-title>
 
       <d-byline></d-byline>
@@ -135,29 +135,33 @@
           </nav>
         </d-contents>
 
-        <p>In this lab, you will use a compound pendulum to investigate linear and nonlinear dynamics.</p>
+        <p>In this lab, you will use an asymmetric rotating disk to explore the non-linear phase plane.</p>
 
 <h1 id="logistics">Logistics</h1>
 
-<p>This lab is self-scheduled; you will carry out the tasks here on your own time. The due date for the lab report is Monday, February 24, but you are recommended to complete the experimental portion of these tasks by February 17. The apparatus is located in Singer Hall 120 (a.k.a. ‘the High Bay’). This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people’s work.</p>
+<p>This lab is self-scheduled; you will carry out the tasks here on your own time. The due date for the lab report is TBD and will be after spring break. The apparatus is located in Singer Hall 246. This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people’s work.</p>
 
-<p>Sign up for times in the High Bay <a href="https://tinyurl.com/E91LabSignup" rel="external nofollow noopener" target="_blank">here</a> using the drop-down menu as illustrated below. Please keep in mind that there will be other people using the space, especially 1-4 PM, so you are encouraged to find times outside of the usual lab hours. You should all have OneCard access to the High Bay.</p>
+<p>Sign up for times <a href="https://tinyurl.com/E91LabSignup" rel="external nofollow noopener" target="_blank">here</a> using the drop-down menu as illustrated below; an additional sheet has been added for Lab 2. You should all have OneCard access to Singer 246, and if you have any trouble accessing the room, please contact Jennifer Parisien.</p>
 
-<p><img src="/classes/E91_S25/Labs/Lab1/../pic5.png" alt="signup" style="max-width: 100%; height: auto;"></p>
+<p><img src="/classes/E91_S25/Labs/Lab2/../pic5.png" alt="signup" style="max-width: 100%; height: auto;"></p>
 
-<p>Your group has been assigned in Moodle; if you asked to be in a particular group, you have been placed with those students.</p>
+<p>Your group is the same as for Lab 1.</p>
 
 <h1 id="experiments">Experiments</h1>
 
 <h2 id="equipment-and-hardware">Equipment and hardware</h2>
 
-<p>This lab makes use of a compound pendulum mounted onto a potentiometer. The pendulum is secured with the help of a set-screw to the shaft of the poteniometer. <strong>Note:</strong> Make sure the set screw is tight; you don’t want the pendulum to go flying off the shaft.</p>
+<p>This lab makes use of a rotating disk attached to a pulley that is connected to two springs, one of which is driven by a DC motor whose rotational frequency you can control programmatically.</p>
 
-<p>The potentiometer is the <a href="https://www.vishay.com/docs/57042/157.pdf" rel="external nofollow noopener" target="_blank">Vishay Spectrol 157-11103</a>, which provides a voltage reading that is expected to scale, hopefully linearly, with the angle of rotation of the shaft. The potentiometer is wired with alligator clips: red for power, black for ground, and white for the voltage reading.</p>
+<p>In this lab, instead of using raw potentiometer voltages that must be calibrated against ‘real-world’ angles, you will use a professionally designed rotational motion sensor that can simply tell us the angular displacement $\theta$ and angular velocity $\omega$, with the optional ability to ‘zero’ the angle reading at the click of a button. The rotational motion sensor is wired with a proprietary serial connection to the PASCO 850 Universal Interface, which reads the analog signal and interprets it in units of your choice. (No callibration yay! unfortunately, you will still have to perform callibration in a later E91 lab)</p>
 
-<p>Data collection is carried out using the <a href="https://digilent.com/shop/analog-discovery-3/" rel="external nofollow noopener" target="_blank">Analog Discovery 3</a>, a multi-purpose data acquisition and signal-generating device. In this lab, the Analog Discovery powers the potentiometer by providing 5V across pins 1 and 3, and reads the voltage from pin 2.</p>
+<p>The DC motor is connected to ground and power (black and red) on the 850 Universal Interface, which is technically a ‘signal generator’. This means that the hardware is capable of emitting electrical signals that are a function of time, but we will be using the simplest signal of all: Direct Current. You will be able to control how many volts to provide to the motor. It is rated for 12 V, but you will typically use values much lower than 12V. The motor shaft is connected, via a set screw, to an assembly that allows us to set the amplitude of the circular motion by increasing the length of the arm.</p>
 
-<p>!<img src="/classes/E91_S25/Labs/Lab1/../pic6.jpg" alt="pendulum2" style="max-width: 45%; height: auto;"> <img src="/classes/E91_S25/Labs/Lab1/../pic7.jpg" alt="analogdiscovery" style="max-width: 45%; height: auto;"></p>
+<p>You will also see a plastic ‘U’-shaped device attached to the motor mount. This is a ‘photogate’, which sends a digital signal to the 850 Universal Interface. This signal is ‘on’ if the infrared ray across the two arms of the photogate is blocked (you should see a red LED light up if you place your hand between the photogate arms) and ‘off’ if the ray is not blocked.</p>
+
+<p>The 850 Universal Interface is a proprietary input/output that serves the same function as the Analog Discovery did in Lab 1. It powers the DC motor with a confiurable DC signal, reads the analog signal from the rotational motion sensor and the digital signal from the photogate, and provides this information to your computer in a user-friendly way using a USB connection. Unlike the Analog Discovery, it <strong>must</strong> be powered separately.</p>
+
+<p>!<img src="/classes/E91_S25/Labs/Lab2/../pic6.jpg" alt="pendulum2" style="max-width: 45%; height: auto;"> <img src="/classes/E91_S25/Labs/Lab2/../pic7.jpg" alt="analogdiscovery" style="max-width: 45%; height: auto;"></p>
 
 <h2 id="measurements">Measurements</h2>
 
@@ -166,9 +170,9 @@
 <h2 id="software">Software</h2>
 <p>This lab will make use of the open-source software <a href="https://tinyurl.com/E91LabSoftware" rel="external nofollow noopener" target="_blank">WaveForms</a> from Digilent, the manufacturer of the analog I/O device that you’ll use to collect data.  Download WaveForms, install it on your computer, and bring it with you to the lab.</p>
 
-<p>WaveForms can load a ‘workspace’, which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab <a href="/classes/E91_S25/Labs/Lab1/../Lab1Workspace.dwf3work">here</a>. It will look something like this:</p>
+<p>WaveForms can load a ‘workspace’, which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab <a href="/classes/E91_S25/Labs/Lab2/../Lab1Workspace.dwf3work">here</a>. It will look something like this:</p>
 
-<p><img src="/classes/E91_S25/Labs/Lab1/../waveforms.png" alt="workspace" style="max-width: 100%; height: auto;"></p>
+<p><img src="/classes/E91_S25/Labs/Lab2/../waveforms.png" alt="workspace" style="max-width: 100%; height: auto;"></p>
 
 <p>We will be using Waveforms together with the Analog Discovery 3 as an <em>Oscilloscope</em>, which should be a familiar tool for you. If you need to restart from scratch without using the workspace file provided to you, you can re-create the settings by choosing ‘Scope’ as the tool on the startup screen.</p>
 
@@ -196,15 +200,15 @@
 
 <p>After connecting your Analog Discovery to your computer and opening WaveForms, the software should recognize the Discovery 3 with a panel on the bottom right as shown here.</p>
 
-<p><img src="/classes/E91_S25/Labs/Lab1/../pic1.png" alt="connected" style="max-width: 100%; height: auto;"></p>
+<p><img src="/classes/E91_S25/Labs/Lab2/../pic1.png" alt="connected" style="max-width: 100%; height: auto;"></p>
 
-<p>Start scanning the voltage reading by clicking ‘scan’ near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that ‘mode’ is set to ‘Screen’ as shown here. <img src="/classes/E91_S25/Labs/Lab1/../pic2.png" alt="scan" style="max-width: 100%; height: auto;"></p>
+<p>Start scanning the voltage reading by clicking ‘scan’ near the top left, which will start a real-time scan of the voltage reading from the potentiometer. Make sure that ‘mode’ is set to ‘Screen’ as shown here. <img src="/classes/E91_S25/Labs/Lab2/../pic2.png" alt="scan" style="max-width: 100%; height: auto;"></p>
 
-<p>You should see a trace of the voltage develop across the screen. ‘C2’ reads the voltage directly, whereas ‘M1’ is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. <img src="/classes/E91_S25/Labs/Lab1/../gif1.gif" alt="gif1" style="max-width: 100%; height: auto;"></p>
+<p>You should see a trace of the voltage develop across the screen. ‘C2’ reads the voltage directly, whereas ‘M1’ is a moving average that acts as a low-pass filter, smoothing out the noise in the voltage. <img src="/classes/E91_S25/Labs/Lab2/../gif1.gif" alt="gif1" style="max-width: 100%; height: auto;"></p>
 
 <p>The scale and offset of the horizontal and vertical axes can be controlled using the panels on the right, as shown below. In my experience, a good value for time is 3 s/div and for the voltage is 10 mV/div, but you should feel free to change these settings to suit your needs. These settings do not affect the data collected; they only determine how the data are visualized.</p>
 
-<p><img src="/classes/E91_S25/Labs/Lab1/../pic3.png" alt="rightpanel" style="max-width: 20%; height: auto;"></p>
+<p><img src="/classes/E91_S25/Labs/Lab2/../pic3.png" alt="rightpanel" style="max-width: 20%; height: auto;"></p>
 
 <h2 id="calibration">Calibration</h2>
 
@@ -220,7 +224,7 @@
 
 <p>Select ‘Mode: Record’ as shown here, and set the sampling rate to 1 kHz with 5 s of total time.</p>
 
-<p><img src="/classes/E91_S25/Labs/Lab1/../gif2.gif" alt="gif2" style="max-width: 100%; height: auto;"></p>
+<p><img src="/classes/E91_S25/Labs/Lab2/../gif2.gif" alt="gif2" style="max-width: 100%; height: auto;"></p>
 
 <p>From now on, the ‘record’ button will use these settings unless you change them.</p>
 
@@ -245,7 +249,7 @@
   <li>Ensure that the precise moment of release from rest is captured on the oscilloscope. This means that you should click ‘Record’ <em>before</em> you release the pendulum.</li>
 </ul>
 
-<p><img src="/classes/E91_S25/Labs/Lab1/../gif3.gif" alt="gif3" style="max-width: 100%; height: auto;"></p>
+<p><img src="/classes/E91_S25/Labs/Lab2/../gif3.gif" alt="gif3" style="max-width: 100%; height: auto;"></p>
 
 <p>Collect dynamic data for the following six cases:</p>
 
