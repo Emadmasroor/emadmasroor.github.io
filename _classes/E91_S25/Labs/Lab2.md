@@ -59,32 +59,26 @@ The 850 Universal Interface is a proprietary input/output that serves the same f
 
 ## Measurements
 
-Measure the length, width, and thickness of the pendulum. You should also measure the distance of the mounting hole from its closest short edge. In addition, use a mass balance (located in the center of the High Bay) to determine its mass. **Note:** You will have to loosen the set screw (using the provided allen key) to make these measurements. Make sure you tighten the set screw securely when you return the pendulum on to the shaft; you don't want the pendulum to go flying off the shaft.
+In this lab, you do not need to directly measure the mass and dimensions of the rotating disk.
 
 ## Software
-This lab will make use of the open-source software [WaveForms](https://tinyurl.com/E91LabSoftware) from Digilent, the manufacturer of the analog I/O device that you'll use to collect data.  Download WaveForms, install it on your computer, and bring it with you to the lab.
+This lab will make use of [PASCO Capstone](https://www.pasco.com/products/software/capstone#downloads-panel), a proprietary software a license for which has been purchased by ENGR. If you would like to, you can download a copy of PASCO on your own computer; a license costs $1 per student per academic year, and you may be able to circumvent the need for a license by making use of a limited-time free trial. **Note**: No purchase is required for this lab. If you use the lab computer, you don't need your own copy of PASCO Capstone.
 
-WaveForms can load a 'workspace', which is a collection of settings that you can pre-load when you run WaveForms. Download the workspace needed for this lab [here]({{ page.permalink }}/../Lab1Workspace.dwf3work). It will look something like this:
+PASCO Capstone can make use of a configuration file with extension `*.cap`. Download the workspace needed for this lab [here](Lab2.cap). It will look approximately like this:
 
-![workspace]({{ page.permalink }}/../waveforms.png){:style="max-width: 100%; height: auto;"}
+![workspace](Capstone-sample.png){:style="max-width: 100%; height: auto;"}
 
-We will be using Waveforms together with the Analog Discovery 3 as an _Oscilloscope_, which should be a familiar tool for you. If you need to restart from scratch without using the workspace file provided to you, you can re-create the settings by choosing 'Scope' as the tool on the startup screen.
+Capstone is fully configurable, so you are welcome to modify the settings and move things around if you so wish. If you find that a previous lab group has modified the settings from what you would expect, try reloading the `*.cap` file downloaded from here.
 
-A reference manual for WaveForms is available [here](https://digilent.com/reference/software/waveforms/waveforms-3/reference-manual).
+A video tutorial for Capstone is available [here](https://www.pasco.com/resources/video/8HQX7I89b5U).
 
 ## Wiring and Connections
 
-The wiring should already be set up for you; all you need to do is plug in the USB-c cable from the Analog Discovery. In case you need to re-wire the potentiometer to the Analog Discovery:
+This lab is **less** DIY than Lab 1. As such, you should not need to modify the wiring during the normal course of operation of this lab. However, if it turns out that you do need to reconnect the wires, here is a short summary.
 
-- Connect the red wire to V+
-- Connect the black wire to any GND
-- Connect the white wire to 1+
-
-In case you need to re-connect the alligator clips:
-
-- Connect the red clip to 1
-- Connect the white clip to 2
-- Connect the black clip to 3
+- Connect the red and black wires that emerge from the motor into the red and black ports near the 'signal generator' part of the 850 Universal Interface.
+- Use the ethernet -- Tip-Sleeve cable to connect the Photogate to the 850. The ethernet cable goes in to the photogate and the T-S cable goes into one of the digital ports of the 850.
+- Connect the silver wire that emerges from the rotational motion sensor into one of the 'PASPort' ports of the 850 Universal Interface.
 
 ## Testing the virtual oscilloscope
 
