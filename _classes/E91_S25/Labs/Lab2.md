@@ -1,6 +1,6 @@
 ---
 title: Lab 2 The Nonlinear Phase Plane
-description: 
+description: (under construction) 
 code: E91
 term: Spring 2025
 institution: Swarthmore College
