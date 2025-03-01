@@ -393,3 +393,11 @@ Some debugging will probably be required.
 Write a lab report based on the pieces of information you have collected and/or generated during these experiments. Make it as self-contained as possible, so that the reader can fully understand the experiments you conducted, the data analysis that you conducted, and the theory that ties them together. Comment on the ability of the linear model of pendulum dynamics to predict the behavior of a real pendulum.
 
 Turn in a single PDF with figures embedded in the narrative. Attach any code you write in an appendix.
+
+# Troubleshooting
+
+## Trouble recognizing the sensors in Capstone
+If the sensors no longer appear in Capstone, you can dsiconnect and reconnect the sensors (electronically) using the 'Hardware Setup' tab on the left toolbar. You can also start a new `*.cap` file from scratch and follow the gif below to see how to connect the sensors. 
+
+![hs](HardwareSetup.png){:style="max-width: 15%; height: auto;"} ![gif1](sensors.gif){:style="max-width: 80%; height: auto;"}
+
