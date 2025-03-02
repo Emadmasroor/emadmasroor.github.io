@@ -137,7 +137,7 @@ This recording can be anywhere from 2 to 5 minutes long.
 
 ## The effect of damping
 
-Choose any single voltage between 3.3V and 5.9V to operate the motor. Feel free to give it a 'push' -- before you start recording -- to make the disk spin more than 360 degrees in a cycle (but be gentle and make sure that the springs don't touch the pulley!). Begin recording, and then have your lab partner screw the magnetic damper closer to the disk. Your task is to do this until you see a noticeable difference in the dynamics, but it is possible that you won't see much of a difference.
+Choose any single voltage between 3.3V and 5.9V to operate the motor. Feel free to give it a 'push' -- before you start recording -- to make the disk spin more than 360 degrees in a cycle (but be **gentle** and make sure that the springs don't touch the pulley!). Begin recording, and then have your lab partner screw the magnetic damper closer to the disk. Your task is to do this until you see a noticeable difference in the dynamics, but it is possible that you won't see much of a difference.
 
 This recording can be anywhere between 1 and 3 minutes long.
 
