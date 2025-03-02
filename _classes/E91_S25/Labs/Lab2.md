@@ -44,7 +44,7 @@ Your group is the same as for Lab 1.
 
 # Setup
 
-![image](Lab2/Apparatus.jpeg){:style="max-width: 45%; height: auto;"}
+![image](Lab2/exp.jpeg){:style="max-width: 90%; height: auto;"}
 
 ## Equipment and hardware
 
@@ -124,76 +124,45 @@ On the 'Driven' tab in Capstone, select 'Signal Generator' and set the output vo
 
 ![driven2](Lab2/driven2.png){:style="max-width: 80%; height: auto;"}
 
-## Second driven oscillation: 3.9V, no damping
+## 3.9V, no damping
 
 Repeat the experiment from above with a higher voltage. This time, hold the 'point mass' at its topmost position and let go just when your lab partner clicks 'On' on the signal generator. Record for about 45 seconds, switch off the signal generator, then continue to record data until the oscillations have about settled down.
 
 ![driven3](Lab2/driven3.png){:style="max-width: 80%; height: auto;"}
 
-## Third driven oscillation: 5.9 ish V, no damping
+## 5.9V ish, no damping 
 
-Repeat the 3.3 V experiment. This time, record for longer and move the voltage up and down ...
+Repeat the 3.3 V experiment. This time, start the oscillation at 5.9V and wait for some periodic motion to appear. Then, while continuing to record, change the voltage using the signal generator tab. You can move the voltage up to about 6.5V and down to as low as 3.3V, and you can choose whatever pattern you wish. Then -- still recording -- bring the voltage back to 5.9V and wait for a periodic motion to appear.
 
-## Damping ...
+This recording can be anywhere from 2 to 5 minutes long.
 
-## Systematic search ...
+## The effect of damping
 
+Choose any single voltage between 3.3V and 5.9V to operate the motor. Feel free to give it a 'push' -- before you start recording -- to make the disk spin more than 360 degrees in a cycle (but be gentle and make sure that the springs don't touch the pulley!). Begin recording, and then have your lab partner screw the magnetic damper closer to the disk. Your task is to do this until you see a noticeable difference in the dynamics, but it is possible that you won't see much of a difference.
 
+This recording can be anywhere between 1 and 3 minutes long.
 
+## Sweep the driving frequency
 
-# Data Analysis
+Choose five voltage levels between 3.3V and 5.9V. For each of these, begin the motion from rest, i.e., begin recording just before clicking 'on' on the signal generator. Keep the signal generator on for as long as you think something interesting is happening, then switch it off. Record until the oscillations die out.
 
-## Experimentally observed frequency
+It is not necessary for each recording to be the same length.
 
-Your dynamic experiments, being affected by friction like all real engineered systems, will have a decaying behaviour in which oscillatory motion eventually dies out until there is no more motion. However, there is often a nearly-constant period with which the pendulum oscillates while it does.
+## (Optional) video
 
-Your first data analysis task is to determine the experimentally observed frequency (in `swings per second', with units of Hz) for each of cases 1 through 6. You may choose any method to do this, as long as you are consistent across the different experiments. Use your best engineering judgement, and be prepared to explain in your lab report your method and your rationale for choosing this method.
+You may want to take a video of the disk's motion if it does something particularly interesting. For example:
 
-Note that:
+![motion](Lab2/motion.mp4){:style="max-width: 50%; height: auto;"}
 
-- we are interested only in the frequency during the first few (say, first five) swings of the pendulum
-- we would like a single value for each case, even if you notice the frequency changing with time.
+# Report
 
-## Comparison with theory
+Prepare a lab report that includes all of your data. 
 
-Compare your measurements of the pendulum's frequency with the theoretical value that you found from using the equation of motion for a frictionless pendulum undergoing small oscillations. Present this data visually using any method of your choice.
+For the free oscillation experiment, plot $\theta$ and $\omega$ against time, and plot the quantity $U$ (calculated in Capstone) against $\theta$. You may include multiple sets of data if you collected more than one.
 
+For the driven oscillations, plot $\theta$ and $\omega$ against time, and plot $\theta$ against $\omega$ for each dataset on a single page, i.e., the plots for any one experiment should not be split over multiple pages. For each dataset, include plot titles, captions, axis labels, and a short paragraph describing what you observed.
 
-## Calibration
-
-Using the static data that you collected, make a plot of voltage on the horizontal axis and angle $\theta$ (in degrees) on the vertical axis. Draw a line (or, if necessary, a curve) of best fit, and determine its coefficients. Your final result should look something like the following, although your specific numbers may be different.
-
-![calibration](calibration1.png){:style="max-width: 80%; height: auto;"}
-
-Use these coefficients to translate data from all six cases into angles instead of voltages. You do not need to turn in this data. 
-
-Without any further data processing, plot the resulting information on six axes neatly arranged in a 2x3 or 3x2 grid. In these plots, the y-axis should be in units of degrees, and the x-axis in units of seconds. **Note**: Do not remove any data from the beginning of your measurement. You may choose to truncate your data toward the end if the pendulum isn't doing anything interesting.
-
-## Data fitting and the damping parameter
-
-It will be clear that the experiments involve such a large degree of damping that using the undamped equations of motion of the pendulum is not very useful beyong a rudimentary estimate of the frequency of its motion. In the next step, you will use the linearized equations of motion with damping to fit the experimental data. To do this, you must have the correct solution to the 'incorporating damping effects' part of the Theory section. This solution is in the form of a function $\theta(t)$ that has several parameters; although some of these parameters can be determined theoretically, in this section we will determine all parameters by a best-fit procedure that is described below. 
-
-### Fitting the pendulum's nonlinear (?) dynamics to the linear model with damping.
-
-When performing a fit to the data, it is necessary to incorporate some additional parameters that are entirely 'experimental', in the sense that they help us reconcile the observed data with the mathematical model that arises from the laws of physics. One such simple model could be of the form
-
-$$\theta(t) = A e^{Bt} \cos (Ct -D),$$ 
-
-where $B$ and $C$ have some physical meaning, as you found earlier in the theory section; $A$ serves to scale the linear solutions based on the initial condition (recall that, in the linear world, 2x a solution is also a solution), and $D$ serves to move the data around on the horizontal axis so that it starts at the 'top' of the cosine curve.
-
-Your task is to:
-
-- attempt to fit all the data you collected to $\theta(t)$ of the above form, by obtaining parameters $\{A,B,C,D\}$ for each of the dynamic experiments that you conducted.
-- Make plots of all your experimental data overlaid with the best-fit model that you can manage. It is unclear how well the model will work for large $\theta_0$. 
-- Make a visual summary of how the parameters change with $\theta_0$; this can be in the form of one or more scatter plots, bar charts, or line plots.
-- Rate how well each of your dynamic experiments is captured by the linear model overall.
-
-
-# Narrative
-
-Write a lab report based on the pieces of information you have collected and/or generated during these experiments. Make it as self-contained as possible, so that the reader can fully understand the experiments you conducted, the data analysis that you conducted, and the theory that ties them together. Comment on the ability of the linear model of pendulum dynamics to predict the behavior of a real pendulum.
-
-Turn in a single PDF with figures embedded in the narrative. Attach any code you write in an appendix.
+There is no 'theory' section for this lab.
 
 # Troubleshooting
 
@@ -202,4 +171,3 @@ If the sensors no longer appear in Capstone, you can dsiconnect and reconnect th
 
 ![hs](Lab2/HardwareSetup.png){:style="max-width: 15%; height: auto;"} ![gif1](Lab2/sensors.gif){:style="max-width: 80%; height: auto;"}
 
-Hello, world
