@@ -176,6 +176,7 @@ If the string seems to be unbalanced, the rest length of the springs seems off c
 ### The strings come off the springs
 It is possible to simply re-tie the ends of the string to the ends of the springs with a very simple knot. The rest length of the springs should be about as much as you see in the picture of the apparatus above; it is not necessary to get this precisely right.
 
-
+### The motor shaft seems loose or wobbly
+Ensure the set screw is firmly in place, and that it's in contact with the flat side of the D-shaped motor shaft. Use an allen wrench to tighten if need be.
 
 
