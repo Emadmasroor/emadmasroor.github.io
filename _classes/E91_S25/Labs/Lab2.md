@@ -168,7 +168,7 @@ There is no 'theory' section for this lab.
 ### Trouble recognizing the sensors in Capstone
 If the sensors no longer appear in Capstone, you can dsiconnect and reconnect the sensors (electronically) using the 'Hardware Setup' tab on the left toolbar. You can also start a new `*.cap` file from scratch and follow the gif below to see how to connect the sensors. 
 
-![hs](Lab2/HardwareSetup.png){:style="max-width: 15%; height: auto;"} ![gif1](Lab2/sensors.gif){:style="max-width: 80%; height: auto;"}
+![gif1](Lab2/sensors.gif){:style="max-width: 80%; height: auto;"}
 
 ### The string is improperly wound
 If the string seems to be unbalanced, the rest length of the springs seems off compared to the picture above, or you just suspect something is wrong with the pulley -- check to make sure that both ends of the string emerge from the large wheel of the pulley and not the small wheel of the pulley. If this is not the case, you may need to manually pull the string over the large wheel.
