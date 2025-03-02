@@ -7,7 +7,7 @@ institution: Swarthmore College
 giscus_comments: false
 tags: teaching 
 date: 2025-01-01
-duedate: TBD
+duedate: March 21
 layout: lab
 permalink: /classes/E91_S25/Labs/Lab2
 
@@ -33,7 +33,7 @@ In this lab, you will use an asymmetric rotating disk to explore the non-linear 
 
 # Logistics
 
-This lab is self-scheduled; you will carry out the tasks here on your own time. The due date for the lab report is TBD and will be after spring break. The apparatus is located in Singer Hall 246. This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people's work.
+This lab is self-scheduled; you will carry out the tasks here on your own time. The due date for the lab report is March 21. The apparatus is located in Singer Hall 246. This space is shared with multiple other engineering labs, so please be mindful of the space and respectful of other people's work.
 
 Sign up for times [here](https://tinyurl.com/E91LabSignup) using the drop-down menu as illustrated below; an additional sheet has been added for Lab 2. You should all have OneCard access to Singer 246, and if you have any trouble accessing the room, please contact Jennifer Parisien.
 
@@ -151,7 +151,7 @@ It is not necessary for each recording to be the same length.
 
 You may want to take a video of the disk's motion if it does something particularly interesting. For example:
 
-![motion](Lab2/motion.mp4){:style="max-width: 50%; height: auto;"}
+![motion](Lab2/motion.gif){:style="max-width: 50%; height: auto;"}
 
 # Report
 
