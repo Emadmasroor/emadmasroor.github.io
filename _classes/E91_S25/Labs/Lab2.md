@@ -156,7 +156,7 @@ You may want to take a video of the disk's motion if it does something particula
 
 # Report
 
-Prepare a lab report that includes all of your data. 
+Prepare a lab report that includes all of your data. The report should be in PDF form, and s
 
 For the free oscillation experiment, plot $\theta$ and $\omega$ against time, and plot the quantity $U$ (calculated in Capstone) against $\theta$. You may include multiple sets of data if you collected more than one.
 
