@@ -47,7 +47,7 @@ Your group is the same as for Lab 1.
 
 ## Equipment and hardware
 
-This lab makes use of a rotating disk attached to a pulley that is connected to two springs, one of which is driven by a DC motor whose rotational frequency you can control programmatically. The other spring is simply tied to ground.
+This lab makes use of a rotating disk attached to a pulley that is connected to two springs, one of which is driven by a DC motor whose rotational frequency you can control programmatically. The other spring is simply tied to ground. The rotating disk has a "point mass" attached on its edge, which makes the system asymmetric and therefore much more interesting than a simple pendulum.
 
 ![disk](Lab2/Disk.jpeg){:style="max-width: 45%; height: auto;"} ![pulley](Lab2/Pulley.jpeg){:style="max-width: 45%; height: auto;"}
 
