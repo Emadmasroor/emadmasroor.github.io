@@ -27,6 +27,7 @@ toc:
   - name: Free Oscillation
   - name: Driven Oscillations
   - name: Report
+  - name: Troubleshooting
 ---
 
 In this lab, you will use an asymmetric rotating disk to explore the non-linear phase plane.
