@@ -65,4 +65,4 @@ toc:
 
 ## Introduction to Limit Cycles
 
-[Forced simple harmonic oscillator](https://tinyurl.com/E91limitcycle1) and [accompanying Mathematica notebook](ForcedHarmonicOscillator.nb)
+[Forced simple harmonic oscillator](https://tinyurl.com/E91limitcycle1) and [accompanying Mathematica notebook](Resources/ForcedHarmonicOscillator.nb)
