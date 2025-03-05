@@ -68,7 +68,7 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   [7.1](Lecs/E91.S25.Lec12.pdf)       |   Mon, Mar 3   |   Bifurcations                     |   Ch. 8               |            |
 |   7.2        |   Wed, Mar 5   |   Bifurcations                     |   Ch. 8               |   [HW 5](HW/HW5.pdf) due F     |
 |   8.1        |   Mon, Mar 17  |   Limit Cycles                |                       |            |
-|   8.2        |   Wed, Mar 19  |   **Midterm**Introduction to chaos            |                       |     |
+|   8.2        |   Wed, Mar 19  |   **Midterm**            |                       |     |
 |   9.1        |   Mon, Mar 24  |   Lorenz Equations                 |                       |            |
 |   9.2        |   Wed, Mar 26  |   “Strange Attractors”             |                       |   HW 7     |
 |   10.1       |   Mon, Mar 31  |   One-dimensional maps             |                       |            |
