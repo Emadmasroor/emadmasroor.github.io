@@ -66,7 +66,7 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   [6.1](Lecs/E91.S25.Lec10.pdf)       |   Mon, Feb 24  |   Hyperbolic fixed pts; popln. dyn.                     |   Ch. 6.3, 6.4               |            |
 |   [6.2](Lecs/E91.S25.Lec11.pdf)       |   Wed, Feb 26  |   Nonlinear phase plane                     |   Ch. 6.4-6.8               |   ~~HW 5~~     |
 |   [7.1](Lecs/E91.S25.Lec12.pdf)       |   Mon, Mar 3   |   Bifurcations                     |   Ch. 8               |            |
-|   7.2        |   Wed, Mar 5   |   Bifurcations                     |   Ch. 8               |   [HW 5](HW/HW5.pdf) due F     |
+|   [7.2](Lecs/E91.S25.Lec13.pdf)        |   Wed, Mar 5   |   Bifurcations                     |   Ch. 8               |   [HW 5](HW/HW5.pdf) due F     |
 |   8.1        |   Mon, Mar 17  |   Limit Cycles                |                       |            |
 |   8.2        |   Wed, Mar 19  |   **Midterm**            |                       |     |
 |   9.1        |   Mon, Mar 24  |   Lorenz Equations                 |                       |            |
