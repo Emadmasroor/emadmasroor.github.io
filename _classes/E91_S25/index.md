@@ -67,7 +67,7 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   [6.2](Lecs/E91.S25.Lec11.pdf)       |   Wed, Feb 26  |   Nonlinear phase plane; conservative systems                     |   Ch. 6.4-6.8               |   ~~HW 5~~     |
 |   [7.1](Lecs/E91.S25.Lec12.pdf)       |   Mon, Mar 3   |   Conservative systems; index                     |   Ch. 8               |            |
 |   [7.2](Lecs/E91.S25.Lec13.pdf) [[In-class exercise](Exercises/Exercise3.pdf)]        |   Wed, Mar 5   |   Limit Cycles                     |   Ch. 8               |   [HW 5](HW/HW5.pdf) due F     |
-|   8.1        |   Mon, Mar 17  |   Limit Cycles; Poincare-Bendixson Thm.                |                       |            |
+|   [8.1](Lecs/E91.S25.Lec14.pdf)        |   Mon, Mar 17  |   Limit Cycles; Poincare-Bendixson Thm.                |                       |            |
 |   8.2        |   Wed, Mar 19  |   **Midterm**            |                       |     |
 |   9.1        |   Mon, Mar 24  |   Lorenz Equations                 |                       |            |
 |   9.2        |   Wed, Mar 26  |   “Strange Attractors”             |                       |   HW 7     |
