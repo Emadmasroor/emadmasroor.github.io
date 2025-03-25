@@ -66,3 +66,7 @@ toc:
 ## Introduction to Limit Cycles
 
 [Forced simple harmonic oscillator](https://tinyurl.com/E91limitcycle1) and [accompanying Mathematica notebook](Resources/ForcedHarmonicOscillator.nb)
+
+## Bifurcations
+
+[Saddle-node, Transcritical, and Pitchfork Bifurcations](https://tinyurl.com/E91bifurcations2d)
