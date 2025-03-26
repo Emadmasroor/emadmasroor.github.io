@@ -70,3 +70,5 @@ toc:
 ## Bifurcations
 
 [Saddle-node, Transcritical, and Pitchfork Bifurcations](https://tinyurl.com/E91bifurcations2d)
+
+[Another example of pitchfork bifurcation](https://tinyurl.com/E91pitchforkbifurcation2d)]
