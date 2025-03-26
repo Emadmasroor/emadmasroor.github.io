@@ -73,6 +73,8 @@ toc:
 
 [Another example of pitchfork bifurcation](https://tinyurl.com/E91pitchforkbifurcation2d)]
 
+[Hopf Bifurcations]({{ page.permalink }}/Hopf.nb)
+
 [Supercritical Hopf](https://tinyurl.com/E91supercriticalhopf)
 
 [Subcritical Hopf](https://tinyurl.com/E91subcriticalhopf)
