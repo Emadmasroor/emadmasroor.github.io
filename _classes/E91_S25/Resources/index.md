@@ -72,3 +72,13 @@ toc:
 [Saddle-node, Transcritical, and Pitchfork Bifurcations](https://tinyurl.com/E91bifurcations2d)
 
 [Another example of pitchfork bifurcation](https://tinyurl.com/E91pitchforkbifurcation2d)]
+
+[Supercritical Hopf](https://tinyurl.com/E91supercriticalhopf)
+
+[Subcritical Hopf](https://tinyurl.com/E91subcriticalhopf)
+
+[Higher-order Subcritical Hopf](https://tinyurl.com/E91higherordersubcriticalhopf)
+
+[Infinite-period Hopf](https://tinyurl.com/E91infiniteperiodhopf)
+
+[Homoclinic Bifurcation](https://tinyurl.com/E91homoclinicbifurcation)
