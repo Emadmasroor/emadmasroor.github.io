@@ -70,17 +70,17 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   [8.1](Lecs/E91.S25.Lec14.pdf) [[Video recording](https://swarthmore.zoom.us/rec/share/VO389Ska0hP74nANMcAKh9RGDLwob_t7RvvA3Hk9zKM0asa4DXU_WvbwDjh5i7Pq.dpFjv6eML18zBrXk?startTime=1741162454000)]     |   Mon, Mar 17  |   Limit Cycles; Poincare-Bendixson Thm.                |                       |            |
 |   8.2        |   Wed, Mar 19  |   **Midterm**            |                       |     |
 |   [9.1](Lecs/E91.S25.Lec15.pdf) [[In-class exercise](Exercises/Exercise4.pdf)]       |   Mon, Mar 24  |   Bifurcations                 |                       |            |
-|   9.2 [[In-class exercise](Exercises/Exercise5.pdf)]        |   Wed, Mar 26  |                |                       |   HW 7     |
+|   9.2 [[In-class exercise](Exercises/Exercise5.pdf)]        |   Wed, Mar 26  |                |                       |        |
 |   10.1       |   Mon, Mar 31  |   One-dimensional maps             |                       |            |
-|   10.2       |   Wed, Apr 2   |   Universality; Feigenbaum const.  |                       |   HW 8     |
+|   10.2       |   Wed, Apr 2   |   Universality; Feigenbaum const.  |                       |   [HW 6](HW/HW6.pdf)     |
 |   11.1       |   Mon, Apr 7   |   Cantor set                       |                       |            |
-|   11.2       |   Wed, Apr 9   |   Fractals                         |                       |   HW 9     |
+|   11.2       |   Wed, Apr 9   |   Fractals                         |                       |   HW 7     |
 |   12.1       |   Mon, Apr 14  |   …                                |                       |            |
-|   12.2       |   Wed, Apr 16  |                                    |                       |   HW 10    |
+|   12.2       |   Wed, Apr 16  |                                    |                       |   HW 8    |
 |   13.1       |   Mon, Apr 21  |                                    |                       |            |
-|   13.2       |   Wed, Apr 23  |                                    |                       |   HW 11    |
+|   13.2       |   Wed, Apr 23  |                                    |                       |   HW 9    |
 |   14.1       |   Mon, Apr 28  |                                    |                       |            |
-|   14.2       |   Wed, Apr 30  |                                    |                       |   HW 12    |
+|   14.2       |   Wed, Apr 30  |                                    |                       |   HW 10    |
 |   13.2       |   Wed, Apr 23  |                                    |                       |            |
 |   14.1       |   Mon, Apr 28  |                                    |                       |            |
 |   14.2       |   Wed, Apr 30  |                                    |                       |            |
