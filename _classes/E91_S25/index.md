@@ -27,8 +27,8 @@ bibliography:
 
 toc:
   - name: General Information
-  - name: Syllabus
   - name: Schedule
+  - name: Syllabus
   - name: Labs
   - name: Resources
 
@@ -41,12 +41,6 @@ Welcome to the website for E91: Nonlinear Dynamics & Chaos!
 - **Class meeting times**: MW 11:45 AM --- 1:00 PM in Singer 221
 - **Office Hours**: W 2:00 PM to 4:00 PM
 - **Instructor**: Emad Masroor
-
-## Syllabus
-
-[Syllabus](E91-S25-Syllabus.pdf)
-
-<object data="E91-S25-Syllabus.pdf" width="100%" height="500" type='application/pdf'></object>
 
 ## Schedule
 
@@ -84,6 +78,12 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   13.2       |   Wed, Apr 23  |                                    |                       |            |
 |   14.1       |   Mon, Apr 28  |                                    |                       |            |
 |   14.2       |   Wed, Apr 30  |                                    |                       |            |
+
+## Syllabus
+
+[Syllabus](E91-S25-Syllabus.pdf)
+
+<object data="E91-S25-Syllabus.pdf" width="100%" height="500" type='application/pdf'></object>
 
 ## Labs
 
