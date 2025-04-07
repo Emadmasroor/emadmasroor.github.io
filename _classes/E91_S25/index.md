@@ -74,7 +74,7 @@ Hyperlinks to lectures and homework assignments will be posted here. The schedul
 |   10.1       |   Mon, Mar 31  |                |                       |            |
 |   10.2       |   Wed, Apr 2   |    |                       |   [HW 6](HW/HW6.pdf)     |
 |   11.1       |   Mon, Apr 7   |    |                       |            |
-|   11.2       |   Wed, Apr 9   |    |                       |   HW 7     |
+|   11.2       |   Wed, Apr 9   |    |                       |   [HW 7](HW/HW7.pdf) due F     |
 |   12.1       |   Mon, Apr 14  |                                   |                       |            |
 |   12.2       |   Wed, Apr 16  |                                    |                       |   HW 8    |
 |   13.1       |   Mon, Apr 21  |                                    |                       |            |
