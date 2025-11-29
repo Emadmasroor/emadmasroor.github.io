@@ -30,13 +30,11 @@ social: false  # includes social icons at the bottom of the page
 <div markdown="1">
 I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/). While my training is in mechancial engineering and engineering mechanics, I teach courses in a wide variety of fields including thermodynamics, fluid mechanics, mechanics of materials, numerical methods, and dynamics.
 
-My research is in fluid mechanics, and I conduct theoretical, numerical and experimental research in Singer Hall.
-
 I received my PhD from the [Engineering Mechanics program](https://me.vt.edu/for-students/graduate/em.html){:target="\_blank"} at Virginia Tech, where I worked with Mark Stremler.
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My resaerch interests are in fluid mechanics; I study problems in classical vortex dynamics and its applications to biological locmotion, flow-induced vibrations, and energy harvesting.
+My research interests are in fluid mechanics; I study problems in classical vortex dynamics and its applications to biological locmotion, flow-induced vibrations, and energy harvesting. I conduct theoretical, numerical and experimental research in Singer Hall.
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
