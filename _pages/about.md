@@ -28,11 +28,11 @@ social: false  # includes social icons at the bottom of the page
 <h3 style="margin-bottom: 1.3rem"><b>About me</b></h3>
 
 <div markdown="1">
-This website is under construction.
+I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/). While my training is in mechancial engineering and engineering mechanics, I teach courses in a wide variety of fields including thermodynamics, fluid mechanics, mechanics of materials, numerical methods, and dynamics.
 
-I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/). My research is in fluid mechanics, and I conduct theoretical, numerical and experimental research in Singer Hall. I teach in the areas of thermodynamics, fluid mechanics, numerical methods and programming.
+My research is in fluid mechanics, and I conduct theoretical, numerical and experimental research in Singer Hall.
 
-I received my PhD from the [Engineering Mechanics program](https://beam.vt.edu/graduate/mechanics.html){:target="\_blank"} at Virginia Tech.
+I received my PhD from the [Engineering Mechanics program](https://me.vt.edu/for-students/graduate/em.html){:target="\_blank"} at Virginia Tech, where I worked with Mark Stremler.
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
