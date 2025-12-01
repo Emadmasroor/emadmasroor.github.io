@@ -12,7 +12,7 @@ profile:
     
 
 next: false  # includes a list of upcoming events  
-news: false  # includes a list of news items  
+news: true  # includes a list of news items  
 
 current_teaching: true # includes current_teaching in homepage 
 current_courses: true  # false: current teaching displays there is no teaching. True: current teaching displays publications in teaching_lecturer.bib with "current=true"
