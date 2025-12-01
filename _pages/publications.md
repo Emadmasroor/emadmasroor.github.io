@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications & Talks
 description: 
-years_talk: [2024,2023,2022,2021,2019,2018]
+years_talk: [2025,2024,2023,2022,2021,2019,2018]
 years_papers: [2024,2022,2021,2020]
 nav: true
 nav_order: 4

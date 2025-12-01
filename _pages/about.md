@@ -30,7 +30,7 @@ social: false  # includes social icons at the bottom of the page
 <div markdown="1">
 I'm a Visiting Assistant Professor of Engineering at [Swarthmore College](https://www.swarthmore.edu/). While my training is in mechancial engineering and engineering mechanics, I teach courses in a wide variety of fields including thermodynamics, fluid mechanics, mechanics of materials, numerical methods, and dynamics.
 
-I received my PhD from the [Engineering Mechanics program](https://me.vt.edu/for-students/graduate/em.html){:target="\_blank"} at Virginia Tech, where I worked with Mark Stremler.
+I received my PhD in 2023 from the [Engineering Mechanics program](https://me.vt.edu/for-students/graduate/em.html){:target="\_blank"} at Virginia Tech, where I worked with Mark Stremler.
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
