@@ -34,7 +34,7 @@ I received my PhD from the [Engineering Mechanics program](https://me.vt.edu/for
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
-My research interests are in fluid mechanics; I study problems in classical vortex dynamics and its applications to biological locmotion, flow-induced vibrations, and energy harvesting. I conduct theoretical, numerical and experimental research in Singer Hall.
+My research interests are in fluid mechanics; I study problems in classical vortex dynamics and its applications to biological locomotion, flow-induced vibrations, and energy harvesting. I conduct theoretical, numerical and experimental research in Singer Hall.
 </div>
 
 <div markdown="1" style="margin-top: 1.2rem;">
