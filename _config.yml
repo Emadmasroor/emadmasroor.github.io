@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website of Emad Masroor
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme
-  as modified by <a href="https://www.silviofanzon.com/"> Silvio Fanzon </a>. 
+  as modified by <a href="https://www.silviofanzon.com/"> Silvio Fanzon</a>. 
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: fluid dynamics, dynamical systems  # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
