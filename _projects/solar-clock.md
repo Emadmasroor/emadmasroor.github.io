@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Solar Time
+title: Solar Clock
 description: A solar clock for any location
 img: assets/img/solarclock.png
 importance: 1
 category: fun
 ---
 
-View this on a standalone page at [solar-time.streamlit.app](https://solar-time.streamlit.app)
+View this on a standalone page at [solar-clock.streamlit.app](https://solar-clock.streamlit.app)
 
 <div class="streamlit-container">
     <iframe 
