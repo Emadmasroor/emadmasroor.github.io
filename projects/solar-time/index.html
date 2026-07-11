@@ -37,7 +37,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8C%80&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://emadmasroor.github.io/projects/1_project/">
+    <link rel="canonical" href="https://emadmasroor.github.io/projects/solar-time/">
     
     <!-- Dark Mode -->
     
@@ -133,23 +133,11 @@
 </div>
 
 <style>
-    /* Forces the iframe container to break out of the template's standard text margins */
-    .streamlit-breakout {
-        width: 100vw;
-        position: relative;
-        left: 50%;
-        right: 50%;
-        margin-left: -50vw;
-        margin-right: -50vw;
-        padding-left: 40px;  /* Adds clean gutter padding so it doesn't touch the viewport edge */
-        padding-right: 40px;
-    }
-    
-    @media (max-width: 768px) {
-        .streamlit-breakout {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
+    /* This makes sure the app spans cleanly on small mobile viewports */
+    .streamlit-container {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 </style>
 
