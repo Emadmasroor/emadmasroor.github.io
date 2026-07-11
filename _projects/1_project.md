@@ -7,6 +7,8 @@ importance: 1
 category: fun
 ---
 
+View this on a standalone page at [solar-time.streamlit.app](https://solar-time.streamlit.app)
+
 <div class="streamlit-container">
     <iframe 
         src="https://solar-time.streamlit.app/?embed=true"
@@ -18,10 +20,22 @@ category: fun
 </div>
 
 <style>
-    /* This makes sure the app spans cleanly on small mobile viewports */
-    .streamlit-container {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 40px;
+    /* Forces the iframe container to break out of the template's standard text margins */
+    .streamlit-breakout {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        padding-left: 40px;  /* Adds clean gutter padding so it doesn't touch the viewport edge */
+        padding-right: 40px;
+    }
+    
+    @media (max-width: 768px) {
+        .streamlit-breakout {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
     }
 </style>
