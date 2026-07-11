@@ -125,17 +125,31 @@
           </header>
 
           <article>
-            <div class="streamlit-container">
+            <p>View this on a standalone page at <a href="https://solar-time.streamlit.app" rel="external nofollow noopener" target="_blank">solar-time.streamlit.app</a></p>
+
+<div class="streamlit-container">
     <iframe src="https://solar-time.streamlit.app/?embed=true" width="100%" height="850px" style="border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" allow="geolocation">
     </iframe>
 </div>
 
 <style>
-    /* This makes sure the app spans cleanly on small mobile viewports */
-    .streamlit-container {
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 40px;
+    /* Forces the iframe container to break out of the template's standard text margins */
+    .streamlit-breakout {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        padding-left: 40px;  /* Adds clean gutter padding so it doesn't touch the viewport edge */
+        padding-right: 40px;
+    }
+    
+    @media (max-width: 768px) {
+        .streamlit-breakout {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
     }
 </style>
 
