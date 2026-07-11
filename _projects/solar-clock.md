@@ -11,7 +11,7 @@ View this on a standalone page at [solar-clock.streamlit.app](https://solar-cloc
 
 <div class="streamlit-container">
     <iframe 
-        src="https://solar-time.streamlit.app/?embed=true"
+        src="https://solar-clock.streamlit.app/?embed=true"
         width="100%" 
         height="850px" 
         style="border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);"
